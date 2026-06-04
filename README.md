@@ -14,6 +14,8 @@ Static single-page website for [move2cloud.tn](https://move2cloud.tn), a Cloud &
 ```
 move2cloud-tn/
 ├── index.html              # Single-page application
+├── amplify.yml             # AWS Amplify build config
+├── _redirects              # SPA routing: /* → /index.html 200
 ├── robots.txt
 ├── sitemap.xml
 └── assets/
@@ -45,13 +47,43 @@ To add a new language:
 2. Add an `<option>` to the language switcher in `index.html`
 3. Add a case in the `setLang` function
 
-## Deployment (AWS S3)
+## Deployment (GitHub Actions → AWS S3)
 
-1. Create an S3 bucket named `move2cloud.tn`
-2. Enable **Static website hosting** (index document: `index.html`, error document: `index.html`)
-3. Set bucket policy to allow public read access
-4. Upload all files maintaining the directory structure
-5. (Optional) Configure CloudFront for HTTPS and custom domain
+On every push to `main`, the workflow `.github/workflows/deploy.yml`:
+1. Authenticates to AWS via **OIDC** (no long-lived credentials) using `GithubRunnerRole`
+2. Syncs all site files to `s3://move2cloud.tn`
+3. Sets short cache (`max-age=3600`) on HTML/JSON/XML and long cache (`max-age=31536000, immutable`) on assets
+4. Optionally invalidates a CloudFront distribution if `CLOUDFRONT_DISTRIBUTION_ID` is set as a repository variable
+
+**Required repository variables (GitHub → Settings → Variables):**
+
+| Variable | Value |
+|----------|-------|
+| `AWS_ACCOUNT_ID` | Your AWS account ID |
+| `CLOUDFRONT_DISTRIBUTION_ID` | *(optional)* CloudFront distribution ID |
+
+**IAM role trust policy** — `GithubRunnerRole` must trust the GitHub OIDC provider:
+```json
+{
+  "Effect": "Allow",
+  "Principal": { "Federated": "arn:aws:iam::<ACCOUNT_ID>:oidc-provider/token.actions.githubusercontent.com" },
+  "Action": "sts:AssumeRoleWithWebIdentity",
+  "Condition": {
+    "StringLike": { "token.actions.githubusercontent.com:sub": "repo:Move2Cloud-FR/move2cloud-tn:*" }
+  }
+}
+```
+
+## Deployment (AWS Amplify)
+
+1. Push this repository to GitHub / CodeCommit
+2. In the [Amplify Console](https://console.aws.amazon.com/amplify/), choose **Host web app** → connect the repo
+3. Amplify auto-detects `amplify.yml` — no framework or build command needed
+4. Connect your custom domain `move2cloud.tn` in **Domain management** (HTTPS included)
+5. SPA routing is handled by `_redirects` (`/* → /index.html 200`), so `/about`, `/services`… all work on direct access
+
+> **Note:** If you prefer to configure the redirect rule manually in the Amplify Console, go to  
+> **App settings → Rewrites and redirects** → add `Source: </^[^.]+$|\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|woff2|ttf|map|json)$)([^.]+$)/>`, Target: `/index.html`, Type: `200`.
 
 ## Contact
 
