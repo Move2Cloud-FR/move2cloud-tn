@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      invalidate_cache:
+        description: "Invalidate CloudFront cache after deploy"
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   id-token: write
@@ -46,7 +53,7 @@ jobs:
             --cache-control "public, max-age=31536000, immutable"
 
       - name: Invalidate CloudFront cache
-        if: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID != '' }}
+        if: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID != '' && (github.event_name == 'push' || inputs.invalidate_cache == true) }}
         run: |
           aws cloudfront create-invalidation \
             --distribution-id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} \
