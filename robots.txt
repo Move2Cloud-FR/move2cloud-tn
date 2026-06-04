@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://move2cloud.tn/sitemap.xml

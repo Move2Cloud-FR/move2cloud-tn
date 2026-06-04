@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Move2Cloud Tunisie | Experts Cloud & DevOps</title>
+  <meta name="description" content="Move2Cloud Tunisie est une société d'experts en Cloud et DevOps. Migration cloud, Kubernetes, DevOps, optimisation des coûts — basée à Montplaisir, Tunis." />
+  <meta name="keywords" content="cloud, devops, kubernetes, migration cloud, consulting cloud, tunisie, tunis, AWS, Azure, GCP, OVH, Scalingo, infrastructure" />
+  <meta name="author" content="Move2Cloud Tunisie" />
+  <link rel="canonical" href="https://move2cloud.tn/" />
+
+  <!-- Open Graph (LinkedIn, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://move2cloud.tn/" />
+  <meta property="og:title" content="Move2Cloud Tunisie | Experts Cloud & DevOps" />
+  <meta property="og:description" content="Move2Cloud Tunisie accompagne les entreprises dans leur transformation digitale — migration cloud, Kubernetes, DevOps, optimisation des coûts." />
+  <meta property="og:image" content="https://move2cloud.tn/assets/favicon.svg" />
+  <meta property="og:locale" content="fr_TN" />
+  <meta property="og:site_name" content="Move2Cloud Tunisie" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Move2Cloud Tunisie | Experts Cloud & DevOps" />
+  <meta name="twitter:description" content="Experts Cloud & DevOps basés à Tunis. Migration cloud, Kubernetes, DevOps." />
+  <meta name="twitter:image" content="https://move2cloud.tn/assets/favicon.svg" />
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Move2Cloud Tunisie",
+    "url": "https://move2cloud.tn",
+    "logo": "https://move2cloud.tn/assets/favicon.svg",
+    "description": "Société d'experts en Cloud et DevOps basée à Tunis, Tunisie.",
+    "email": "contact@move2cloud.fr",
+    "telephone": "+21671906323",
+    "faxNumber": "+21671906373",
+    "vatID": "1793146J",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Espace Tunis, bloc H, bureau H3-1",
+      "addressLocality": "Montplaisir",
+      "postalCode": "1073",
+      "addressCountry": "TN"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/movetocloud",
+      "https://move2cloud.fr"
+    ],
+    "knowsAbout": ["Cloud Computing", "DevOps", "Kubernetes", "AWS", "Migration Cloud", "Big Data", "Intelligence Artificielle"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c70039',
+            'primary-dark': '#9e002e',
+            'primary-light': '#e8003a',
+          },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    html { scroll-behavior: smooth; }
+    ::selection { background: #c70039; color: white; }
+
+    .hero-bg {
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a0008 50%, #2a0010 100%);
+    }
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .nav-link {
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #c70039;
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    /* Section eyebrow with side lines */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #c70039;
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      background: #c70039;
+      border-radius: 2px;
+    }
+
+    /* Section title highlight */
+    .title-highlight {
+      position: relative;
+      display: inline-block;
+    }
+    .title-highlight::after {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: rgba(199, 0, 57, 0.15);
+      border-radius: 4px;
+      z-index: -1;
+    }
+
+    /* Service cards */
+    .service-card {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #c70039, #ff4d6d);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 48px rgba(199, 0, 57, 0.12);
+    }
+
+    /* Services section background pattern */
+    .services-bg {
+      background-color: #f8f9fc;
+      background-image: radial-gradient(circle, #c7003915 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    .value-card:hover { transform: scale(1.05); }
+    .value-card { transition: transform 0.3s ease; }
+
+    /* Language switcher */
+    .lang-dropdown { display: none; }
+    .lang-dropdown.open { display: block; }
+    .lang-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 8px;
+      border: 1px solid #e5e7eb; font-size: 0.8125rem;
+      font-weight: 500; color: #374151; cursor: pointer;
+      background: white; transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .lang-btn:hover { background: #f9fafb; }
+    .lang-chevron { transition: transform 0.2s; }
+    .lang-chevron.rotated { transform: rotate(180deg); }
+    .lang-option {
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; padding: 8px 14px; font-size: 0.8125rem;
+      background: none; border: none; cursor: pointer;
+      text-align: left; transition: background 0.15s; white-space: nowrap;
+    }
+    .lang-option:hover { background: #f3f4f6; }
+    .lang-option.active { font-weight: 600; color: #c70039; }
+
+    .step-dot {
+      width: 48px;
+      height: 48px;
+      background: #c70039;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .step-line {
+      width: 2px;
+      height: 40px;
+      background: linear-gradient(to bottom, #c70039, #E8003A88);
+      margin-left: 23px;
+    }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .btn-primary {
+      background: #c70039;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.2s ease, transform 0.2s ease;
+      display: inline-block;
+      text-decoration: none;
+    }
+    .btn-primary:hover {
+      background: #9e002e;
+      transform: translateY(-1px);
+    }
+    .btn-outline {
+      border: 2px solid white;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.2s ease, color 0.2s ease;
+      display: inline-block;
+      text-decoration: none;
+    }
+    .btn-outline:hover {
+      background: white;
+      color: #c70039;
+    }
+
+    input, textarea {
+      outline: none;
+    }
+    input:focus, textarea:focus {
+      box-shadow: 0 0 0 3px rgba(200, 0, 45, 0.2);
+      border-color: #c70039 !important;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3">
+        <svg class="logo-icon" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg">
+          <g transform="matrix(0.9077359083543534,0,0,0.9077359083543534,-18.170967063685705,-13.6160386253153)" fill="#c70039">
+            <path d="M83.7,71.1c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.6-0.9,0.4-1.4c-0.3-0.5-0.9-0.6-1.4-0.4l-1.7,1c-0.5,0.3-0.6,0.9-0.4,1.4C83,70.9,83.3,71.1,83.7,71.1z"/>
+            <path d="M92.4,66.1c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.6-0.9,0.4-1.4c-0.3-0.5-0.9-0.6-1.4-0.4l-1.7,1c-0.5,0.3-0.6,0.9-0.4,1.4C91.7,65.9,92,66.1,92.4,66.1z"/>
+            <path d="M66.4,69l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C67,69.9,66.8,69.3,66.4,69z"/>
+            <path d="M57.6,64.1l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C58.3,65,58.1,64.4,57.6,64.1z"/>
+            <path d="M75,94c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1s1-0.4,1-1v-2C76,94.4,75.6,94,75,94z"/>
+            <path d="M75,84c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1s1-0.4,1-1v-2C76,84.4,75.6,84,75,84z"/>
+            <path d="M75,65.9c0.6,0,1-0.4,1-1v-2c0-0.6-0.4-1-1-1s-1,0.4-1,1v2C74,65.4,74.4,65.9,75,65.9z"/>
+            <path d="M75,55.9c0.6,0,1-0.4,1-1v-2c0-0.6-0.4-1-1-1s-1,0.4-1,1v2C74,55.4,74.4,55.9,75,55.9z"/>
+            <path d="M94.7,84.9l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C95.3,85.8,95.2,85.2,94.7,84.9z"/>
+            <path d="M86,80l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4s-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C86.6,80.9,86.4,80.3,86,80z"/>
+            <path d="M56.7,84.2l-1.7,1c-0.5,0.3-0.7,0.9-0.4,1.4c0.2,0.3,0.5,0.5,0.9,0.5c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.7-0.9,0.4-1.4C57.8,84.1,57.1,83.9,56.7,84.2z"/>
+            <path d="M65.4,79.3l-1.7,1c-0.5,0.3-0.7,0.9-0.4,1.4c0.2,0.3,0.5,0.5,0.9,0.5c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.7-0.9,0.4-1.4C66.5,79.2,65.9,79,65.4,79.3z"/>
+            <path d="M121.1,75c3.9-5.2,6.7-10.4,8-15.3c1.5-5.7,1.1-10.6-1.3-14.7c-4.6-7.8-15.8-10.8-29.8-9.2C92.4,23.1,84.2,15,75,15c-9.2,0-17.4,8.1-23,20.8c-14-1.6-25.2,1.4-29.8,9.2c-2.4,4.1-2.8,9-1.3,14.7c1.3,5,4.1,10.2,8,15.3c-3.9,5.2-6.7,10.4-8,15.3c-1.5,5.7-1.1,10.6,1.3,14.7c3.8,6.5,12.1,9.6,22.8,9.6c2.3,0,4.6-0.2,7.1-0.4c5.6,12.7,13.8,20.8,23,20.8c9.2,0,17.4-8.1,23-20.8c2.4,0.3,4.8,0.4,7.1,0.4c10.7,0,19-3.2,22.8-9.6c2.4-4.1,2.8-9,1.3-14.7C127.8,85.4,125.1,80.2,121.1,75z M105.2,37.3c9.9,0,17.5,2.9,20.9,8.8c2.1,3.6,2.5,8,1.1,13.1c-1.2,4.5-3.8,9.4-7.4,14.2c-3.2-4-7.2-8-11.7-11.8c0.4-0.8,0.7-1.7,0.7-2.6c0-3-2.5-5.5-5.5-5.5c-1.1-5.7-2.7-11-4.6-15.8C101,37.4,103.1,37.3,105.2,37.3z M106.8,90.9c0,1.9-1.6,3.5-3.5,3.5s-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5S106.8,89,106.8,90.9z M103,85.4c-2.9,0.2-5.2,2.6-5.2,5.5c0,0.9,0.2,1.8,0.6,2.5c-2.9,2-6,4-9.2,5.8c-3.2,1.8-6.4,3.4-9.6,4.9c-1-1.5-2.7-2.5-4.6-2.5c-1.9,0-3.6,1-4.6,2.5c-3.2-1.5-6.4-3.1-9.6-4.9c-3.2-1.8-6.3-3.7-9.2-5.8c0.4-0.8,0.6-1.6,0.6-2.5c0-2.9-2.3-5.3-5.2-5.5c-0.3-3.4-0.5-6.8-0.5-10.4c0-3.5,0.2-7,0.5-10.4c2.9-0.2,5.2-2.6,5.2-5.5c0-0.9-0.2-1.8-0.6-2.5c2.9-2,6-4,9.2-5.8c3.2-1.8,6.4-3.4,9.6-4.9c1,1.5,2.7,2.5,4.6,2.5c1.9,0,3.6-1,4.6-2.5c3.2,1.5,6.4,3.1,9.6,4.9c3.2,1.8,6.2,3.7,9.1,5.7c-0.3,0.7-0.5,1.5-0.5,2.4c0,2.9,2.3,5.3,5.2,5.5c0.3,3.4,0.5,7,0.5,10.6C103.4,78.5,103.3,82,103,85.4z M78.5,107.1c0,1.9-1.6,3.5-3.5,3.5s-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5S78.5,105.2,78.5,107.1z M46.7,87.4c1.9,0,3.5,1.6,3.5,3.5s-1.6,3.5-3.5,3.5c-1.9,0-3.5-1.6-3.5-3.5S44.7,87.4,46.7,87.4z M43.2,59.1c0-1.9,1.6-3.5,3.5-3.5c1.9,0,3.5,1.6,3.5,3.5c0,1.9-1.6,3.5-3.5,3.5C44.7,62.6,43.2,61,43.2,59.1z M71.5,42.9c0-1.9,1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5c0,1.9-1.6,3.5-3.5,3.5S71.5,44.8,71.5,42.9z M103.3,62.5c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5S105.3,62.5,103.3,62.5z M99.5,54.9c-2.9-2-6.1-4-9.3-5.8c-3.3-1.9-6.5-3.5-9.8-5c0.1-0.4,0.1-0.8,0.1-1.2c0-0.3,0-0.6-0.1-1c5.7-2,11.2-3.3,16.4-4c1.9,4.7,3.5,10.1,4.6,15.9C100.7,54,100.1,54.4,99.5,54.9z M69.6,44.1c-3.3,1.5-6.5,3.1-9.8,5c-3.3,1.9-6.4,3.8-9.4,5.9c-0.5-0.5-1.2-0.9-1.8-1.1c1.1-5.9,2.7-11.3,4.6-16c5.1,0.7,10.7,2.1,16.4,4c-0.1,0.3-0.1,0.6-0.1,1C69.5,43.3,69.5,43.7,69.6,44.1z M43,63.2c0.6,0.5,1.3,0.9,2.1,1.2c-0.3,3.4-0.5,7-0.5,10.6c0,3.6,0.2,7.2,0.5,10.6c-0.8,0.2-1.5,0.6-2.1,1.2C38.6,83,34.7,79,31.5,75C34.7,71,38.6,67,43,63.2z M50.4,95c3,2.1,6.1,4,9.4,5.9c3.3,1.9,6.5,3.5,9.8,5c-0.1,0.4-0.1,0.8-0.1,1.2c0,0.3,0,0.6,0.1,1c-5.7,2-11.2,3.3-16.4,4c-1.9-4.8-3.5-10.2-4.6-16C49.2,95.9,49.9,95.5,50.4,95z M80.4,105.9c3.3-1.5,6.5-3.1,9.8-5c3.3-1.9,6.4-3.8,9.4-5.9c0.5,0.5,1.2,0.9,1.8,1.1c-1.1,5.9-2.7,11.3-4.6,16c-5.1-0.7-10.7-2.1-16.4-4c0.1-0.3,0.1-0.6,0.1-1C80.5,106.7,80.5,106.3,80.4,105.9z M107,86.8c-0.6-0.5-1.3-0.9-2.1-1.2c0.3-3.4,0.5-7,0.5-10.6c0-3.7-0.2-7.3-0.5-10.8c0.7-0.2,1.4-0.6,2-1.1c4.5,3.8,8.4,7.8,11.6,11.9C115.3,79,111.4,83,107,86.8z M75,17c8.3,0,15.8,7.4,21,19.1c-5.1,0.7-10.6,2.1-16.3,4c-1-1.6-2.7-2.7-4.8-2.7c-2,0-3.8,1.1-4.8,2.7c-5.6-1.9-11.1-3.3-16.3-4C59.2,24.4,66.7,17,75,17z M22.8,59.1c-1.4-5.1-1-9.5,1.1-13.1c3.5-5.9,11.1-8.8,20.9-8.8c2,0,4.2,0.1,6.4,0.4c-1.9,4.8-3.5,10.1-4.6,15.9c-3,0-5.4,2.5-5.4,5.5c0,0.9,0.2,1.7,0.6,2.5c-4.5,3.8-8.4,7.7-11.6,11.7C26.5,68.5,24,63.7,22.8,59.1z M23.9,104c-2.1-3.6-2.5-8-1.1-13.1c1.2-4.5,3.8-9.4,7.4-14.2c3.2,4,7.1,8,11.6,11.7c-0.4,0.8-0.6,1.6-0.6,2.5c0,3,2.4,5.5,5.4,5.5c1.1,5.8,2.7,11.2,4.6,15.9C38.3,113.8,28.1,111.1,23.9,104z M75,133c-8.3,0-15.8-7.4-21-19.1c5.1-0.7,10.6-2.1,16.3-4c1,1.6,2.7,2.7,4.8,2.7c2,0,3.8-1.1,4.8-2.7c5.6,1.9,11.1,3.3,16.3,4C90.8,125.6,83.3,133,75,133z M126.1,104c-4.2,7.1-14.4,9.8-27.3,8.4c1.9-4.8,3.5-10.1,4.6-15.9c3-0.1,5.4-2.5,5.4-5.5c0-0.9-0.2-1.7-0.6-2.5c4.5-3.8,8.4-7.7,11.6-11.7c3.6,4.8,6.2,9.7,7.4,14.2C128.6,96,128.2,100.4,126.1,104z"/>
+            <path d="M75,69.5c-3.1,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5s5.5-2.5,5.5-5.5S78.1,69.5,75,69.5z M75,78.5c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5S76.9,78.5,75,78.5z"/>
+          </g>
+        </svg>
+        <div>
+          <span class="text-xl font-bold text-gray-900 tracking-wide">MOVE2CLOUD</span>
+          <div class="text-xs text-primary font-medium -mt-1 tracking-widest">TUNISIE</div>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex items-center gap-6">
+        <a href="/services" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.services">Services</a>
+        <a href="/about" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.about">À propos</a>
+        <a href="/values" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.values">Nos valeurs</a>
+        <a href="/approach" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.process">Notre approche</a>
+        <a href="/contact" class="btn-primary text-sm" data-i18n="nav.contact">Contactez-nous</a>
+        <!-- Language switcher -->
+        <div class="relative" id="lang-switcher">
+          <button class="lang-btn" id="lang-btn" onclick="toggleLangMenu()">
+            <span id="lang-flag">🇫🇷</span>
+            <span id="lang-label">Français</span>
+            <svg class="lang-chevron" id="lang-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="lang-dropdown absolute right-0 top-full mt-1 bg-white border border-gray-100 rounded-xl shadow-lg overflow-hidden z-50 min-w-[140px]" id="lang-dropdown">
+            <button class="lang-option active" id="opt-fr" onclick="setLang('fr')">🇫🇷 Français</button>
+            <button class="lang-option" id="opt-en" onclick="setLang('en')">🇬🇧 English</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile burger -->
+      <div class="flex items-center gap-2 md:hidden">
+        <!-- Mobile lang switcher -->
+        <div class="relative" id="lang-switcher-mobile">
+          <button class="lang-btn" onclick="toggleLangMenuMobile()">
+            <span id="lang-flag-mobile">🇫🇷</span>
+            <svg class="lang-chevron" id="lang-chevron-mobile" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="lang-dropdown absolute right-0 top-full mt-1 bg-white border border-gray-100 rounded-xl shadow-lg overflow-hidden z-50 min-w-[130px]" id="lang-dropdown-mobile">
+            <button class="lang-option" onclick="setLang('fr')">🇫🇷 Français</button>
+            <button class="lang-option" onclick="setLang('en')">🇬🇧 English</button>
+          </div>
+        </div>
+        <button id="burger" class="p-2 text-gray-700" aria-label="Menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3">
+      <a href="/services" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.services">Services</a>
+      <a href="/about" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.about">À propos</a>
+      <a href="/values" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.values">Nos valeurs</a>
+      <a href="/approach" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.process">Notre approche</a>
+      <a href="/contact" class="block btn-primary text-center text-sm" data-i18n="nav.contact">Contactez-nous</a>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero-bg min-h-screen flex items-center pt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 bg-white/10 text-white text-xs font-medium px-4 py-2 rounded-full mb-6 border border-white/20">
+          <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+          <span data-i18n="hero.badge">Experts Cloud &amp; DevOps en Tunisie</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6" data-i18n-html="hero.title">
+          Move2Cloud est votre<br/>
+          <span class="text-primary">partenaire cloud</span><br/>
+          en Tunisie
+        </h1>
+        <p class="text-gray-300 text-lg sm:text-xl leading-relaxed mb-10 max-w-2xl" data-i18n="hero.desc">
+          Nous accompagnons les entreprises tunisiennes et internationales dans leur transformation digitale —
+          migration cloud, DevOps, Kubernetes, et optimisation des infrastructures.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="/contact" class="btn-primary text-base" data-i18n="hero.cta1">Démarrer votre projet</a>
+          <a href="/services" class="btn-outline text-base" data-i18n="hero.cta2">Découvrir nos services</a>
+        </div>
+        <!-- Stats -->
+        <div class="mt-16 grid grid-cols-3 gap-8 border-t border-white/10 pt-10">
+          <div>
+            <div class="text-3xl font-bold text-white">15+</div>
+            <div class="text-gray-400 text-sm mt-1" data-i18n="hero.stat1">Années d'expérience</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-white">50+</div>
+            <div class="text-gray-400 text-sm mt-1" data-i18n="hero.stat2">Projets livrés</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-white">100%</div>
+            <div class="text-gray-400 text-sm mt-1" data-i18n="hero.stat3">Satisfaction client</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Decorative element -->
+    <div class="hidden lg:block absolute right-0 bottom-0 w-1/3 h-full" style="background: radial-gradient(ellipse at right center, rgba(200,0,45,0.12) 0%, transparent 70%); pointer-events:none;"></div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" class="services-bg py-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-20 fade-in">
+        <span class="eyebrow" data-i18n="svc.eyebrow">Ce que nous faisons</span>
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5 leading-tight" data-i18n-html="svc.title">
+          Nos <span class="title-highlight text-primary">Services</span>
+        </h2>
+        <p class="text-gray-500 mt-5 max-w-2xl mx-auto text-base leading-relaxed" data-i18n="svc.desc">
+          Des solutions cloud sur mesure pour accélérer votre transformation numérique et optimiser vos infrastructures.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+
+        <!-- Service 1 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s1.title">Consultation Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s1.desc">Définissez des stratégies cloud infaillibles et sur mesure avec l'aide de nos professionnels certifiés.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s2.title">Kubernetes Administration</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s2.desc">Gestion et maintenance des clusters Kubernetes, garantissant performance, sécurité et haute disponibilité.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s3.title">DevOps</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s3.desc">Accélérez et automatisez vos processus organisationnels avec la mise en œuvre de l'approche DevOps.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s4.title">Migration Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s4.desc">Migrez vos applications vers des services cloud publics avec un service de migration cloud sans couture.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s5.title">Optimisation des Coûts</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s5.desc">Nous veillons à ce que les solutions cloud implémentées ne dépassent pas votre budget tout en maximisant la valeur.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s6.title">Gestion de Projet</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s6.desc">Nos professionnels garantissent une transition fluide et vous aident à maximiser les avantages du cloud.</p>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s7.title">Administration Réseau &amp; Systèmes</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s7.desc">Support complet pour vos besoins en administration réseau et systèmes avec une haute disponibilité.</p>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s8.title">Déploiement Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s8.desc">Avec plusieurs années d'expérience dans le déploiement d'applications cloud, nous résolvons les problèmes complexes.</p>
+        </div>
+
+        <!-- Service 9 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s9.title">Big Data &amp; IA</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s9.desc">Support intégré pour construire, sécuriser et déployer vos applications de big data et d'intelligence artificielle.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <!-- Text -->
+        <div class="fade-in">
+          <span class="eyebrow" data-i18n="about.eyebrow">Qui sommes-nous</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-6" data-i18n-html="about.title">Bienvenue chez<br/>Move2Cloud Tunisie</h2>
+          <div class="space-y-4 text-gray-600 leading-relaxed">
+            <p data-i18n="about.p1">Move2Cloud Tunisie est une société fondée par des experts passionnés et spécialisés dans le Cloud et le DevOps. Nous accompagnons nos clients dans la migration de leurs projets vers le cloud, en leur proposant des services sur mesure de conseil et de gestion.</p>
+            <p data-i18n="about.p2">Basés à Tunis et connectés à un réseau d'experts international, nous offrons des solutions de nearshoring de haute qualité pour les entreprises tunisiennes et européennes souhaitant accélérer leur transformation digitale.</p>
+            <p data-i18n="about.p3">Notre équipe allie expertise technique et engagement vers l'excellence, garantissant des solutions fiables et efficaces adaptées aux besoins uniques de chaque client.</p>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="/contact" class="btn-primary" data-i18n="about.btn1">Nous contacter</a>
+            <a href="/approach" class="inline-flex items-center gap-2 text-primary font-semibold hover:gap-4 transition-all">
+              <span data-i18n="about.btn2">Notre approche</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Expertise cards -->
+        <div class="flex flex-col gap-4 fade-in">
+
+          <!-- DevOps -->
+          <div class="bg-primary rounded-2xl p-6 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                </svg>
+              </div>
+              <div class="font-bold text-lg" data-i18n="exp1.title">DevOps & Cloud Native</div>
+            </div>
+            <p class="text-white/75 text-sm leading-relaxed mb-3" data-i18n="exp1.desc">CI/CD, IaC, conteneurs, orchestration et automatisation de bout en bout.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Kubernetes</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Terraform</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">GitLab CI</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Ansible</span>
+            </div>
+          </div>
+
+          <!-- IA -->
+          <div class="bg-gray-900 rounded-2xl p-6 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+              <div class="font-bold text-lg" data-i18n="exp2.title">Intelligence Artificielle & Data</div>
+            </div>
+            <p class="text-white/75 text-sm leading-relaxed mb-3" data-i18n="exp2.desc">Déploiement de pipelines ML, architectures data et intégration de modèles IA en production.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">MLOps</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">Big Data</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">LLM</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">Data Lake</span>
+            </div>
+          </div>
+
+          <!-- Normes Cloud -->
+          <div class="bg-primary/8 rounded-2xl p-6 border border-primary/20">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+                <svg class="w-5 h-5" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              </div>
+              <div class="font-bold text-gray-900 text-lg" data-i18n="exp3.title">Conformité &amp; Normes Cloud</div>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-3" data-i18n="exp3.desc">Accompagnement à la mise en conformité et aux certifications cloud pour les secteurs réglementés.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">SecNumCloud</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">ISO 27001</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">DORA</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">RGPD</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">HDS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VALUES ===================== -->
+  <section id="values" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 fade-in">
+        <span class="eyebrow" data-i18n="val.eyebrow">Ce qui nous anime</span>
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5" data-i18n-html="val.title">Notre <span class="title-highlight text-primary">culture</span></h2>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🤝</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v1">Proximité</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🔍</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v2">Transparence</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">⭐</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v3">Excellence</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🌍</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v4">Diversité</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">😊</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v5">Plaisir</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🌟</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v6">Optimisme</div>
+        </div>
+      </div>
+
+      <!-- Commitments -->
+      <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c1.title">Innovation &amp; Agilité</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c1.desc">Nous nous adaptons rapidement aux évolutions du marché en proposant des solutions à la pointe de la technologie.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c2.title">Sécurité des données</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c2.desc">Nous garantissons la sécurité des données de nos clients avec les meilleures pratiques de l'industrie.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c3.title">Green IT</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c3.desc">Nous préservons l'environnement grâce à des pratiques durables et responsables dans toutes nos opérations.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c4.title">Formation continue</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c4.desc">Nous investissons dans le développement des compétences de nos collaborateurs pour rester à l'avant-garde.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c5.title">Partenariats solides</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c5.desc">Nous cultivons des relations durables basées sur la confiance, la transparence et la responsabilité.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c6.title">Satisfaction client</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c6.desc">La satisfaction client est notre principale mesure de succès. Nous maintenons des relations durables avec nos clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section id="process" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div class="fade-in">
+          <span class="eyebrow" data-i18n="proc.eyebrow">Comment ça marche</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-4" data-i18n-html="proc.title">Notre approche<br/>de migration cloud</h2>
+          <p class="text-gray-500 leading-relaxed mb-2" data-i18n="proc.desc">Migrer vers le cloud est un défi de taille, mais nous sommes là pour vous accompagner à chaque étape. Notre équipe d'experts travaillera avec vous pour évaluer votre infrastructure actuelle, identifier vos objectifs et élaborer une stratégie sur mesure.</p>
+        </div>
+
+        <div class="space-y-0 fade-in">
+          <!-- Step 1 -->
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="step-dot">1</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="pb-8 pt-2">
+              <h3 class="font-semibold text-gray-900 mb-1" data-i18n="step1.title">Premier rendez-vous</h3>
+              <p class="text-gray-500 text-sm" data-i18n="step1.desc">Vous nous parlez de votre entreprise, vos besoins et vos objectifs de transformation digitale.</p>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="step-dot">2</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="pb-8 pt-2">
+              <h3 class="font-semibold text-gray-900 mb-1" data-i18n="step2.title">Proposition sur mesure</h3>
+              <p class="text-gray-500 text-sm" data-i18n="step2.desc">Nous revenons vers vous avec une solution adaptée à vos besoins spécifiques et à votre budget.</p>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="step-dot">3</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="pb-8 pt-2">
+              <h3 class="font-semibold text-gray-900 mb-1" data-i18n="step3.title">Mise en œuvre</h3>
+              <p class="text-gray-500 text-sm" data-i18n="step3.desc">Une fois la solution convenue, nous nous mettons au travail pour implémenter votre système cloud.</p>
+            </div>
+          </div>
+          <!-- Step 4 -->
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="step-dot">4</div>
+              <div class="step-line"></div>
+            </div>
+            <div class="pb-8 pt-2">
+              <h3 class="font-semibold text-gray-900 mb-1" data-i18n="step4.title">Intégration sécurisée</h3>
+              <p class="text-gray-500 text-sm" data-i18n="step4.desc">Intégration transparente et sécurisée de vos processus métier existants dans le nouvel environnement.</p>
+            </div>
+          </div>
+          <!-- Step 5 -->
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="step-dot">5</div>
+            </div>
+            <div class="pt-2">
+              <h3 class="font-semibold text-gray-900 mb-1" data-i18n="step5.title">Support continu</h3>
+              <p class="text-gray-500 text-sm" data-i18n="step5.desc">Nous restons à vos côtés avec un support technique continu pour assurer la pérennité de votre infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="bg-primary py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">
+        <span data-i18n="cta.title">Êtes-vous prêt à renforcer l'efficacité de votre infrastructure informatique ?</span>
+      </h2>
+      <p class="text-white/80 mb-8 max-w-2xl mx-auto">
+        <span data-i18n="cta.desc">Obtenez gratuitement une consultation d'ingénieurs Cloud &amp; DevOps ou un devis de projet.</span>
+      </p>
+      <a href="/contact" class="btn-outline text-base" data-i18n="cta.btn">Démarrez votre projet</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 fade-in">
+        <span class="eyebrow" data-i18n="contact.eyebrow">Parlons-en</span>
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5" data-i18n-html="contact.title"><span class="title-highlight text-primary">Contactez</span>-nous</h2>
+        <p class="text-gray-500 mt-4 max-w-xl mx-auto" data-i18n="contact.desc">Move2Cloud s'engage à répondre à vos questions et à satisfaire vos demandes dans les plus brefs délais.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+        <!-- Contact Info -->
+        <div class="lg:col-span-2 space-y-6 fade-in">
+          <div>
+            <h3 class="font-semibold text-gray-900 text-lg mb-4" data-i18n="contact.info.title">Prenez contact avec nous</h3>
+            <p class="text-gray-500 text-sm leading-relaxed" data-i18n="contact.info.desc">Nous vous accompagnons dans votre stratégie de transformation digitale pour répondre au mieux aux besoins du marché tunisien et international.</p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <div class="w-9 h-9 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg width="16" height="16" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 text-sm" data-i18n="contact.lbl.address">Adresse</div>
+                <div class="text-gray-500 text-sm">Espace Tunis, bloc H, bureau H3-1<br/>Montplaisir 1073</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-9 h-9 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg width="16" height="16" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 text-sm" data-i18n="contact.lbl.email">Email</div>
+                <a href="mailto:contact@move2cloud.tn" class="text-primary text-sm hover:underline">contact@move2cloud.tn</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-9 h-9 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg width="16" height="16" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 text-sm" data-i18n="contact.lbl.phone">Téléphone</div>
+                <a href="tel:+21671906323" class="text-gray-500 text-sm hover:text-primary">+216 71 906 323</a>
+                <div class="text-gray-500 text-sm"><span data-i18n="contact.lbl.fax">Fax</span> : +216 71 906 373</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-9 h-9 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#c70039">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 text-sm" data-i18n="contact.lbl.linkedin">LinkedIn</div>
+                <a href="https://www.linkedin.com/company/movetocloud" target="_blank" rel="noopener" class="text-primary text-sm hover:underline">Move2Cloud</a>
+              </div>
+
+            <div class="flex items-start gap-3">
+              <div class="w-9 h-9 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg width="16" height="16" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 text-sm" data-i18n="contact.lbl.rne">RNE</div>
+                <div class="text-gray-500 text-sm">1793146J</div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-3 fade-in">
+          <form id="contact-form" class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 space-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1.5" data-i18n="form.name">Votre nom</label>
+                <input name="contact-name" type="text" placeholder="Prénom Nom" data-i18n-placeholder="form.name.ph" required
+                  class="w-full border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 placeholder-gray-400 transition-colors" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1.5" data-i18n="form.email">Email</label>
+                <input name="contact-email" type="email" placeholder="vous@exemple.com" data-i18n-placeholder="form.email.ph" required
+                  class="w-full border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 placeholder-gray-400 transition-colors" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1.5" data-i18n="form.phone">Téléphone</label>
+              <div class="flex gap-2">
+                <select id="phone-prefix"
+                  class="border border-gray-200 rounded-lg px-3 py-3 text-sm text-gray-800 bg-white transition-colors flex-shrink-0 cursor-pointer"
+                  style="min-width:100px">
+                  <option value="+216">🇹🇳 +216</option>
+                  <option value="+33">🇫🇷 +33</option>
+                </select>
+                <input id="phone-number" type="tel" placeholder="XX XXX XXX"
+                  class="flex-1 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 placeholder-gray-400 transition-colors" />
+              </div>
+              <p id="phone-error" class="hidden text-red-500 text-xs mt-1" data-i18n="form.phone.error">Numéro invalide — 8 chiffres pour +216, 9 à 10 chiffres pour +33.</p>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1.5" data-i18n="form.subject">Sujet</label>
+              <input name="contact-subject" type="text" placeholder="Votre sujet" data-i18n-placeholder="form.subject.ph" required
+                class="w-full border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 placeholder-gray-400 transition-colors" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1.5" data-i18n="form.message">Message</label>
+              <textarea name="contact-message" rows="4" placeholder="Décrivez votre projet ou votre demande..." data-i18n-placeholder="form.message.ph" required
+                class="w-full border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 placeholder-gray-400 transition-colors resize-none"></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full text-center text-sm font-semibold py-3">
+              <span data-i18n="form.submit">Envoyer le message</span>
+            </button>
+            <div id="form-success" class="hidden text-green-600 text-sm text-center font-medium py-2 bg-green-50 rounded-lg" data-i18n="form.success">✓ Votre message a bien été envoyé. Nous vous répondrons très prochainement.</div>
+            <div id="form-error" class="hidden text-red-600 text-sm text-center font-medium py-2 bg-red-50 rounded-lg" data-i18n="form.error">✗ Une erreur est survenue. Veuillez vérifier votre connexion et réessayer.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-gray-900 text-white">
+    <!-- Top section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+        <!-- Brand -->
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <svg width="36" height="40" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg">
+              <g transform="matrix(0.9077359083543534,0,0,0.9077359083543534,-18.170967063685705,-13.6160386253153)" fill="#ffffff">
+                <path d="M83.7,71.1c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.6-0.9,0.4-1.4c-0.3-0.5-0.9-0.6-1.4-0.4l-1.7,1c-0.5,0.3-0.6,0.9-0.4,1.4C83,70.9,83.3,71.1,83.7,71.1z"/>
+                <path d="M92.4,66.1c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.6-0.9,0.4-1.4c-0.3-0.5-0.9-0.6-1.4-0.4l-1.7,1c-0.5,0.3-0.6,0.9-0.4,1.4C91.7,65.9,92,66.1,92.4,66.1z"/>
+                <path d="M66.4,69l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C67,69.9,66.8,69.3,66.4,69z"/>
+                <path d="M57.6,64.1l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C58.3,65,58.1,64.4,57.6,64.1z"/>
+                <path d="M75,94c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1s1-0.4,1-1v-2C76,94.4,75.6,94,75,94z"/>
+                <path d="M75,84c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1s1-0.4,1-1v-2C76,84.4,75.6,84,75,84z"/>
+                <path d="M75,65.9c0.6,0,1-0.4,1-1v-2c0-0.6-0.4-1-1-1s-1,0.4-1,1v2C74,65.4,74.4,65.9,75,65.9z"/>
+                <path d="M75,55.9c0.6,0,1-0.4,1-1v-2c0-0.6-0.4-1-1-1s-1,0.4-1,1v2C74,55.4,74.4,55.9,75,55.9z"/>
+                <path d="M94.7,84.9l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4c-0.3,0.5-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C95.3,85.8,95.2,85.2,94.7,84.9z"/>
+                <path d="M86,80l-1.7-1c-0.5-0.3-1.1-0.1-1.4,0.4s-0.1,1.1,0.4,1.4l1.7,1c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.7-0.2,0.9-0.5C86.6,80.9,86.4,80.3,86,80z"/>
+                <path d="M56.7,84.2l-1.7,1c-0.5,0.3-0.7,0.9-0.4,1.4c0.2,0.3,0.5,0.5,0.9,0.5c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.7-0.9,0.4-1.4C57.8,84.1,57.1,83.9,56.7,84.2z"/>
+                <path d="M65.4,79.3l-1.7,1c-0.5,0.3-0.7,0.9-0.4,1.4c0.2,0.3,0.5,0.5,0.9,0.5c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.7-0.9,0.4-1.4C66.5,79.2,65.9,79,65.4,79.3z"/>
+                <path d="M121.1,75c3.9-5.2,6.7-10.4,8-15.3c1.5-5.7,1.1-10.6-1.3-14.7c-4.6-7.8-15.8-10.8-29.8-9.2C92.4,23.1,84.2,15,75,15c-9.2,0-17.4,8.1-23,20.8c-14-1.6-25.2,1.4-29.8,9.2c-2.4,4.1-2.8,9-1.3,14.7c1.3,5,4.1,10.2,8,15.3c-3.9,5.2-6.7,10.4-8,15.3c-1.5,5.7-1.1,10.6,1.3,14.7c3.8,6.5,12.1,9.6,22.8,9.6c2.3,0,4.6-0.2,7.1-0.4c5.6,12.7,13.8,20.8,23,20.8c9.2,0,17.4-8.1,23-20.8c2.4,0.3,4.8,0.4,7.1,0.4c10.7,0,19-3.2,22.8-9.6c2.4-4.1,2.8-9,1.3-14.7C127.8,85.4,125.1,80.2,121.1,75z M105.2,37.3c9.9,0,17.5,2.9,20.9,8.8c2.1,3.6,2.5,8,1.1,13.1c-1.2,4.5-3.8,9.4-7.4,14.2c-3.2-4-7.2-8-11.7-11.8c0.4-0.8,0.7-1.7,0.7-2.6c0-3-2.5-5.5-5.5-5.5c-1.1-5.7-2.7-11-4.6-15.8C101,37.4,103.1,37.3,105.2,37.3z M106.8,90.9c0,1.9-1.6,3.5-3.5,3.5s-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5S106.8,89,106.8,90.9z M103,85.4c-2.9,0.2-5.2,2.6-5.2,5.5c0,0.9,0.2,1.8,0.6,2.5c-2.9,2-6,4-9.2,5.8c-3.2,1.8-6.4,3.4-9.6,4.9c-1-1.5-2.7-2.5-4.6-2.5c-1.9,0-3.6,1-4.6,2.5c-3.2-1.5-6.4-3.1-9.6-4.9c-3.2-1.8-6.3-3.7-9.2-5.8c0.4-0.8,0.6-1.6,0.6-2.5c0-2.9-2.3-5.3-5.2-5.5c-0.3-3.4-0.5-6.8-0.5-10.4c0-3.5,0.2-7,0.5-10.4c2.9-0.2,5.2-2.6,5.2-5.5c0-0.9-0.2-1.8-0.6-2.5c2.9-2,6-4,9.2-5.8c3.2-1.8,6.4-3.4,9.6-4.9c1,1.5,2.7,2.5,4.6,2.5c1.9,0,3.6-1,4.6-2.5c3.2,1.5,6.4,3.1,9.6,4.9c3.2,1.8,6.2,3.7,9.1,5.7c-0.3,0.7-0.5,1.5-0.5,2.4c0,2.9,2.3,5.3,5.2,5.5c0.3,3.4,0.5,7,0.5,10.6C103.4,78.5,103.3,82,103,85.4z M78.5,107.1c0,1.9-1.6,3.5-3.5,3.5s-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5S78.5,105.2,78.5,107.1z M46.7,87.4c1.9,0,3.5,1.6,3.5,3.5s-1.6,3.5-3.5,3.5c-1.9,0-3.5-1.6-3.5-3.5S44.7,87.4,46.7,87.4z M43.2,59.1c0-1.9,1.6-3.5,3.5-3.5c1.9,0,3.5,1.6,3.5,3.5c0,1.9-1.6,3.5-3.5,3.5C44.7,62.6,43.2,61,43.2,59.1z M71.5,42.9c0-1.9,1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5c0,1.9-1.6,3.5-3.5,3.5S71.5,44.8,71.5,42.9z M103.3,62.5c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5S105.3,62.5,103.3,62.5z M99.5,54.9c-2.9-2-6.1-4-9.3-5.8c-3.3-1.9-6.5-3.5-9.8-5c0.1-0.4,0.1-0.8,0.1-1.2c0-0.3,0-0.6-0.1-1c5.7-2,11.2-3.3,16.4-4c1.9,4.7,3.5,10.1,4.6,15.9C100.7,54,100.1,54.4,99.5,54.9z M69.6,44.1c-3.3,1.5-6.5,3.1-9.8,5c-3.3,1.9-6.4,3.8-9.4,5.9c-0.5-0.5-1.2-0.9-1.8-1.1c1.1-5.9,2.7-11.3,4.6-16c5.1,0.7,10.7,2.1,16.4,4c-0.1,0.3-0.1,0.6-0.1,1C69.5,43.3,69.5,43.7,69.6,44.1z M43,63.2c0.6,0.5,1.3,0.9,2.1,1.2c-0.3,3.4-0.5,7-0.5,10.6c0,3.6,0.2,7.2,0.5,10.6c-0.8,0.2-1.5,0.6-2.1,1.2C38.6,83,34.7,79,31.5,75C34.7,71,38.6,67,43,63.2z M50.4,95c3,2.1,6.1,4,9.4,5.9c3.3,1.9,6.5,3.5,9.8,5c-0.1,0.4-0.1,0.8-0.1,1.2c0,0.3,0,0.6,0.1,1c-5.7,2-11.2,3.3-16.4,4c-1.9-4.8-3.5-10.2-4.6-16C49.2,95.9,49.9,95.5,50.4,95z M80.4,105.9c3.3-1.5,6.5-3.1,9.8-5c3.3-1.9,6.4-3.8,9.4-5.9c0.5,0.5,1.2,0.9,1.8,1.1c-1.1,5.9-2.7,11.3-4.6,16c-5.1-0.7-10.7-2.1-16.4-4c0.1-0.3,0.1-0.6,0.1-1C80.5,106.7,80.5,106.3,80.4,105.9z M107,86.8c-0.6-0.5-1.3-0.9-2.1-1.2c0.3-3.4,0.5-7,0.5-10.6c0-3.7-0.2-7.3-0.5-10.8c0.7-0.2,1.4-0.6,2-1.1c4.5,3.8,8.4,7.8,11.6,11.9C115.3,79,111.4,83,107,86.8z M75,17c8.3,0,15.8,7.4,21,19.1c-5.1,0.7-10.6,2.1-16.3,4c-1-1.6-2.7-2.7-4.8-2.7c-2,0-3.8,1.1-4.8,2.7c-5.6-1.9-11.1-3.3-16.3-4C59.2,24.4,66.7,17,75,17z M22.8,59.1c-1.4-5.1-1-9.5,1.1-13.1c3.5-5.9,11.1-8.8,20.9-8.8c2,0,4.2,0.1,6.4,0.4c-1.9,4.8-3.5,10.1-4.6,15.9c-3,0-5.4,2.5-5.4,5.5c0,0.9,0.2,1.7,0.6,2.5c-4.5,3.8-8.4,7.7-11.6,11.7C26.5,68.5,24,63.7,22.8,59.1z M23.9,104c-2.1-3.6-2.5-8-1.1-13.1c1.2-4.5,3.8-9.4,7.4-14.2c3.2,4,7.1,8,11.6,11.7c-0.4,0.8-0.6,1.6-0.6,2.5c0,3,2.4,5.5,5.4,5.5c1.1,5.8,2.7,11.2,4.6,15.9C38.3,113.8,28.1,111.1,23.9,104z M75,133c-8.3,0-15.8-7.4-21-19.1c5.1-0.7,10.6-2.1,16.3-4c1,1.6,2.7,2.7,4.8,2.7c2,0,3.8-1.1,4.8-2.7c5.6,1.9,11.1,3.3,16.3,4C90.8,125.6,83.3,133,75,133z M126.1,104c-4.2,7.1-14.4,9.8-27.3,8.4c1.9-4.8,3.5-10.1,4.6-15.9c3-0.1,5.4-2.5,5.4-5.5c0-0.9-0.2-1.7-0.6-2.5c4.5-3.8,8.4-7.7,11.6-11.7c3.6,4.8,6.2,9.7,7.4,14.2C128.6,96,128.2,100.4,126.1,104z"/>
+                <path d="M75,69.5c-3.1,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5s5.5-2.5,5.5-5.5S78.1,69.5,75,69.5z M75,78.5c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5S76.9,78.5,75,78.5z"/>
+              </g>
+            </svg>
+            <div>
+              <span class="text-lg font-bold tracking-wide">MOVE2CLOUD</span>
+              <div class="text-xs text-primary font-medium -mt-0.5 tracking-widest">TUNISIE</div>
+            </div>
+          </div>
+          <p class="text-gray-400 text-sm leading-relaxed max-w-xs">
+            Votre partenaire expert en Cloud et DevOps en Tunisie. Nous accompagnons les entreprises
+            dans leur transformation numérique avec des solutions sur mesure.
+          </p>
+          <div class="mt-6 flex items-center gap-3">
+            <a href="https://www.linkedin.com/company/movetocloud" target="_blank" rel="noopener"
+              class="w-9 h-9 bg-white/10 hover:bg-primary rounded-lg flex items-center justify-center transition-colors">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Services</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/services" class="text-gray-400 text-sm hover:text-white transition-colors">Consultation Cloud</a></li>
+            <li><a href="/services" class="text-gray-400 text-sm hover:text-white transition-colors">Kubernetes</a></li>
+            <li><a href="/services" class="text-gray-400 text-sm hover:text-white transition-colors">DevOps</a></li>
+            <li><a href="/services" class="text-gray-400 text-sm hover:text-white transition-colors">Migration Cloud</a></li>
+            <li><a href="/services" class="text-gray-400 text-sm hover:text-white transition-colors">Big Data &amp; IA</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Contact</h4>
+          <ul class="space-y-2.5">
+            <li class="text-gray-400 text-sm">Espace Tunis, bloc H, bureau H3-1<br/>Montplaisir 1073</li>
+            <li><a href="mailto:contact@move2cloud.tn" class="text-gray-400 text-sm hover:text-white transition-colors">contact@move2cloud.tn</a></li>
+            <li><a href="tel:+21671906323" class="text-gray-400 text-sm hover:text-white transition-colors">Tél : +216 71 906 323</a></li>
+            <li class="text-gray-400 text-sm">Fax : +216 71 906 373</li>
+            <li class="text-gray-400 text-sm">RNE : 1793146J</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="text-gray-500 text-xs" data-i18n="footer.copyright">© 2026 Move2Cloud Tunisie. Tous droits réservés.</p>
+        <p class="text-gray-600 text-xs" data-i18n="footer.tagline">Experts Cloud &amp; DevOps en Tunisie</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script>
+    // ── i18n via external JSON ─────────────────────────────────────────
+    let currentLang = localStorage.getItem('lang') || 'fr';
+    let i18nDict = {};
+
+    function applyDict(dict) {
+      i18nDict = dict;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        if (dict[el.dataset.i18n] !== undefined) el.textContent = dict[el.dataset.i18n];
+      });
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        if (dict[el.dataset.i18nHtml] !== undefined) el.innerHTML = dict[el.dataset.i18nHtml];
+      });
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        if (dict[el.dataset.i18nPlaceholder] !== undefined) el.placeholder = dict[el.dataset.i18nPlaceholder];
+      });
+      const flag  = currentLang === 'fr' ? '🇫🇷' : '🇬🇧';
+      const label = currentLang === 'fr' ? 'Français' : 'English';
+      ['lang-flag','lang-flag-mobile'].forEach(id => { const el=document.getElementById(id); if(el) el.textContent=flag; });
+      const lbl = document.getElementById('lang-label'); if(lbl) lbl.textContent=label;
+      ['opt-fr','opt-en'].forEach(id => { const el=document.getElementById(id); if(el) el.classList.toggle('active', id===`opt-${currentLang}`); });
+      document.documentElement.lang = currentLang;
+    }
+
+    async function loadLang(lang) {
+      try {
+        const res = await fetch(`assets/i18n/${lang}.json`);
+        if (!res.ok) throw new Error(res.status);
+        const dict = await res.json();
+        currentLang = lang;
+        localStorage.setItem('lang', lang);
+        applyDict(dict);
+      } catch(e) {
+        console.error('i18n load error:', e);
+      }
+    }
+
+    function toggleLangMenu() {
+      const dd = document.getElementById('lang-dropdown');
+      const ch = document.getElementById('lang-chevron');
+      dd.classList.toggle('open');
+      ch.classList.toggle('rotated');
+      document.addEventListener('click', closeLangOnOutside, { once: true });
+    }
+    function toggleLangMenuMobile() {
+      const dd = document.getElementById('lang-dropdown-mobile');
+      const ch = document.getElementById('lang-chevron-mobile');
+      dd.classList.toggle('open');
+      ch.classList.toggle('rotated');
+      document.addEventListener('click', closeLangOnOutside, { once: true });
+    }
+    function closeLangOnOutside(e) {
+      ['lang-dropdown','lang-dropdown-mobile'].forEach(id => {
+        const dd = document.getElementById(id);
+        if (dd && !dd.closest?.('#lang-switcher, #lang-switcher-mobile')?.contains(e.target)) {
+          dd.classList.remove('open');
+        }
+      });
+    }
+    function setLang(lang) {
+      loadLang(lang);
+      ['lang-dropdown','lang-dropdown-mobile'].forEach(id => document.getElementById(id)?.classList.remove('open'));
+      ['lang-chevron','lang-chevron-mobile'].forEach(id => document.getElementById(id)?.classList.remove('rotated'));
+    }
+
+    // Load default language on startup
+    loadLang(currentLang);
+
+
+    // ── History API router ──────────────────────────────────────────────
+    const routes = {
+      '/':         'hero',
+      '/services': 'services',
+      '/about':    'about',
+      '/values':   'values',
+      '/approach': 'process',
+      '/contact':  'contact',
+    };
+
+    function scrollToSection(id, smooth = true) {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: smooth ? 'smooth' : 'instant' });
+    }
+
+    // Intercept all internal path clicks
+    document.addEventListener('click', e => {
+      const a = e.target.closest('a[href^="/"]');
+      if (!a) return;
+      const path = new URL(a.href, location.origin).pathname;
+      if (!(path in routes)) return;
+      e.preventDefault();
+      history.pushState({}, '', path);
+      scrollToSection(routes[path]);
+      // close mobile menu if open
+      document.getElementById('mobile-menu')?.classList.remove('open');
+    });
+
+    // On back/forward navigation
+    window.addEventListener('popstate', () => {
+      const id = routes[location.pathname] || 'hero';
+      scrollToSection(id, false);
+    });
+
+    // Update URL as user scrolls past sections
+    const urlObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const path = Object.entries(routes).find(([,id]) => id === entry.target.id)?.[0];
+        if (path) history.replaceState({}, '', path);
+      });
+    }, { threshold: 0.45 });
+
+    Object.values(routes).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) urlObserver.observe(el);
+    });
+
+    // On page load: scroll to section matching the URL path
+    (() => {
+      const id = routes[location.pathname];
+      if (id && id !== 'hero') setTimeout(() => scrollToSection(id, false), 80);
+    })();
+
+    // ── Mobile menu
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    burger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+    // Scroll-based fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Phone validation
+    const phoneNumber = document.getElementById('phone-number');
+    const phonePrefix = document.getElementById('phone-prefix');
+    const phoneError = document.getElementById('phone-error');
+
+    function validatePhone() {
+      const digits = phoneNumber.value.replace(/\s/g, '');
+      const prefix = phonePrefix.value;
+      let valid = true;
+      if (digits.length > 0) {
+        if (prefix === '+216') valid = /^\d{8}$/.test(digits);
+        else if (prefix === '+33') valid = /^\d{9,10}$/.test(digits);
+      }
+      phoneError.classList.toggle('hidden', valid);
+      phoneNumber.style.borderColor = (!valid && digits.length > 0) ? '#ef4444' : '';
+      return valid || digits.length === 0;
+    }
+
+    const placeholders = { '+216': 'XX XXX XXX', '+33': 'XX XX XX XX XX' };
+
+    phonePrefix.addEventListener('change', () => {
+      phoneNumber.placeholder = placeholders[phonePrefix.value];
+      phoneNumber.value = '';
+      phoneError.classList.add('hidden');
+      phoneNumber.style.borderColor = '';
+    });
+
+    phoneNumber.addEventListener('input', function() {
+      const prefix = phonePrefix.value;
+      const digits = this.value.replace(/\D/g, '');
+      let formatted = '';
+
+      if (prefix === '+33') {
+        // XX XX XX XX XX — groups of 2, max 10 digits
+        const d = digits.slice(0, 10);
+        formatted = d.match(/.{1,2}/g)?.join(' ') ?? d;
+      } else {
+        // +216 — XX XXX XXX — 2, 3, 3
+        const d = digits.slice(0, 8);
+        if (d.length <= 2) formatted = d;
+        else if (d.length <= 5) formatted = d.slice(0,2) + ' ' + d.slice(2);
+        else formatted = d.slice(0,2) + ' ' + d.slice(2,5) + ' ' + d.slice(5);
+      }
+
+      this.value = formatted;
+      validatePhone();
+    });
+
+    // EmailJS
+    emailjs.init('vUJW1aDvhHR4GjOX8');
+
+    const form = document.getElementById('contact-form');
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const formSuccess = document.getElementById('form-success');
+    const formError = document.getElementById('form-error');
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      if (!validatePhone()) { phoneNumber.focus(); return; }
+
+      const phone = phoneNumber.value.trim()
+        ? phonePrefix.value + ' ' + phoneNumber.value.trim()
+        : '';
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Envoi en cours…';
+      formSuccess.classList.add('hidden');
+      formError.classList.add('hidden');
+
+      try {
+        await emailjs.send('service_rqwhxgi', 'template_4926pxs', {
+          name:    form.querySelector('[name="contact-name"]').value,
+          email:   form.querySelector('[name="contact-email"]').value,
+          phone:   phone,
+          subject: form.querySelector('[name="contact-subject"]').value,
+          message: form.querySelector('[name="contact-message"]').value,
+        });
+        formSuccess.classList.remove('hidden');
+        form.reset();
+        phoneError.classList.add('hidden');
+        setTimeout(() => formSuccess.classList.add('hidden'), 6000);
+      } catch (err) {
+        console.error('EmailJS error:', err);
+        formError.classList.remove('hidden');
+        setTimeout(() => formError.classList.add('hidden'), 6000);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Envoyer le message';
+      }
+    });
+  </script>
+</body>
+</html>
