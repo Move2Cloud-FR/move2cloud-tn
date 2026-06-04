@@ -40,6 +40,7 @@ jobs:
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
+            --exclude "terraform/*" \
             --exclude "README.md" \
             --exclude ".gitignore" \
             --exclude "amplify.yml" \
