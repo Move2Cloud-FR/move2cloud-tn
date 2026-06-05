@@ -257,6 +257,43 @@
       color: #c70039;
     }
 
+
+    /* ── News Modal ── */
+    #news-modal {
+      display: none; position: fixed; inset: 0; z-index: 1000;
+      align-items: center; justify-content: center;
+      background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
+      padding: 1rem;
+    }
+    #news-modal.open { display: flex; }
+    #news-modal-box {
+      background: white; border-radius: 1.25rem;
+      max-width: 560px; width: 100%;
+      max-height: 90vh; overflow-y: auto;
+      box-shadow: 0 32px 64px rgba(0,0,0,0.25);
+      animation: modalIn 0.25s ease;
+    }
+    @keyframes modalIn {
+      from { opacity:0; transform: translateY(20px) scale(0.97); }
+      to   { opacity:1; transform: translateY(0) scale(1); }
+    }
+    #news-modal-cover {
+      height: 180px; display: flex; align-items: center; justify-content: center;
+      border-radius: 1.25rem 1.25rem 0 0; flex-direction: column; gap: 0.75rem;
+    }
+    #news-modal-photo {
+      width: 88px; height: 88px; border-radius: 50%;
+      object-fit: cover; border: 3px solid white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    #news-modal-avatar {
+      width: 88px; height: 88px; border-radius: 50%;
+      background: rgba(255,255,255,0.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2rem; font-weight: 800; color: white;
+      border: 3px solid rgba(255,255,255,0.5);
+    }
+
     input, textarea {
       outline: none;
     }
@@ -782,9 +819,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a12.date">Septembre 2025</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a12')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -814,9 +849,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a11.date">Avril 2025</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a11')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -844,9 +877,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a9.date">Février 2025</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a9')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -875,40 +906,8 @@
               Félicitations à toute l'équipe ! Move2Cloud est désormais officiellement certifié KCSP, reconnu par la CNCF pour son expertise Kubernetes et sa capacité à fournir des services de premier plan à ses clients.
             </p>
             <div class="flex items-center justify-between mt-2">
-              <span class="text-xs text-gray-400" data-i18n="news.a6.date">Janvier 2024</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Article 10 — AWS Advanced Tier -->
-        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
-          <div class="h-44 flex items-center justify-center" style="background:linear-gradient(135deg,#FF9900,#c45e00)">
-            <div class="flex flex-col items-center gap-2">
-              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-                <span class="text-white font-black text-xl">AWS</span>
-              </div>
-              <span class="text-white font-bold text-xs tracking-wider uppercase">Advanced Tier</span>
-            </div>
-          </div>
-          <div class="p-6 flex flex-col gap-3 flex-1">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.aws">Partenariat AWS</span>
-              <span class="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full font-semibold">⭐ Advanced</span>
-            </div>
-            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a10.title">
-              Move2Cloud atteint le niveau Advanced Tier Service Partner AWS
-            </h3>
-            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a10.desc">
-              Une nouvelle étape franchie dans notre partenariat avec Amazon Web Services. Le niveau Advanced Tier reconnaît notre expertise technique, le volume de nos projets et notre engagement à délivrer des solutions cloud de haute qualité à nos clients.
-            </p>
-            <div class="flex items-center justify-between mt-2">
-              <span class="text-xs text-gray-400" data-i18n="news.a10.date">2024</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <span class="text-xs text-gray-400" data-i18n="news.a6.date">Janvier 2025</span>
+              <button onclick="openModal('a6')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -980,9 +979,35 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a19.date">Décembre 2024</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a19')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 10 — AWS Advanced Tier -->
+        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
+          <div class="h-44 flex items-center justify-center" style="background:linear-gradient(135deg,#FF9900,#c45e00)">
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+                <span class="text-white font-black text-xl">AWS</span>
+              </div>
+              <span class="text-white font-bold text-xs tracking-wider uppercase">Advanced Tier</span>
+            </div>
+          </div>
+          <div class="p-6 flex flex-col gap-3 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.aws">Partenariat AWS</span>
+              <span class="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full font-semibold">⭐ Advanced</span>
+            </div>
+            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a10.title">
+              Move2Cloud atteint le niveau Advanced Tier Service Partner AWS
+            </h3>
+            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a10.desc">
+              Une nouvelle étape franchie dans notre partenariat avec Amazon Web Services. Le niveau Advanced Tier reconnaît notre expertise technique, le volume de nos projets et notre engagement à délivrer des solutions cloud de haute qualité à nos clients.
+            </p>
+            <div class="flex items-center justify-between mt-2">
+              <span class="text-xs text-gray-400" data-i18n="news.a10.date">Novembre 2024</span>
+              <button onclick="openModal('a10')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1009,9 +1034,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a14.date">21 mai 2024</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a14')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1039,9 +1062,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a17.date">Décembre 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a17')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1074,9 +1095,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a20.date">Octobre 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a20')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1107,9 +1126,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a7.date">Juillet 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a7')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1134,9 +1151,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a4.date">26 juin 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a4')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1163,9 +1178,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a18.date">Mai 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a18')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1192,9 +1205,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a13.date">15 mai 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a13')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1221,9 +1232,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a8.date">Mars 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a8')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1258,9 +1267,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a15.date">Mars 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a15')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1287,9 +1294,61 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a3.date">6 mars 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a3')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 16 — Partenariat Turnover / Free Work -->
+        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
+          <div class="h-44 flex items-center justify-center" style="background:linear-gradient(135deg,#1d4ed8,#1e3a8a)">
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+                <svg class="w-9 h-9" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <span class="text-white/80 text-xs font-bold tracking-wider uppercase">Free Work</span>
+            </div>
+          </div>
+          <div class="p-6 flex flex-col gap-3 flex-1">
+            <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.partnership">Partenariat</span>
+            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a16.title">
+              Move2Cloud s'associe à Turnover (Free Work) pour la prospection du marché français
+            </h3>
+            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a16.desc">
+              Move2Cloud signe un partenariat avec Turnover (Free Work) pour renforcer la prospection commerciale sur le marché français et accélérer le placement de consultants en mission.
+            </p>
+            <div class="flex items-center justify-between mt-2">
+              <span class="text-xs text-gray-400" data-i18n="news.a16.date">Février 2023</span>
+              <button onclick="openModal('a16')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2 — Recrutement Dhouha -->
+        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
+          <div class="h-44 flex items-center justify-center relative overflow-hidden" style="background:linear-gradient(135deg,#6d28d9,#4c1d95)">
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+                <svg class="w-9 h-9" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                </svg>
+              </div>
+              <span class="text-white/80 text-xs font-semibold tracking-wider uppercase">Équipe</span>
+            </div>
+          </div>
+          <div class="p-6 flex flex-col gap-3 flex-1">
+            <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.team">Recrutement</span>
+            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a2.title">
+              Dhouha TROUJET rejoint l'équipe Move2Cloud
+            </h3>
+            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a2.desc">
+              Parisienne de naissance, Dhouha apporte son profil dynamique et polyvalent à la tête de l'activité commerciale — recrutement et business development.
+            </p>
+            <div class="flex items-center justify-between mt-2">
+              <span class="text-xs text-gray-400" data-i18n="news.a2.date">Février 2023</span>
+              <button onclick="openModal('a2')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1319,67 +1378,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a21.date">Janvier 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Article 16 — Partenariat Turnover / Free Work -->
-        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
-          <div class="h-44 flex items-center justify-center" style="background:linear-gradient(135deg,#1d4ed8,#1e3a8a)">
-            <div class="flex flex-col items-center gap-2">
-              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-                <svg class="w-9 h-9" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-                </svg>
-              </div>
-              <span class="text-white/80 text-xs font-bold tracking-wider uppercase">Free Work</span>
-            </div>
-          </div>
-          <div class="p-6 flex flex-col gap-3 flex-1">
-            <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.partnership">Partenariat</span>
-            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a16.title">
-              Move2Cloud s'associe à Turnover (Free Work) pour la prospection du marché français
-            </h3>
-            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a16.desc">
-              Move2Cloud signe un partenariat avec Turnover (Free Work) pour renforcer la prospection commerciale sur le marché français et accélérer le placement de consultants en mission.
-            </p>
-            <div class="flex items-center justify-between mt-2">
-              <span class="text-xs text-gray-400" data-i18n="news.a16.date">Février 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Article 2 — Recrutement Dhouha -->
-        <article class="service-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100/80 flex flex-col">
-          <div class="h-44 flex items-center justify-center relative overflow-hidden" style="background:linear-gradient(135deg,#6d28d9,#4c1d95)">
-            <div class="flex flex-col items-center gap-2">
-              <div class="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-                <svg class="w-9 h-9" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-                </svg>
-              </div>
-              <span class="text-white/80 text-xs font-semibold tracking-wider uppercase">Équipe</span>
-            </div>
-          </div>
-          <div class="p-6 flex flex-col gap-3 flex-1">
-            <span class="text-xs font-semibold text-primary uppercase tracking-widest" data-i18n="news.tag.team">Recrutement</span>
-            <h3 class="font-bold text-gray-900 text-base leading-snug" data-i18n="news.a2.title">
-              Dhouha TROUJET rejoint l'équipe Move2Cloud
-            </h3>
-            <p class="text-gray-500 text-sm leading-relaxed flex-1" data-i18n="news.a2.desc">
-              Parisienne de naissance, Dhouha apporte son profil dynamique et polyvalent à la tête de l'activité commerciale — recrutement et business development.
-            </p>
-            <div class="flex items-center justify-between mt-2">
-              <span class="text-xs text-gray-400" data-i18n="news.a2.date">Février 2023</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a21')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1406,9 +1405,7 @@
             </p>
             <div class="flex items-center justify-between mt-2">
               <span class="text-xs text-gray-400" data-i18n="news.a1.date">16 novembre 2022</span>
-              <a href="/contact" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1" data-i18n="news.read">
-                Lire la suite →
-              </a>
+              <button onclick="openModal('a1')" class="text-xs font-semibold text-primary hover:underline inline-flex items-center gap-1 bg-none border-none cursor-pointer p-0" data-i18n="news.read">Lire la suite →</button>
             </div>
           </div>
         </article>
@@ -1563,6 +1560,29 @@
     </div>
   </section>
 
+  <!-- ===================== NEWS MODAL ===================== -->
+  <div id="news-modal" role="dialog" aria-modal="true" onclick="if(event.target===this) closeModal()">
+    <div id="news-modal-box">
+      <div id="news-modal-cover">
+        <img id="news-modal-photo" src="" alt="" style="display:none"/>
+        <div id="news-modal-avatar"></div>
+        <span id="news-modal-label" class="text-white/80 text-xs font-bold tracking-wider uppercase"></span>
+      </div>
+      <div class="p-7">
+        <div class="flex items-center justify-between mb-4">
+          <span id="news-modal-tag" class="text-xs font-semibold text-primary uppercase tracking-widest"></span>
+          <span id="news-modal-date" class="text-xs text-gray-400"></span>
+        </div>
+        <h2 id="news-modal-title" class="text-xl font-bold text-gray-900 leading-snug mb-4"></h2>
+        <p id="news-modal-desc" class="text-gray-600 text-sm leading-relaxed mb-6"></p>
+        <div class="flex items-center gap-3">
+          <a href="/contact" onclick="closeModal()" class="btn-primary text-sm" data-i18n="about.btn1">Nous contacter</a>
+          <button onclick="closeModal()" class="text-sm text-gray-400 hover:text-gray-600">✕ Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ===================== FOOTER ===================== -->
   <footer class="bg-gray-900 text-white">
     <!-- Top section -->
@@ -1712,6 +1732,64 @@
 
     // Load default language on startup
     loadLang(currentLang);
+
+
+
+    // ── News Modal ───────────────────────────────────────────────────────────
+    const personArticles = {"a2": {"initials": "DT", "gradient": "linear-gradient(135deg,#6d28d9,#4c1d95)", "label": "\u00c9quipe Move2Cloud"}, "a3": {"initials": "IK", "gradient": "linear-gradient(135deg,#0f766e,#134e4a)", "label": "\u00c9quipe Move2Cloud"}, "a8": {"initials": "SL", "gradient": "linear-gradient(135deg,#be185d,#831843)", "label": "\u00c9quipe Move2Cloud"}, "a13": {"initials": "SB", "gradient": "linear-gradient(135deg,#0891b2,#164e63)", "label": "\u00c9quipe Move2Cloud"}, "a14": {"initials": "IB", "gradient": "linear-gradient(135deg,#7c3aed,#4c1d95)", "label": "\u00c9quipe Move2Cloud"}};
+
+    function openModal(key) {
+      const dict = i18nDict;
+      const modal = document.getElementById('news-modal');
+      const cover = document.getElementById('news-modal-cover');
+      const photo = document.getElementById('news-modal-photo');
+      const avatar = document.getElementById('news-modal-avatar');
+      const label = document.getElementById('news-modal-label');
+
+      document.getElementById('news-modal-title').textContent = dict[`news.${key}.title`] || '';
+      document.getElementById('news-modal-desc').textContent  = dict[`news.${key}.full`]  || dict[`news.${key}.desc`] || '';
+      document.getElementById('news-modal-date').textContent  = dict[`news.${key}.date`]  || '';
+
+      // Find tag text from any matching tag key
+      const tagEl = document.querySelector(`[data-i18n="news.${key}.title"]`)?.closest('article')?.querySelector('[class*="font-semibold text-primary"]');
+      document.getElementById('news-modal-tag').textContent = tagEl ? tagEl.textContent : '';
+
+      // Cover — person or default
+      const person = personArticles[key];
+      const photoUrl = dict[`news.${key}.photo`] || '';
+
+      if (photoUrl) {
+        photo.alt = dict[`news.${key}.title`] || '';
+        cover.style.background = person ? person.gradient : 'linear-gradient(135deg,#1a1a2e,#16213e)';
+        label.textContent = '';
+        // Try loading — fall back to initials if file missing
+        const img = new Image();
+        img.onload = () => { photo.src = photoUrl; photo.style.display = 'block'; avatar.style.display = 'none'; };
+        img.onerror = () => { photo.style.display = 'none'; if (person) { avatar.style.display = 'flex'; avatar.textContent = person.initials; label.textContent = person.label; } };
+        img.src = photoUrl;
+      } else if (person) {
+        photo.style.display = 'none'; avatar.style.display = 'flex';
+        avatar.textContent = person.initials;
+        label.textContent = person.label;
+        cover.style.background = person.gradient;
+      } else {
+        photo.style.display = 'none'; avatar.style.display = 'none';
+        label.textContent = '';
+        // reuse the article card cover gradient
+        const articleCover = document.querySelector(`[data-i18n="news.${key}.title"]`)?.closest('article')?.querySelector('[style*="background"]');
+        cover.style.background = articleCover ? articleCover.style.background : 'linear-gradient(135deg,#c70039,#8b0025)';
+      }
+
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('news-modal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 
     // ── History API router ──────────────────────────────────────────────
