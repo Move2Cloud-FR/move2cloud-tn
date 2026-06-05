@@ -1292,7 +1292,6 @@
       '/about':    'about',
       '/values':   'values',
       '/approach': 'process',
-      '/actualites': 'actualites',
       '/contact':  'contact',
     };
 
@@ -1307,6 +1306,8 @@
       if (!a) return;
       const path = new URL(a.href, location.origin).pathname;
       if (!(path in routes)) return;
+      // Let /actualites navigate to the actual HTML page
+      if (path === '/actualites') return;
       e.preventDefault();
       history.pushState({}, '', path);
       scrollToSection(routes[path]);
