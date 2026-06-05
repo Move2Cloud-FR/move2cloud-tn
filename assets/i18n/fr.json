@@ -216,5 +216,7 @@
   "news.a20.photo": "assets/photos/emploi-ma-logo.png",
   "news.a19.photo": "assets/photos/coderpad-logo.png",
   "news.a7.photo": "assets/photos/ccitf-logo.png",
-  "news.a16.photo": "assets/photos/turnover-it.png"
+  "news.a16.photo": "assets/photos/turnover-it.png",
+  "news.all": "Voir toutes les actualités",
+  "nav.home": "Accueil"
 }
