@@ -203,15 +203,16 @@
   "news.a13.full": "Le 15 mai 2023, Syrine BRAHAM rejoint l'équipe commerciale de Move2Cloud pour renforcer notre capacité de développement et accompagner la croissance de l'activité sur le marché français.",
   "news.a14.full": "Le 21 mai 2024, Idriss BEN SAID, de nationalité malgache, rejoint l'équipe commerciale de Move2Cloud. Il prend en charge le référencement et le développement commercial, contribuant à élargir la visibilité et la présence de Move2Cloud sur les marchés cibles.",
   "news.a21.photo": "assets/photos/tanitjobs.png",
-  "news.a4.photo": "assets/photos/aws-select-logo.jpg",
+  "news.a4.photo": "assets/photos/aws-select-logo.png",
   "news.a5.photo": "assets/photos/cncf-logo.png",
-  "news.a6.photo": "assets/photos/cncf-logo.png",
+  "news.a6.photo": "assets/photos/kcsp.jpeg",
   "news.a9.photo": "assets/photos/aws-logo.png",
   "news.a10.photo": "assets/photos/aws-advanced-logo.png",
-  "news.a11.photo": "assets/photos/jei-logo.jpeg",
+  "news.a11.photo": "assets/photos/jei-logo.png",
   "news.a12.photo": "assets/photos/aws-logo.png",
   "news.a15.photo": "assets/photos/azure-logo.png",
   "news.a17.photo": "assets/photos/udemy-logo.png",
   "news.a18.photo": "assets/photos/hitechpros-logo.jpg",
-  "news.a20.photo": "assets/photos/emploi-ma-logo.png"
+  "news.a20.photo": "assets/photos/emploi-ma-logo.png",
+  "news.a19.photo": "assets/photos/coderpad-logo.png"
 }
