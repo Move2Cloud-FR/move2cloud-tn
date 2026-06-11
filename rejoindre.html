@@ -49,6 +49,16 @@
       font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em;
       text-transform: uppercase; color: #9ca3af;
     }
+    .filter-row {
+      display: flex; align-items: center; gap: 0.5rem;
+      overflow-x: auto; flex-wrap: nowrap;
+      scrollbar-width: none; -ms-overflow-style: none;
+      padding-bottom: 2px;
+    }
+    .filter-row::-webkit-scrollbar { display: none; }
+    @media (min-width: 640px) {
+      .filter-row { flex-wrap: wrap; justify-content: center; overflow-x: visible; }
+    }
 
     .job-card {
       background: white; border: 1px solid #e5e7eb; border-radius: 1rem;
@@ -179,7 +189,7 @@
   <div class="sticky top-16 z-40 bg-white border-b border-gray-100 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-3">
       <!-- Ligne 1 : Lieu -->
-      <div class="flex flex-wrap justify-center items-center gap-2">
+      <div class="filter-row">
         <span class="filter-group-label w-14 shrink-0" data-en="Location">Lieu</span>
         <button class="filter-btn active" data-filter="all"             onclick="setFilter(this,'all')"><span data-en="All">Toutes</span></button>
         <button class="filter-btn"        data-filter="tunis"           onclick="setFilter(this,'tunis')">🇹🇳 Tunis</button>
@@ -198,7 +208,7 @@
       <!-- Séparateur -->
       <div class="border-t border-gray-100"></div>
       <!-- Ligne 2 : Domaine -->
-      <div class="flex flex-wrap justify-center items-center gap-2">
+      <div class="filter-row">
         <span class="filter-group-label w-14 shrink-0" data-en="Domain">Domaine</span>
         <button class="filter-btn" data-filter="developpement"  onclick="setFilter(this,'developpement')"><span data-en="Development">Développement</span></button>
         <button class="filter-btn" data-filter="data-bi"        onclick="setFilter(this,'data-bi')">Data &amp; BI</button>
