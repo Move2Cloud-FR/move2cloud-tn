@@ -283,9 +283,7 @@
   <!-- ===================== NAVBAR ===================== -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-
-      <!-- Logo -->
-      <a href="/index.html" class="flex items-center gap-3">
+      <a href="/" class="flex items-center gap-3">
         <svg class="logo-icon" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg">
           <g transform="matrix(0.9077359083543534,0,0,0.9077359083543534,-18.170967063685705,-13.6160386253153)" fill="#c70039">
             <path d="M83.7,71.1c0.2,0,0.3,0,0.5-0.1l1.7-1c0.5-0.3,0.6-0.9,0.4-1.4c-0.3-0.5-0.9-0.6-1.4-0.4l-1.7,1c-0.5,0.3-0.6,0.9-0.4,1.4C83,70.9,83.3,71.1,83.7,71.1z"/>
@@ -309,16 +307,14 @@
           <div class="text-xs text-primary font-medium -mt-1 tracking-widest">TUNISIE</div>
         </div>
       </a>
-
-      <!-- Desktop Links -->
       <div class="hidden md:flex items-center gap-6">
-        <a href="/index.html#services" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.services">Services</a>
-        <a href="/index.html#about" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.about">À propos</a>
-        <a href="/index.html#values" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.values">Nos valeurs</a>
-        <a href="/index.html#process" class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.process">Notre approche</a>
-        <a href="/actualites" class="nav-link text-sm font-medium text-primary transition-colors font-semibold" data-i18n="nav.news">Actualités</a>
-        <a href="/index.html#contact" class="btn-primary text-sm" data-i18n="nav.contact">Contactez-nous</a>
-        <!-- Language switcher -->
+        <a href="/services"   class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.services">Services</a>
+        <a href="/about"      class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.about">À propos</a>
+        <a href="/values"     class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.values">Nos valeurs</a>
+        <a href="/approach"   class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.process">Notre approche</a>
+        <a href="/actualites" class="nav-link text-sm font-medium text-primary font-semibold transition-colors" data-i18n="nav.news">Actualités</a>
+        <a href="/rejoindre"  class="nav-link text-sm font-medium text-gray-700 hover:text-primary transition-colors" data-i18n="nav.jobs">Nous rejoindre</a>
+        <a href="/contact"    class="btn-primary text-sm" data-i18n="nav.contact">Contactez-nous</a>
         <div class="relative" id="lang-switcher">
           <button class="lang-btn" id="lang-btn" onclick="toggleLangMenu()">
             <span id="lang-flag">🇫🇷</span>
@@ -331,38 +327,20 @@
           </div>
         </div>
       </div>
-
-      <!-- Mobile burger -->
       <div class="flex items-center gap-2 md:hidden">
-        <!-- Mobile lang switcher -->
-        <div class="relative" id="lang-switcher-mobile">
-          <button class="lang-btn" onclick="toggleLangMenuMobile()">
-            <span id="lang-flag-mobile">🇫🇷</span>
-            <svg class="lang-chevron" id="lang-chevron-mobile" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </button>
-          <div class="lang-dropdown absolute right-0 top-full mt-1 bg-white border border-gray-100 rounded-xl shadow-lg overflow-hidden z-50 min-w-[130px]" id="lang-dropdown-mobile">
-            <button class="lang-option" onclick="setLang('fr')">🇫🇷 Français</button>
-            <button class="lang-option" onclick="setLang('en')">🇬🇧 English</button>
-          </div>
-        </div>
         <button id="burger" class="p-2 text-gray-700" aria-label="Menu">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="3" y1="6" x2="21" y2="6"/>
-            <line x1="3" y1="12" x2="21" y2="12"/>
-            <line x1="3" y1="18" x2="21" y2="18"/>
-          </svg>
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
       </div>
     </nav>
-
-    <!-- Mobile menu -->
     <div id="mobile-menu" class="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3">
-      <a href="/index.html#services" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.services">Services</a>
-      <a href="/index.html#about" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.about">À propos</a>
-      <a href="/index.html#values" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.values">Nos valeurs</a>
-      <a href="/index.html#process" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.process">Notre approche</a>
-      <a href="/actualites" class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.news">Actualités</a>
-      <a href="/index.html#contact" class="block btn-primary text-center text-sm" data-i18n="nav.contact">Contactez-nous</a>
+      <a href="/services"   class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.services">Services</a>
+      <a href="/about"      class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.about">À propos</a>
+      <a href="/values"     class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.values">Nos valeurs</a>
+      <a href="/approach"   class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.process">Notre approche</a>
+      <a href="/actualites" class="block text-sm font-medium text-primary font-semibold" data-i18n="nav.news">Actualités</a>
+      <a href="/rejoindre"  class="block text-sm font-medium text-gray-700 hover:text-primary" data-i18n="nav.jobs">Nous rejoindre</a>
+      <a href="/contact"    class="block btn-primary text-center text-sm" data-i18n="nav.contact">Contactez-nous</a>
     </div>
   </header>
 
