@@ -221,6 +221,8 @@
     #mobile-menu { display: none; }
     #mobile-menu.open { display: block; }
 
+    #services, #about, #values, #process, #contact { scroll-margin-top: 72px; }
+
     .fade-in {
       opacity: 0;
       transform: translateY(20px);
@@ -1180,7 +1182,7 @@
 
     async function loadLang(lang) {
       try {
-        const res = await fetch(`assets/i18n/${lang}.json`);
+        const res = await fetch(`/assets/i18n/${lang}.json`);
         if (!res.ok) throw new Error(res.status);
         const dict = await res.json();
         currentLang = lang;
@@ -1343,7 +1345,12 @@
     // On page load: scroll to section matching the URL path
     (() => {
       const id = routes[location.pathname];
-      if (id && id !== 'hero') setTimeout(() => scrollToSection(id, false), 80);
+      if (!id || id === 'hero') return;
+      if (document.readyState === 'complete') {
+        scrollToSection(id, false);
+      } else {
+        window.addEventListener('load', () => scrollToSection(id, false), { once: true });
+      }
     })();
 
     // ── Mobile menu
