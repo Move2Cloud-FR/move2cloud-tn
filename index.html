@@ -1309,20 +1309,7 @@
     document.addEventListener('click', e => {
       const a = e.target.closest('a[href^="/"]');
       if (!a) return;
-      const url = new URL(a.href, location.origin);
-      const path = url.pathname;
-      const hash = url.hash.slice(1); // e.g. 'process' from /#process
-
-      // Handle /#sectionId hash links (from cross-page navigation)
-      if (hash && path === '/') {
-        e.preventDefault();
-        const routePath = Object.entries(routes).find(([, id]) => id === hash)?.[0] || '/' + hash;
-        history.pushState({}, '', routePath);
-        scrollToSection(hash);
-        document.getElementById('mobile-menu')?.classList.remove('open');
-        return;
-      }
-
+      const path = new URL(a.href, location.origin).pathname;
       if (!(path in routes)) return;
       // Let /actualites navigate to the actual HTML page
       if (path === '/actualites') return;
@@ -1353,9 +1340,9 @@
       if (el) urlObserver.observe(el);
     });
 
-    // On page load: scroll to section matching the URL path or hash
+    // On page load: scroll to section matching the URL path
     (() => {
-      const id = routes[location.pathname] || routes['/' + location.hash.slice(1)] || (location.hash ? location.hash.slice(1) : null);
+      const id = routes[location.pathname];
       if (id && id !== 'hero') setTimeout(() => scrollToSection(id, false), 80);
     })();
 

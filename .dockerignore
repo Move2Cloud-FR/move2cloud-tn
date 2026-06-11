@@ -1,0 +1,6 @@
+Dockerfile
+nginx.conf
+.dockerignore
+amplify.yml
+terraform/
+README.md
