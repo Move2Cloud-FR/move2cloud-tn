@@ -1,8 +1,8 @@
 {
-  "title": "IT Project Manager",
-  "sector": "Project Management",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Lead complex IT projects in a multi-client environment in Montpellier. You coordinate the technical teams and ensure delivery within the defined timelines and budgets.",
+  "job.title": "IT Project Manager",
+  "job.sector": "Project Management",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Lead complex IT projects in a multi-client environment in Montpellier. You coordinate the technical teams and ensure delivery within the defined timelines and budgets.",
   "skills": [
     "Gestion de projet",
     "Agile",
@@ -10,15 +10,15 @@
     "JIRA",
     "Confluence"
   ],
-  "mission.1": "Cadrer les projets : périmètre, planning, budget, risques",
-  "mission.2": "Animer les comités de pilotage et rédiger les comptes-rendus",
-  "mission.3": "Coordonner les équipes techniques pluridisciplinaires",
-  "mission.4": "Suivre les KPI qualité, coûts et délais",
-  "mission.5": "Gérer les relations clients et les escalades",
-  "mission.6": "Accompagner les équipes dans l'adoption des méthodes Agile",
-  "profile.1": "Bac+5 en informatique ou management de projet",
-  "profile.2": "3 à 7 years of experience in gestion de projets IT",
-  "profile.3": "Maîtrise des méthodes Agile (Scrum, Kanban)",
-  "profile.4": "Certification PMP ou PRINCE2 is a plus",
-  "profile.5": "Excellent relationnel et sens de la communication"
+  "mission.1": "Define project scope: perimeter, schedule, budget, and risks",
+  "mission.2": "Lead steering committee meetings and write minutes",
+  "mission.3": "Coordinate cross-functional technical teams",
+  "mission.4": "Monitor quality, cost, and timeline KPIs",
+  "mission.5": "Manage client relationships and escalations",
+  "mission.6": "Support teams in adopting Agile methodologies",
+  "profile.1": "Master's degree (Bac+5) in Computer Science or Project Management",
+  "profile.2": "3 to 7 years of experience in IT project management",
+  "profile.3": "Proficiency in Agile methodologies (Scrum, Kanban)",
+  "profile.4": "PMP or PRINCE2 certification is a plus",
+  "profile.5": "Strong interpersonal skills and communication"
 }

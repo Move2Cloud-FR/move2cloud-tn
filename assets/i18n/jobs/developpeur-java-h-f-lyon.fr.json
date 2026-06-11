@@ -1,8 +1,8 @@
 {
-  "title": "Développeur Java",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Intégrez notre équipe Java à Lyon pour travailler sur des projets variés et stimulants. Vous développez des solutions backend robustes pour des clients grands comptes dans un cadre Agile.",
+  "job.title": "Développeur Java",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Intégrez notre équipe Java à Lyon pour travailler sur des projets variés et stimulants. Vous développez des solutions backend robustes pour des clients grands comptes dans un cadre Agile.",
   "skills": [
     "Java",
     "Spring Boot",

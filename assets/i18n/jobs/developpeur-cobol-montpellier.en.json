@@ -1,8 +1,8 @@
 {
-  "title": "COBOL Developer",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Work on critical mainframe systems in Montpellier. You develop and maintain COBOL applications for major enterprise clients in the banking, insurance, and public administration sectors.",
+  "job.title": "COBOL Developer",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Work on critical mainframe systems in Montpellier. You develop and maintain COBOL applications for major enterprise clients in the banking, insurance, and public administration sectors.",
   "skills": [
     "COBOL",
     "JCL",
@@ -13,13 +13,13 @@
     "VSAM"
   ],
   "mission.1": "Develop and maintain applications COBOL / z/OS",
-  "mission.2": "Analyser et corriger les anomalies",
+  "mission.2": "Analyse and fix anomalies",
   "mission.3": "Participer aux projets de migration vers des architectures modernes",
   "mission.4": "Write technical documentation",
   "mission.5": "Réaliser les tests et les recettes",
-  "mission.6": "Assurer le support applicatif N2/N3",
-  "profile.1": "Bac+2/5 en informatique",
-  "profile.2": "2 à 6 years of experience COBOL mainframe",
+  "mission.6": "Provide N2/N3 application support",
+  "profile.1": "Bac+2/+5 degree in informatique",
+  "profile.2": "2 to 6 years of experience COBOL mainframe",
   "profile.3": "Proficiency in COBOL, JCL, CICS, DB2 / IMS",
   "profile.4": "Connaissance z/OS",
   "profile.5": "Fiabilité, rigueur et sens du service"

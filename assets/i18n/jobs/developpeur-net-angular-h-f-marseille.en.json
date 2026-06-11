@@ -1,8 +1,8 @@
 {
-  "title": ".Net / Angular Developer",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our development team in Marseille to design robust web applications using the .NET and Angular stack. You work in an Agile environment on varied projects for major enterprise clients.",
+  "job.title": ".Net / Angular Developer",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our development team in Marseille to design robust web applications using the .NET and Angular stack. You work in an Agile environment on varied projects for major enterprise clients.",
   "skills": [
     ".NET",
     "C#",
@@ -18,9 +18,9 @@
   "mission.4": "Écrire et maintenir les tests automatisés",
   "mission.5": "Contribuer aux revues de code et à la documentation",
   "mission.6": "Collaborer en méthode Agile Scrum",
-  "profile.1": "Bac+3/5 en développement informatique",
-  "profile.2": "2 à 5 years of experience .NET et Angular",
+  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "profile.2": "2 to 5 years of experience .NET et Angular",
   "profile.3": "Good command of de C#, TypeScript, Entity Framework",
   "profile.4": "Knowledge of bases de données relationnelles",
-  "profile.5": "Autonomie et goût du travail en équipe"
+  "profile.5": "Autonomy and enjoyment of teamwork"
 }

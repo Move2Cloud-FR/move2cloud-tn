@@ -1,8 +1,8 @@
 {
-  "title": "Ingénieur Systèmes PCI DSS",
-  "sector": "Cybersécurité",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant qu'Ingénieur Systèmes PCI/DSS à Avignon, vous assurez la conformité et la sécurité des environnements de paiement de nos clients. Vous êtes le référent sur la norme PCI DSS.",
+  "job.title": "Ingénieur Systèmes PCI DSS",
+  "job.sector": "Cybersécurité",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant qu'Ingénieur Systèmes PCI/DSS à Avignon, vous assurez la conformité et la sécurité des environnements de paiement de nos clients. Vous êtes le référent sur la norme PCI DSS.",
   "skills": [
     "PCI DSS",
     "Sécurité SI",

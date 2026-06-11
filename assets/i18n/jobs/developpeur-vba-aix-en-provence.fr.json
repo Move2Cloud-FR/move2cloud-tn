@@ -1,8 +1,8 @@
 {
-  "title": "Développeur VBA",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Nous recherchons un Développeur VBA pour automatiser et optimiser les processus métier de nos clients à base d'Excel, Access et Office. Vous apportez des solutions concrètes aux besoins de productivité.",
+  "job.title": "Développeur VBA",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Nous recherchons un Développeur VBA pour automatiser et optimiser les processus métier de nos clients à base d'Excel, Access et Office. Vous apportez des solutions concrètes aux besoins de productivité.",
   "skills": [
     "VBA",
     "Excel",

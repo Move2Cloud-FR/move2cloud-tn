@@ -1,8 +1,8 @@
 {
-  "title": "Talend Expert",
-  "sector": "Data & BI",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As an Expert Talend, you are the technical reference for our Data practice in Marseille. You design complex ETL/ELT architectures and support the teams in upskilling.",
+  "job.title": "Talend Expert",
+  "job.sector": "Data & BI",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As an Expert Talend, you are the technical reference for our Data practice in Marseille. You design complex ETL/ELT architectures and support the teams in upskilling.",
   "skills": [
     "Talend",
     "ETL/ELT",
@@ -17,10 +17,10 @@
   "mission.3": "Définir les standards et les bonnes pratiques",
   "mission.4": "Encadrer techniquement les développeurs BI",
   "mission.5": "Participer aux phases d'architecture et d'avant-vente",
-  "mission.6": "Assurer la migration et la modernisation des pipelines de données",
+  "mission.6": "Ensure data pipeline migration and modernisation",
   "mission.7": "Veille technologique sur l'écosystème Data",
-  "profile.1": "Bac+4/5 en informatique",
-  "profile.2": "4 à 8 years of experience avec Talend",
+  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.2": "4 to 8 years of experience with Talend",
   "profile.3": "Expert ETL/ELT, maîtrise avancée de Talend Data Integration",
   "profile.4": "Knowledge of architectures Big Data (Spark, Hadoop) is a plus",
   "profile.5": "Ability to encadrer et à partager les connaissances"

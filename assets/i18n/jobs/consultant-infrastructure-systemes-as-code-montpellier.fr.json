@@ -1,8 +1,8 @@
 {
-  "title": "Consultant Infrastructure Systèmes As Code",
-  "sector": "Infrastructure",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant que Consultant Infrastructure As Code, vous accompagnez nos clients dans l'automatisation et la codification de leurs infrastructures. Vous êtes un expert de l'IaC et des pratiques DevOps.",
+  "job.title": "Consultant Infrastructure Systèmes As Code",
+  "job.sector": "Infrastructure",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant que Consultant Infrastructure As Code, vous accompagnez nos clients dans l'automatisation et la codification de leurs infrastructures. Vous êtes un expert de l'IaC et des pratiques DevOps.",
   "skills": [
     "Terraform",
     "Ansible",

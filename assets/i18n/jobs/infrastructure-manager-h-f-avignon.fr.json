@@ -1,8 +1,8 @@
 {
-  "title": "Infrastructure Manager",
-  "sector": "Management IT",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant qu'Infrastructure Manager à Avignon, vous pilotez les équipes infrastructure et garantissez la disponibilité, la sécurité et l'évolution des SI de nos clients.",
+  "job.title": "Infrastructure Manager",
+  "job.sector": "Management IT",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant qu'Infrastructure Manager à Avignon, vous pilotez les équipes infrastructure et garantissez la disponibilité, la sécurité et l'évolution des SI de nos clients.",
   "skills": [
     "Management",
     "Infrastructure",

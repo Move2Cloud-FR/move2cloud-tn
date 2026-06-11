@@ -1,8 +1,8 @@
 {
-  "title": "Product Owner",
-  "sector": "Produit & Agile",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As a Product Owner in Montpellier, you define the product vision and manage the backlog to maximise the value delivered to users. You work closely with development teams and stakeholders.",
+  "job.title": "Product Owner",
+  "job.sector": "Produit & Agile",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As a Product Owner in Montpellier, you define the product vision and manage the backlog to maximise the value delivered to users. You work closely with development teams and stakeholders.",
   "skills": [
     "Product Owner",
     "Agile",
@@ -19,8 +19,8 @@
   "mission.5": "Valider les livrables et assurer la recette",
   "mission.6": "Mesurer la valeur délivrée et les KPIs produit",
   "mission.7": "Conduire le changement auprès des parties prenantes",
-  "profile.1": "Bac+4/5 en informatique, gestion ou école de commerce",
-  "profile.2": "3 à 7 years of experience in tant que PO ou Business Analyst",
+  "profile.1": "Bachelor's to Master's degree in informatique, gestion ou école de commerce",
+  "profile.2": "3 to 7 years of experience in tant que PO ou Business Analyst",
   "profile.3": "Certification Scrum Product Owner (CSPO) is a plus",
   "profile.4": "Proficiency in JIRA, Confluence et des outils Agile",
   "profile.5": "Empathie, leadership et orientation valeur"

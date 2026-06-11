@@ -1,8 +1,8 @@
 {
-  "title": "Angular Front-End Developer",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our team frontend à Annecy to design modern user experiences with Angular. You work on innovative web projects in an Agile environment.",
+  "job.title": "Angular Front-End Developer",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our team frontend à Annecy to design modern user experiences with Angular. You work on innovative web projects in an Agile environment.",
   "skills": [
     "Angular",
     "TypeScript",
@@ -18,8 +18,8 @@
   "mission.4": "Optimiser les performances front-end",
   "mission.5": "Écrire des tests unitaires et end-to-end",
   "mission.6": "Collaborer étroitement avec les équipes UX et backend",
-  "profile.1": "Bac+3/5 en développement web",
-  "profile.2": "2 à 5 years of experience Angular",
+  "profile.1": "Bachelor's to Master's degree in développement web",
+  "profile.2": "2 to 5 years of experience Angular",
   "profile.3": "Maîtrise d'Angular, TypeScript, HTML5/SCSS",
   "profile.4": "Knowledge of REST API et GraphQL",
   "profile.5": "Sensibilité UX et goût pour les interfaces soignées"

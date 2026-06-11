@@ -1,8 +1,8 @@
 {
-  "title": "IT Recruitment & Business Development Apprentice",
-  "sector": "Ressources Humaines",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Move2Cloud is recruiting an apprentice in Lyon to join our HR & sales team. You actively participate in recruiting IT profiles and in the commercial development of the agency.",
+  "job.title": "IT Recruitment & Business Development Apprentice",
+  "job.sector": "Ressources Humaines",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Move2Cloud is recruiting an apprentice in Lyon to join our HR & sales team. You actively participate in recruiting IT profiles and in the commercial development of the agency.",
   "skills": [
     "Recrutement IT",
     "LinkedIn",
@@ -11,15 +11,15 @@
     "Communication",
     "Alternance"
   ],
-  "mission.1": "Sourcer et présélectionner des profils IT sur LinkedIn et les jobboards",
-  "mission.2": "Rédiger et diffuser les offres d'emploi",
-  "mission.3": "Conduire les entretiens de préqualification",
-  "mission.4": "Assister au développement commercial : prospection, relance, suivi client",
-  "mission.5": "Contribuer à la mise à jour du CRM",
-  "mission.6": "Participer aux événements de recrutement et forums écoles",
-  "profile.1": "En formation Bac+3/5 en RH, école de commerce ou équivalent",
+  "mission.1": "Source and pre-screen IT profiles on LinkedIn and job boards",
+  "mission.2": "Write and publish job postings",
+  "mission.3": "Conduct pre-qualification interviews",
+  "mission.4": "Assist with business development: prospecting, follow-up, client management",
+  "mission.5": "Contribute to CRM updates",
+  "mission.6": "Participate in recruitment events and campus forums",
+  "profile.1": "Currently enrolled in a Bac+3/5 programme in HR, business school, or equivalent",
   "profile.2": "Première expérience ou stage en recrutement ou commercial is a plus",
-  "profile.3": "Aisance relationnelle et goût du contact",
-  "profile.4": "Dynamisme, curiosité et envie d'apprendre",
-  "profile.5": "Maîtrise des outils bureautiques et LinkedIn"
+  "profile.3": "Strong interpersonal skills and enjoyment of client interactions",
+  "profile.4": "Energy, curiosity, and eagerness to learn",
+  "profile.5": "Proficiency in office tools and LinkedIn"
 }

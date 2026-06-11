@@ -1,8 +1,8 @@
 {
-  "title": "SAP FICO Consultant",
-  "sector": "ERP / SAP",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "En tant que Consultant SAP FICO à Avignon, vous accompagnez nos clients dans la mise en œuvre et l'optimisation de leurs modules Finance (FI) et Contrôle de gestion (CO) SAP.",
+  "job.title": "SAP FICO Consultant",
+  "job.sector": "ERP / SAP",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "En tant que Consultant SAP FICO à Avignon, vous accompagnez nos clients dans la mise en œuvre et l'optimisation de leurs modules Finance (FI) et Contrôle de gestion (CO) SAP.",
   "skills": [
     "SAP FI",
     "SAP CO",
@@ -12,15 +12,15 @@
     "Comptabilité",
     "Excel"
   ],
-  "mission.1": "Analyser les besoins fonctionnels Finance / Contrôle de gestion",
+  "mission.1": "Analyse functional requirements for Finance / Management Control",
   "mission.2": "Paramétrer et configurer les modules SAP FI/CO",
   "mission.3": "Rédiger les spécifications fonctionnelles et techniques",
   "mission.4": "Réaliser les tests et la recette fonctionnelle",
   "mission.5": "Former et accompagner les utilisateurs",
-  "mission.6": "Assurer le support post-démarrage",
+  "mission.6": "Provide post-go-live support",
   "mission.7": "Participer aux projets S/4HANA",
-  "profile.1": "Bac+4/5 en informatique, finance ou gestion",
-  "profile.2": "3 à 7 years of experience SAP FI/CO",
+  "profile.1": "Bachelor's to Master's degree in informatique, finance ou gestion",
+  "profile.2": "3 to 7 years of experience SAP FI/CO",
   "profile.3": "Maîtrise des processus comptables et de contrôle de gestion",
   "profile.4": "Certification SAP FI ou CO is a plus",
   "profile.5": "Rigeur, sens du client et aptitude à travailler en équipe"

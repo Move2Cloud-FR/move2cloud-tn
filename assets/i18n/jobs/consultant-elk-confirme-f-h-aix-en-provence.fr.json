@@ -1,8 +1,8 @@
 {
-  "title": "Consultant ELK confirmé F/H",
-  "sector": "Data & BI",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant que Consultant ELK confirmé à Aix-en-Provence, vous déployez et administrez des plateformes Elasticsearch / Logstash / Kibana pour nos clients. Vous êtes l'expert observabilité de l'équipe.",
+  "job.title": "Consultant ELK confirmé F/H",
+  "job.sector": "Data & BI",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant que Consultant ELK confirmé à Aix-en-Provence, vous déployez et administrez des plateformes Elasticsearch / Logstash / Kibana pour nos clients. Vous êtes l'expert observabilité de l'équipe.",
   "skills": [
     "Elasticsearch",
     "Logstash",

@@ -1,8 +1,8 @@
 {
-  "title": "Business Analyst",
-  "sector": "Conseil",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As a Business Analyst in Montpellier, you bridge the gap between business needs and technical teams. You analyse processes, write specifications, and support transformation projects.",
+  "job.title": "Business Analyst",
+  "job.sector": "Conseil",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As a Business Analyst in Montpellier, you bridge the gap between business needs and technical teams. You analyse processes, write specifications, and support transformation projects.",
   "skills": [
     "Analyse fonctionnelle",
     "UML",
@@ -12,16 +12,16 @@
     "JIRA",
     "User Stories"
   ],
-  "mission.1": "Recueillir et analyser les besoins métier",
-  "mission.2": "Rédiger les spécifications fonctionnelles et user stories",
-  "mission.3": "Animer les ateliers de cadrage avec les parties prenantes",
-  "mission.4": "Assurer la liaison entre MOA et MOE",
-  "mission.5": "Participer aux phases de recette et de validation",
-  "mission.6": "Contribuer à la gestion du changement",
-  "mission.7": "Produire des livrables de qualité (cahiers des charges, SFD)",
-  "profile.1": "Bac+4/5 en informatique, gestion ou conseil",
-  "profile.2": "3 à 6 years of experience in analyse fonctionnelle",
-  "profile.3": "Maîtrise des outils de modélisation (UML, BPMN)",
+  "mission.1": "Gather and analyse business requirements",
+  "mission.2": "Write functional specifications and user stories",
+  "mission.3": "Facilitate scoping workshops with stakeholders",
+  "mission.4": "Act as liaison between business and technical teams",
+  "mission.5": "Participate in acceptance and validation phases",
+  "mission.6": "Contribute to change management",
+  "mission.7": "Produce quality deliverables (requirements documents, functional specs)",
+  "profile.1": "Bachelor's to Master's degree in Computer Science, management, or consulting",
+  "profile.2": "3 to 6 years of experience in functional analysis",
+  "profile.3": "Proficiency in modelling tools (UML, BPMN)",
   "profile.4": "Knowledge of méthodes Agile",
-  "profile.5": "Excellentes capacités rédactionnelles et de communication"
+  "profile.5": "Excellent writing and communication skills"
 }

@@ -1,8 +1,8 @@
 {
-  "title": "Développeur .Net Angular",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Intégrez notre équipe de développement à Marseille pour concevoir des applications web robustes avec la stack .NET et Angular. Vous travaillez sur des projets innovants pour des clients variés.",
+  "job.title": "Développeur .Net Angular",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Intégrez notre équipe de développement à Marseille pour concevoir des applications web robustes avec la stack .NET et Angular. Vous travaillez sur des projets innovants pour des clients variés.",
   "skills": [
     ".NET",
     "C#",

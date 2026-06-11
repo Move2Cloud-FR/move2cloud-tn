@@ -1,8 +1,8 @@
 {
-  "title": "Testeur QA confirmé",
-  "sector": "Qualité & Tests",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Rejoignez notre équipe QA à Avignon pour garantir la qualité des applications de nos clients. Vous définissez et exécutez les stratégies de tests, automatisez les scénarios et assurez la conformité aux exigences.",
+  "job.title": "Testeur QA confirmé",
+  "job.sector": "Qualité & Tests",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Rejoignez notre équipe QA à Avignon pour garantir la qualité des applications de nos clients. Vous définissez et exécutez les stratégies de tests, automatisez les scénarios et assurez la conformité aux exigences.",
   "skills": [
     "Selenium",
     "Cypress",

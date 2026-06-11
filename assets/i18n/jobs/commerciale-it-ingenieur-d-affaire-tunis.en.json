@@ -1,8 +1,8 @@
 {
-  "title": "IT Sales Executive",
-  "sector": "Sales",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Move2Cloud Tunisia is looking for an IT Sales Executive to develop its client portfolio in Tunisia and France. You will be the ambassador of our Cloud & DevOps offerings to CIOs and business directors.",
+  "job.title": "IT Sales Executive",
+  "job.sector": "Sales",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Move2Cloud Tunisia is looking for an IT Sales Executive to develop its client portfolio in Tunisia and France. You will be the ambassador of our Cloud & DevOps offerings to CIOs and business directors.",
   "skills": [
     "Cloud",
     "Conseil IT",
@@ -13,13 +13,13 @@
   "mission.1": "Prospecter de nouveaux clients (PME, ETI, grands comptes) en Tunisie et en France",
   "mission.2": "Identifier les besoins clients et construire des propositions commerciales adaptées",
   "mission.3": "Piloter le cycle de vente de bout en bout : qualification, démo, négociation, closing",
-  "mission.4": "Assurer le suivi et la fidélisation du portefeuille clients existant",
+  "mission.4": "Manage and retain the existing client portfolio",
   "mission.5": "Collaborer avec les équipes techniques pour la rédaction des offres",
   "mission.6": "Participer aux événements sectoriels et salons IT",
-  "mission.7": "Atteindre et dépasser les objectifs trimestriels de CA",
-  "profile.1": "Formation Bac+3/5 en commerce, management ou informatique",
+  "mission.7": "Achieve and exceed quarterly revenue targets",
+  "profile.1": "Bachelor's to Master's degree in commerce, management ou informatique",
   "profile.2": "Experience with 2 à 5 ans en vente de services IT ou conseil",
   "profile.3": "Maîtrise du français courant, bonne présentation orale",
   "profile.4": "Connaissance du secteur cloud / ESN est un plus",
-  "profile.5": "Autonomie, ténacité et forte orientation résultats"
+  "profile.5": "Autonomy, tenacity, and strong results orientation"
 }

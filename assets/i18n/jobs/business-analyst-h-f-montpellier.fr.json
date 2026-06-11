@@ -1,8 +1,8 @@
 {
-  "title": "Business Analyst",
-  "sector": "Conseil",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant que Business Analyst à Montpellier, vous faites le lien entre les besoins métier et les équipes techniques. Vous analysez les processus, rédigez les spécifications et accompagnez les projets de transformation.",
+  "job.title": "Business Analyst",
+  "job.sector": "Conseil",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant que Business Analyst à Montpellier, vous faites le lien entre les besoins métier et les équipes techniques. Vous analysez les processus, rédigez les spécifications et accompagnez les projets de transformation.",
   "skills": [
     "Analyse fonctionnelle",
     "UML",

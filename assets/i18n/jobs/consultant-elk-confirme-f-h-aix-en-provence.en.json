@@ -1,8 +1,8 @@
 {
-  "title": "Experienced ELK Consultant M/F",
-  "sector": "Data & BI",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As an experienced ELK Consultant in Aix-en-Provence, you deploy and manage Elasticsearch / Logstash / Kibana platforms for our clients. You are the team's observability expert.",
+  "job.title": "Experienced ELK Consultant M/F",
+  "job.sector": "Data & BI",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As an experienced ELK Consultant in Aix-en-Provence, you deploy and manage Elasticsearch / Logstash / Kibana platforms for our clients. You are the team's observability expert.",
   "skills": [
     "Elasticsearch",
     "Logstash",
@@ -19,8 +19,8 @@
   "mission.5": "Intégrer la stack ELK dans les environnements clients",
   "mission.6": "Write technical documentation",
   "mission.7": "Former et accompagner les équipes",
-  "profile.1": "Bac+4/5 en informatique",
-  "profile.2": "3 à 6 years of experience sur la stack Elastic",
+  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.2": "3 to 6 years of experience with la stack Elastic",
   "profile.3": "Maîtrise d'Elasticsearch, Logstash, Kibana, Beats",
   "profile.4": "Knowledge of architectures cloud (AWS, Azure)",
   "profile.5": "Knowledge of la sécurité SI is a plus"

@@ -1,8 +1,8 @@
 {
-  "title": "Experienced C# / Angular Developer M/F",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our team in Avignon to develop modern web applications C#/Angular. You work at client sites on a time-and-materials or fixed-price basis on stimulating projects.",
+  "job.title": "Experienced C# / Angular Developer M/F",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our team in Avignon to develop modern web applications C#/Angular. You work at client sites on a time-and-materials or fixed-price basis on stimulating projects.",
   "skills": [
     "C#",
     ".NET Core",
@@ -17,9 +17,9 @@
   "mission.3": "Rédiger les tests unitaires et fonctionnels",
   "mission.4": "Participer aux cérémonies Agile (sprint planning, daily, rétrospective)",
   "mission.5": "Réaliser les revues de code",
-  "mission.6": "Assurer la maintenance et le support applicatif",
-  "profile.1": "Bac+3/5 en informatique",
-  "profile.2": "3 à 6 years of experience C# et Angular",
+  "mission.6": "Ensure application maintenance and support",
+  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.2": "3 to 6 years of experience C# et Angular",
   "profile.3": "Proficiency in .NET Core, TypeScript, SQL Server",
   "profile.4": "Knowledge of pratiques DevOps (CI/CD)",
   "profile.5": "Team spirit et rigueur"

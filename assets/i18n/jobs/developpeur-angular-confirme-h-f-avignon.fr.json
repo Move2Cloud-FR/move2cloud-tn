@@ -1,8 +1,8 @@
 {
-  "title": "Développeur Angular confirmé",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Rejoignez notre équipe frontend à Avignon. Vous développez des interfaces utilisateur modernes et performantes avec Angular pour des clients variés dans un environnement Agile.",
+  "job.title": "Développeur Angular confirmé",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Rejoignez notre équipe frontend à Avignon. Vous développez des interfaces utilisateur modernes et performantes avec Angular pour des clients variés dans un environnement Agile.",
   "skills": [
     "Angular",
     "TypeScript",

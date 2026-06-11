@@ -1,8 +1,8 @@
 {
-  "title": "Backend Java / Springboot Developer",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our backend Java team in Montpellier. You design high-performance microservices with Spring Boot and contribute to the architectural modernisation of our clients' systems.",
+  "job.title": "Backend Java / Springboot Developer",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our backend Java team in Montpellier. You design high-performance microservices with Spring Boot and contribute to the architectural modernisation of our clients' systems.",
   "skills": [
     "Java",
     "Spring Boot",
@@ -18,8 +18,8 @@
   "mission.4": "Mettre en place des pipelines CI/CD (Jenkins, GitLab CI)",
   "mission.5": "Écrire des tests unitaires et d'intégration",
   "mission.6": "Contribuer aux revues de code et aux décisions d'architecture",
-  "profile.1": "Bac+3/5 en développement informatique",
-  "profile.2": "3 à 6 years of experience Java Spring Boot",
+  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "profile.2": "3 to 6 years of experience Java Spring Boot",
   "profile.3": "Proficiency in Spring Boot, JPA, REST",
   "profile.4": "Knowledge of Docker et des pratiques CI/CD",
   "profile.5": "Rigueur et culture du code propre"

@@ -1,8 +1,8 @@
 {
-  "title": "Testeur QA confirmé",
-  "sector": "Qualité & Tests",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Rejoignez notre équipe QA à Aix-en-Provence pour assurer la qualité des livraisons logicielles. Vous concevez et exécutez les stratégies de tests, automatisez les scénarios et contribuez à l'amélioration continue.",
+  "job.title": "Testeur QA confirmé",
+  "job.sector": "Qualité & Tests",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Rejoignez notre équipe QA à Aix-en-Provence pour assurer la qualité des livraisons logicielles. Vous concevez et exécutez les stratégies de tests, automatisez les scénarios et contribuez à l'amélioration continue.",
   "skills": [
     "Selenium",
     "Cypress",

@@ -1,8 +1,8 @@
 {
-  "title": "HR Recruitment Manager",
-  "sector": "Ressources Humaines",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Move2Cloud Tunisia is looking for an HR Recruitment Manager to support the growth of our teams. You will oversee the entire recruitment process, from defining job profiles to onboarding new employees.",
+  "job.title": "HR Recruitment Manager",
+  "job.sector": "Ressources Humaines",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Move2Cloud Tunisia is looking for an HR Recruitment Manager to support the growth of our teams. You will oversee the entire recruitment process, from defining job profiles to onboarding new employees.",
   "skills": [
     "Recrutement",
     "LinkedIn Recruiter",

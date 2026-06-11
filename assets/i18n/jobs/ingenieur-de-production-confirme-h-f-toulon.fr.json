@@ -1,8 +1,8 @@
 {
-  "title": "Ingénieur de Production Confirmé",
-  "sector": "Production IT",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant qu'Ingénieur de Production Confirmé à Toulon, vous assurez la disponibilité et la performance des systèmes d'information de nos clients. Vous êtes le référent technique de l'équipe d'exploitation.",
+  "job.title": "Ingénieur de Production Confirmé",
+  "job.sector": "Production IT",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant qu'Ingénieur de Production Confirmé à Toulon, vous assurez la disponibilité et la performance des systèmes d'information de nos clients. Vous êtes le référent technique de l'équipe d'exploitation.",
   "skills": [
     "Linux",
     "Windows Server",

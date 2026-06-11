@@ -1,8 +1,8 @@
 {
-  "title": "AXWAY Secure Transport Technical Consultant",
-  "sector": "Infrastructure",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As an AXWAY Secure Transport Consultant, you deploy and manage secure file transfer solutions for our clients. You are the reference expert in this technology.",
+  "job.title": "AXWAY Secure Transport Technical Consultant",
+  "job.sector": "Infrastructure",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As an AXWAY Secure Transport Consultant, you deploy and manage secure file transfer solutions for our clients. You are the reference expert in this technology.",
   "skills": [
     "AXWAY",
     "Secure Transport",
@@ -19,8 +19,8 @@
   "mission.5": "Write technical documentation et les procédures",
   "mission.6": "Former les équipes clients",
   "mission.7": "Participer aux phases d'avant-vente sur les projets MFT",
-  "profile.1": "Bac+3/5 en informatique",
-  "profile.2": "3 à 6 years of experience sur AXWAY Secure Transport ou équivalent (IBM MQ FT, GoAnywhere)",
+  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.2": "3 to 6 years of experience with AXWAY Secure Transport ou équivalent (IBM MQ FT, GoAnywhere)",
   "profile.3": "Knowledge of protocoles SFTP, FTPS, AS2, HTTP/S",
   "profile.4": "Compétences Linux / Windows Server",
   "profile.5": "Rigueur et sens du service client"

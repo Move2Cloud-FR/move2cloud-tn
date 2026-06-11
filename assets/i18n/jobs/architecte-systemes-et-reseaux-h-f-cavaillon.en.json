@@ -1,8 +1,8 @@
 {
-  "title": "Systems & Networks Architect",
-  "sector": "Architecture IT",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As a Systems & Networks Architect in Cavaillon, you design reference architectures and ensure technical consistency of our clients' infrastructures.",
+  "job.title": "Systems & Networks Architect",
+  "job.sector": "Architecture IT",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As a Systems & Networks Architect in Cavaillon, you design reference architectures and ensure technical consistency of our clients' infrastructures.",
   "skills": [
     "Architecture S&R",
     "Cisco",
@@ -12,16 +12,16 @@
     "Cloud hybride",
     "VMware NSX"
   ],
-  "mission.1": "Concevoir des architectures systèmes et réseaux de référence",
-  "mission.2": "Définir les standards et les bonnes pratiques techniques",
-  "mission.3": "Accompagner les équipes dans la mise en œuvre des architectures",
-  "mission.4": "Participer aux choix technologiques et aux appels d'offres",
+  "mission.1": "Design reference system and network architectures",
+  "mission.2": "Define technical standards and best practices",
+  "mission.3": "Support teams in implementing architectures",
+  "mission.4": "Participate in technology choices and tender responses",
   "mission.5": "Monitor technological developments S&R",
-  "mission.6": "Rédiger les dossiers d'architecture et les schémas directeurs",
-  "mission.7": "Participer aux revues d'architecture",
-  "profile.1": "Bac+5 en informatique ou réseaux",
-  "profile.2": "6 à 12 years of experience dont une forte expertise en architecture infra",
-  "profile.3": "Maîtrise des technologies réseau (Cisco, SD-WAN, BGP, MPLS)",
+  "mission.6": "Write architecture documents and technical roadmaps",
+  "mission.7": "Participate in architecture reviews",
+  "profile.1": "Master's degree in informatique ou réseaux",
+  "profile.2": "6 to 12 years of experience with strong infrastructure architecture expertise",
+  "profile.3": "Proficiency in network technologies (Cisco, SD-WAN, BGP, MPLS)",
   "profile.4": "Knowledge of architectures cloud hybride",
-  "profile.5": "Certifications Cisco, CCIE ou AWS is a pluss"
+  "profile.5": "Cisco, CCIE, or AWS certifications are a plus"
 }

@@ -1,8 +1,8 @@
 {
-  "title": "Senior Java / Spring Developer",
-  "sector": "Development",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our team in Aix-en-Provence as a Senior Java / Spring Developer. You are the technical lead of the project and support developers in upskilling.",
+  "job.title": "Senior Java / Spring Developer",
+  "job.sector": "Development",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our team in Aix-en-Provence as a Senior Java / Spring Developer. You are the technical lead of the project and support developers in upskilling.",
   "skills": [
     "Java",
     "Spring Boot",
@@ -17,11 +17,11 @@
   "mission.3": "Réaliser les revues de code",
   "mission.4": "Mettre en place les pipelines CI/CD",
   "mission.5": "Optimiser les performances backend",
-  "mission.6": "Accompagner et mentorer les développeurs juniors",
+  "mission.6": "Mentor and coach junior developers",
   "mission.7": "Monitor technological developments",
-  "profile.1": "Bac+4/5 en développement informatique",
-  "profile.2": "5 à 9 years of experience Java / Spring",
+  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "profile.2": "5 to 9 years of experience Java / Spring",
   "profile.3": "Expert Spring Boot, Microservices, JPA, Kafka",
-  "profile.4": "Bonne connaissance de Docker, Kubernetes",
+  "profile.4": "Good knowledge of Docker and Kubernetes",
   "profile.5": "Pédagogie et leadership technique"
 }

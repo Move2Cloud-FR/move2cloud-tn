@@ -234,6 +234,7 @@
   "job.card.title": "Job details",
   "job.card.type": "Type",
   "job.card.location": "Location",
+  "job.card.remote": "Remote work",
   "job.card.exp": "Experience",
   "job.card.avail": "Availability",
   "job.card.avail.val": "Immediate",

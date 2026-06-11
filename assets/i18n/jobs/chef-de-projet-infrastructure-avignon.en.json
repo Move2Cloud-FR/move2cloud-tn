@@ -1,8 +1,8 @@
 {
-  "title": "Infrastructure Project Manager",
-  "sector": "Project Management",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As an Infrastructure Project Manager in Avignon, you lead IT infrastructure transformation projects for our clients. You ensure project success (Quality, Cost, Deadline).",
+  "job.title": "Infrastructure Project Manager",
+  "job.sector": "Project Management",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As an Infrastructure Project Manager in Avignon, you lead IT infrastructure transformation projects for our clients. You ensure project success (Quality, Cost, Deadline).",
   "skills": [
     "VMware",
     "Azure",
@@ -16,10 +16,10 @@
   "mission.2": "Définir les architectures cibles avec les équipes techniques",
   "mission.3": "Coordonner les intervenants internes et prestataires",
   "mission.4": "Gérer le budget et le planning des projets",
-  "mission.5": "Animer les instances de gouvernance",
-  "mission.6": "Assurer la transition vers l'exploitation",
-  "profile.1": "Bac+4/5 en informatique ou management de projet",
-  "profile.2": "4 à 8 years of experience in projets infrastructure",
+  "mission.5": "Lead governance meetings",
+  "mission.6": "Ensure transition to operations",
+  "profile.1": "Bachelor's to Master's degree in Computer Science or project management",
+  "profile.2": "4 to 8 years of experience in projets infrastructure",
   "profile.3": "Connaissance VMware, Azure/AWS, stockage SAN/NAS",
   "profile.4": "Certification PMP ou ITIL is a plus",
   "profile.5": "Rigueur, leadership et orientation client"

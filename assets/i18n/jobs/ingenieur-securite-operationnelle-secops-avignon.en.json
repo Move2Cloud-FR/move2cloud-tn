@@ -1,8 +1,8 @@
 {
-  "title": "Security Operations Engineer (SecOps)",
-  "sector": "Cybersécurité",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join the SecOps team in Avignon to ensure the monitoring, detection, and response to security incidents. You work on SIEM, vulnerability management, and hardening of information systems.",
+  "job.title": "Security Operations Engineer (SecOps)",
+  "job.sector": "Cybersécurité",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join the SecOps team in Avignon to ensure the monitoring, detection, and response to security incidents. You work on SIEM, vulnerability management, and hardening of information systems.",
   "skills": [
     "SIEM",
     "SOC",
@@ -11,15 +11,15 @@
     "Incident Response",
     "Forensics"
   ],
-  "mission.1": "Assurer la surveillance des systèmes d'information (SOC/SIEM)",
-  "mission.2": "Analyser les alertes de sécurité et qualifier les incidents",
+  "mission.1": "Monitor information systems (SOC/SIEM)",
+  "mission.2": "Analyse security alerts and qualify incidents",
   "mission.3": "Mener les investigations et réponses aux incidents",
   "mission.4": "Contribuer à l'amélioration des règles de détection",
   "mission.5": "Participer aux audits de sécurité et aux tests d'intrusion",
   "mission.6": "Rédiger les rapports d'incidents et les procédures",
   "mission.7": "Veille technologique sur les nouvelles menaces",
-  "profile.1": "Bac+5 en informatique, spécialisation cybersécurité",
-  "profile.2": "3 à 6 years of experience in sécurité opérationnelle",
+  "profile.1": "Master's degree (Bac+5) in Computer Science, spécialisation cybersécurité",
+  "profile.2": "3 to 6 years of experience in sécurité opérationnelle",
   "profile.3": "Maîtrise d'un SIEM (Splunk, QRadar, Elastic)",
   "profile.4": "Knowledge of frameworks MITRE ATT&CK, NIST",
   "profile.5": "Certifications CISSP, CEH ou GCIH is a pluss"

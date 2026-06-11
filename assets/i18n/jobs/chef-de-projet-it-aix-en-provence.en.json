@@ -1,8 +1,8 @@
 {
-  "title": "IT Project Manager",
-  "sector": "Project Management",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "Join our team in Aix-en-Provence to lead projects IT strategic. You will ensure the success of the assigned projects in terms of timelines, costs and quality.",
+  "job.title": "IT Project Manager",
+  "job.sector": "Project Management",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "Join our team in Aix-en-Provence to lead projects IT strategic. You will ensure the success of the assigned projects in terms of timelines, costs and quality.",
   "skills": [
     "Chef de projet",
     "Agile",
@@ -11,14 +11,14 @@
     "Gestion budgétaire"
   ],
   "mission.1": "Cadrer et planifier les projets IT",
-  "mission.2": "Animer les instances de gouvernance",
+  "mission.2": "Lead governance meetings",
   "mission.3": "Coordonner les équipes internes et prestataires",
   "mission.4": "Suivre les livrables et gérer les risques",
-  "mission.5": "Assurer la relation client au quotidien",
+  "mission.5": "Manage day-to-day client relationships",
   "mission.6": "Rédiger les bilans et retours d'expérience",
-  "profile.1": "Bac+5 en informatique ou management",
-  "profile.2": "3 à 7 years of experience in pilotage de projets IT",
+  "profile.1": "Master's degree in informatique ou management",
+  "profile.2": "3 to 7 years of experience in pilotage de projets IT",
   "profile.3": "Knowledge of SI d'entreprise",
   "profile.4": "Proficiency in la gestion budgétaire",
-  "profile.5": "Autonomie et sens des responsabilités"
+  "profile.5": "Autonomy and sense of responsibility"
 }

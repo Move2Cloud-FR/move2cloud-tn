@@ -1,8 +1,8 @@
 {
-  "title": "Développeur Senior Java Spring",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "En tant que Développeur Senior Java/Spring à Avignon, vous portez techniquement les projets de développement et accompagnez les équipes dans la montée en compétence. Vous intervenez sur des applications critiques.",
+  "job.title": "Développeur Senior Java Spring",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "En tant que Développeur Senior Java/Spring à Avignon, vous portez techniquement les projets de développement et accompagnez les équipes dans la montée en compétence. Vous intervenez sur des applications critiques.",
   "skills": [
     "Java",
     "Spring Boot",

@@ -234,6 +234,7 @@
   "job.card.title": "Fiche poste",
   "job.card.type": "Type",
   "job.card.location": "Lieu",
+  "job.card.remote": "Télétravail",
   "job.card.exp": "Expérience",
   "job.card.avail": "Disponibilité",
   "job.card.avail.val": "Immédiate",

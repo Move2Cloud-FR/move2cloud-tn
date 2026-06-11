@@ -1,8 +1,8 @@
 {
-  "title": "Développeur Mainframe Cobol",
-  "sector": "Développement",
-  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
-  "desc.1": "Move2Cloud recrute un Développeur Mainframe COBOL à Lyon pour intervenir sur les systèmes legacy de nos clients grands comptes. Vous participez à la maintenance et à la modernisation des applications critiques.",
+  "job.title": "Développeur Mainframe Cobol",
+  "job.sector": "Développement",
+  "job.published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "job.desc.1": "Move2Cloud recrute un Développeur Mainframe COBOL à Lyon pour intervenir sur les systèmes legacy de nos clients grands comptes. Vous participez à la maintenance et à la modernisation des applications critiques.",
   "skills": [
     "COBOL",
     "JCL",

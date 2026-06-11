@@ -1,8 +1,8 @@
 {
-  "title": "L2 Network Administrator",
-  "sector": "Réseau & Télécoms",
-  "published": "Published on 11 June 2026 · Position available immediately",
-  "desc.1": "As an L2 Network Administrator in Cavaillon, you administer and maintain the network infrastructure of our clients. You work on Cisco equipment and ensure service availability.",
+  "job.title": "L2 Network Administrator",
+  "job.sector": "Réseau & Télécoms",
+  "job.published": "Published on 11 June 2026 · Position available immediately",
+  "job.desc.1": "As an L2 Network Administrator in Cavaillon, you administer and maintain the network infrastructure of our clients. You work on Cisco equipment and ensure service availability.",
   "skills": [
     "Cisco",
     "VLANs",
@@ -12,16 +12,16 @@
     "Firewalls",
     "SNMP"
   ],
-  "mission.1": "Administrer les équipements réseau (switches, routeurs, firewalls)",
-  "mission.2": "Configurer et maintenir les VLANs, le spanning-tree, les protocoles L2",
-  "mission.3": "Diagnostiquer et résoudre les incidents réseau",
-  "mission.4": "Mettre en place des solutions de supervision (SNMP, Nagios)",
-  "mission.5": "Documenter les architectures et les procédures",
-  "mission.6": "Participer aux projets d'évolution de l'infrastructure",
-  "mission.7": "Assurer le support technique N2/N3",
-  "profile.1": "Bac+2/4 en réseaux et télécommunications",
-  "profile.2": "2 à 5 years of experience in administration réseau",
-  "profile.3": "Maîtrise des équipements Cisco (CCNA is a plus)",
+  "mission.1": "Administer network equipment (switches, routers, firewalls)",
+  "mission.2": "Configure and maintain VLANs, spanning tree, and L2 protocols",
+  "mission.3": "Diagnose and resolve network incidents",
+  "mission.4": "Implement monitoring solutions (SNMP, Nagios)",
+  "mission.5": "Document architectures and procedures",
+  "mission.6": "Participate in infrastructure evolution projects",
+  "mission.7": "Provide N2/N3 technical support",
+  "profile.1": "Associate's to Bachelor's degree in networks and telecommunications",
+  "profile.2": "2 to 5 years of experience in administration réseau",
+  "profile.3": "Proficiency with Cisco equipment (CCNA is a plus)",
   "profile.4": "Knowledge of protocoles L2 (STP, LACP, VTP)",
-  "profile.5": "Rigueur, réactivité et sens du service"
+  "profile.5": "Rigour, responsiveness, and service mindset"
 }
