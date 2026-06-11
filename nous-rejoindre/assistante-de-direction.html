@@ -554,7 +554,9 @@
         document.getElementById('opt-en').classList.toggle('active', lang === 'en');
         localStorage.setItem('lang', lang);
         currentLang = lang;
-        updateLangBtn(lang);
+        var isEN = lang === 'en';
+        document.getElementById('lang-flag').textContent = isEN ? '🇬🇧' : '🇫🇷';
+        document.getElementById('lang-label').textContent = isEN ? 'English' : 'Français';
       });
     }
     function setLang(lang) {
