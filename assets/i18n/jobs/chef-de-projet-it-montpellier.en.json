@@ -1,0 +1,24 @@
+{
+  "title": "IT Project Manager",
+  "sector": "Project Management",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "Lead complex IT projects in a multi-client environment in Montpellier. You coordinate the technical teams and ensure delivery within the defined timelines and budgets.",
+  "mission.1": "Define project scope: perimeter, schedule, budget, and risks",
+  "mission.2": "Lead steering committee meetings and write minutes",
+  "mission.3": "Coordinate cross-functional technical teams",
+  "mission.4": "Monitor quality, cost, and timeline KPIs",
+  "mission.5": "Manage client relationships and escalations",
+  "mission.6": "Support teams in adopting Agile methodologies",
+  "profile.1": "Master's degree (Bac+5) in Computer Science or Project Management",
+  "profile.2": "3 to 7 years of experience in IT project management",
+  "profile.3": "Proficiency in Agile methodologies (Scrum, Kanban)",
+  "profile.4": "PMP or PRINCE2 certification is a plus",
+  "profile.5": "Strong interpersonal skills and communication",
+  "skills": [
+    "Gestion de projet",
+    "Agile",
+    "Scrum",
+    "JIRA",
+    "Confluence"
+  ]
+}

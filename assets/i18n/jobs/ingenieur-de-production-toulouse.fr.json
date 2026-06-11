@@ -1,0 +1,16 @@
+{
+  "title": "Ingénieur de Production",
+  "sector": "Production IT",
+  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "desc.1": "Rejoignez notre équipe d'exploitation à Toulouse. Vous assurez le bon fonctionnement des systèmes d'information en production, supervisez les infrastructures et traitez les incidents avec réactivité.",
+  "mission.1": "Automatiser les tâches d'exploitation",
+  "skills": [
+    "Linux",
+    "Windows Server",
+    "Supervision",
+    "Shell",
+    "Python",
+    "Ansible",
+    "ITIL"
+  ]
+}

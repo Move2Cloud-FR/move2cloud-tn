@@ -1,0 +1,16 @@
+{
+  "title": "Développeur Backend Java Springboot",
+  "sector": "Développement",
+  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "desc.1": "Rejoignez notre équipe backend Java à Montpellier. Vous concevez des microservices performants avec Spring Boot et participez à la modernisation des architectures de nos clients.",
+  "mission.1": "Mettre en place des pipelines CI/CD (Jenkins, GitLab CI)",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "REST",
+    "Docker",
+    "PostgreSQL",
+    "Jenkins",
+    "Swagger"
+  ]
+}

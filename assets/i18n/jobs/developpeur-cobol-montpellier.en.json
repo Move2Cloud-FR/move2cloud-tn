@@ -1,0 +1,17 @@
+{
+  "title": "COBOL Developer",
+  "sector": "Development",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "Work on critical mainframe systems in Montpellier. You develop and maintain COBOL applications for major enterprise clients in the banking, insurance, and public administration sectors.",
+  "mission.1": "Develop and maintain applications COBOL / z/OS",
+  "mission.2": "Write technical documentation",
+  "skills": [
+    "COBOL",
+    "JCL",
+    "CICS",
+    "DB2",
+    "z/OS",
+    "IMS",
+    "VSAM"
+  ]
+}

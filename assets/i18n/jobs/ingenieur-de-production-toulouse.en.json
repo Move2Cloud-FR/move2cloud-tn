@@ -1,0 +1,16 @@
+{
+  "title": "IT Operations Engineer",
+  "sector": "Production IT",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "Join our operations team in Toulouse. You ensure the smooth running of production information systems, supervise infrastructure, and handle incidents to guarantee service continuity.",
+  "mission.1": "Automate operational tasks",
+  "skills": [
+    "Linux",
+    "Windows Server",
+    "Supervision",
+    "Shell",
+    "Python",
+    "Ansible",
+    "ITIL"
+  ]
+}

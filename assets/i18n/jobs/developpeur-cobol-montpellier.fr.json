@@ -1,0 +1,17 @@
+{
+  "title": "Développeur COBOL",
+  "sector": "Développement",
+  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "desc.1": "Intervenir sur des systèmes mainframe critiques à Montpellier. Vous développez et maintenez des applications COBOL pour des clients grands comptes dans les secteurs banque, assurance et administration.",
+  "mission.1": "Développer et maintenir des applications COBOL / z/OS",
+  "mission.2": "Rédiger la documentation technique",
+  "skills": [
+    "COBOL",
+    "JCL",
+    "CICS",
+    "DB2",
+    "z/OS",
+    "IMS",
+    "VSAM"
+  ]
+}

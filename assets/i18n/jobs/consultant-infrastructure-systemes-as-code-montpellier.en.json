@@ -1,0 +1,16 @@
+{
+  "title": "Infrastructure as Code Consultant",
+  "sector": "Infrastructure",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "En tant que Consultant Infrastructure As Code, vous accompagnez nos clients dans l'automatisation et la codification de leurs infrastructures. Vous êtes un expert de l'IaC et des pratiques DevOps.",
+  "mission.1": "Set up CI/CD pipelines pour l'infra",
+  "skills": [
+    "Terraform",
+    "Ansible",
+    "CI/CD",
+    "AWS",
+    "Linux",
+    "Python",
+    "GitOps"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Java Developer",
+  "sector": "Development",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "Join our Java team in Lyon to work on varied projects et stimulants. You develop back-end solutionsend robustes for major enterprise clients in an Agile environment.",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Microservices",
+    "Docker",
+    "PostgreSQL",
+    "Jenkins",
+    "Git"
+  ]
+}

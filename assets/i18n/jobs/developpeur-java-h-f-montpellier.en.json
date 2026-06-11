@@ -1,0 +1,17 @@
+{
+  "title": "Java Developer",
+  "sector": "Development",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "Join our Java development team in Montpellier. You design and develop high-performance backend applications for various clients in an Agile environment.",
+  "mission.1": "Optimize application performance",
+  "mission.2": "Ensure evolutive and corrective maintenance",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "REST API",
+    "Hibernate",
+    "SQL",
+    "Docker",
+    "Git"
+  ]
+}

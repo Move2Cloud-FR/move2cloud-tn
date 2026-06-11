@@ -1,0 +1,15 @@
+{
+  "title": "Ingénieur de Production Confirmé",
+  "sector": "Production IT",
+  "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
+  "desc.1": "Rejoignez notre équipe d'exploitation confirmée à Aix-en-Provence. Vous assurez la fiabilité des systèmes en production et êtes le référent technique pour les incidents complexes.",
+  "skills": [
+    "Linux",
+    "VMware",
+    "Zabbix",
+    "Ansible",
+    "Shell",
+    "Windows Server",
+    "ITIL"
+  ]
+}

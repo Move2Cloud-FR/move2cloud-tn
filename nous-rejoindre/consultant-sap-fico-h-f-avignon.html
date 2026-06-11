@@ -134,15 +134,15 @@
         <div class="flex flex-wrap gap-2 mb-4">
           <span class="badge badge-cdi">✅ CDI</span>
           <span class="badge badge-location">📍 Avignon</span>
-          <span class="badge badge-sector">🏢 ERP / SAP</span>
+          <span class="badge badge-sector">🏢 <span data-i18n="job.sector">ERP / SAP</span></span>
         </div>
-        <h1 class="text-3xl sm:text-4xl font-bold mb-3" data-en="SAP FICO Consultant">Consultant SAP FICO</h1>
-        <p class="text-gray-400 text-sm">Publié le 11 juin 2026 · Poste à pourvoir immédiatement</p>
+        <h1 class="text-3xl sm:text-4xl font-bold mb-3" data-i18n="job.title">Consultant SAP FICO</h1>
+        <p class="text-gray-400 text-sm" data-i18n="job.published">Publié le 11 juin 2026 · Poste à pourvoir immédiatement</p>
         <div class="flex flex-wrap gap-3 mt-8">
-          <a href="#postuler" class="btn-primary">Postuler à cette offre</a>
+          <a href="#postuler" class="btn-primary"><span data-i18n="job.apply_cta">Postuler à cette offre</span></a>
           <a href="/rejoindre" class="btn-outline" style="border-color:white;color:white;"
              onmouseover="this.style.background='white';this.style.color='#1f2937'"
-             onmouseout="this.style.background='transparent';this.style.color='white'">← Toutes les offres</a>
+             onmouseout="this.style.background='transparent';this.style.color='white'"><span data-i18n="job.back">← Toutes les offres</span></a>
         </div>
       </div>
     </div>
@@ -158,7 +158,7 @@
             <span class="w-6 h-6 rounded-full bg-red-50 flex items-center justify-center text-primary text-xs font-black">1</span>
             <span data-i18n="job.sec1">À propos du poste</span>
           </h2>
-          <p class="text-sm text-gray-600 leading-relaxed">En tant que Consultant SAP FICO à Avignon, vous accompagnez nos clients dans la mise en œuvre et l'optimisation de leurs modules Finance (FI) et Contrôle de gestion (CO) SAP.</p>
+          <p class="text-sm text-gray-600 leading-relaxed" data-i18n="job.desc.1">En tant que Consultant SAP FICO à Avignon, vous accompagnez nos clients dans la mise en œuvre et l'optimisation de leurs modules Finance (FI) et Contrôle de gestion (CO) SAP.</p>
         </section>
 
         <section class="section-card">
@@ -255,8 +255,8 @@
         <div class="px-8 sm:px-12 py-10">
           <p class="text-red-200 text-xs font-semibold uppercase tracking-widest mb-4"><span data-i18n="form.eyebrow">/ Nous rejoindre /</span></p>
           <h2 class="text-2xl sm:text-3xl font-extrabold text-white leading-tight mb-8">
-            Déposez votre candidature pour rejoindre nos équipes et relever nos défis&nbsp;!
-          </h2>
+            <span data-i18n="form.title">Déposez votre candidature pour rejoindre nos équipes et relever nos défis&nbsp;!
+          </span></h2>
           <form id="apply-form" novalidate class="space-y-5">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <input type="text" id="f-firstName" name="firstName" required placeholder="Prénom *" data-en-placeholder="First name *" data-fr-placeholder="Prénom *"
@@ -281,7 +281,7 @@
                 <span id="cv-name" class="text-white text-sm"><span data-i18n="form.cv">Choisir un fichier (CV — max 500 Ko)</span>
                 <input type="file" id="f-cv" name="file" accept=".pdf,.doc,.docx" class="hidden" onchange="onCvChange(this)" />
               </label>
-              <p id="cv-error" class="hidden text-white text-xs mt-1 font-medium">Le fichier dépasse 500 Ko.</p>
+              <p id="cv-error" class="hidden text-white text-xs mt-1 font-medium"><span data-i18n="form.cv.error">Le fichier dépasse 500 Ko.</span></p>
             </div>
             <div class="flex items-start gap-3 pt-1">
               <input type="checkbox" id="f-rgpd" class="w-4 h-4 cursor-pointer mt-0.5 shrink-0" />
@@ -292,7 +292,7 @@
             <p id="form-error" class="hidden text-white text-xs font-medium"></p>
             <button type="button" onclick="submitForm()" id="submit-btn"
               class="w-full bg-white text-gray-900 font-bold py-4 rounded-full text-sm hover:bg-gray-100 active:scale-[0.99] transition-all flex items-center justify-center gap-2">
-              <span id="submit-label">Postuler</span>
+              <span id="submit-label" data-i18n="form.submit">Postuler</span>
               <svg id="submit-spinner" class="hidden w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
@@ -390,22 +390,27 @@
         el.placeholder = lang === 'en' ? el.dataset.enPlaceholder : el.dataset.frPlaceholder;
       });
     }
-    async function loadLang(lang) {
-      if (!TRANSLATIONS[lang]) {
-        const res = await fetch(`/assets/i18n/${lang}.json`);
-        TRANSLATIONS[lang] = await res.json();
-      }
-      currentLang = lang; localStorage.setItem('lang', lang);
-      const dict = TRANSLATIONS[lang] || {};
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        if (dict[el.dataset.i18n]) el.textContent = dict[el.dataset.i18n];
+        function loadLang(lang) {
+      const slug = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
+      Promise.all([
+        fetch('../assets/i18n/' + lang + '.json').then(r => r.json()),
+        fetch('../assets/i18n/jobs/' + slug + '.' + lang + '.json').then(r => r.json()).catch(() => ({}))
+      ]).then(function(results) {
+        var mainDict = results[0], jobDict = results[1];
+        var dict = Object.assign({}, mainDict, jobDict);
+        document.querySelectorAll('[data-i18n]').forEach(function(el) {
+          var val = dict[el.dataset.i18n];
+          if (val !== undefined) {
+            el.innerHTML = Array.isArray(val) ? val.join(' · ') : val;
+          }
+        });
+        applyInlineTranslations(lang);
+        document.getElementById('opt-fr').classList.toggle('active', lang === 'fr');
+        document.getElementById('opt-en').classList.toggle('active', lang === 'en');
+        localStorage.setItem('lang', lang);
+        currentLang = lang;
+        updateLangBtn(lang);
       });
-      const isEN = lang === 'en';
-      document.getElementById('lang-flag').textContent = isEN ? '🇬🇧' : '🇫🇷';
-      document.getElementById('lang-label').textContent = isEN ? 'English' : 'Français';
-      document.getElementById('opt-fr').classList.toggle('active', !isEN);
-      document.getElementById('opt-en').classList.toggle('active', isEN);
-      applyInlineTranslations(lang);
     }
     function setLang(lang) { loadLang(lang); document.getElementById('lang-dropdown').classList.remove('open'); }
     loadLang(currentLang);

@@ -1,0 +1,19 @@
+{
+  "title": "IT Project Manager",
+  "sector": "Project Management",
+  "published": "Published on 11 June 2026 · Position available immediately",
+  "desc.1": "As an IT Project Manager, you lead digital transformation and cloud migration projects for our clients. You are the key point of contact between technical teams and decision-makers.",
+  "mission.1": "Define project scope: perimeter, schedule, budget, and risks",
+  "mission.2": "Lead steering committee meetings and write minutes",
+  "mission.3": "Coordinate cross-functional technical teams",
+  "profile.1": "Formation Master's degree (Bac+5) in Computer Science or Project Management",
+  "profile.2": "3 to 7 years of experience in IT project management",
+  "skills": [
+    "Gestion de projet",
+    "Agile",
+    "Scrum",
+    "JIRA",
+    "PMP",
+    "Cloud"
+  ]
+}
