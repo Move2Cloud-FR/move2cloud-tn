@@ -157,19 +157,19 @@
   <!-- ── HERO ── -->
   <section class="pt-28 pb-14" style="background:#f8f9fc; background-image:radial-gradient(circle,#c7003912 1px,transparent 1px); background-size:28px 28px;">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <span class="eyebrow">Carrières</span>
+      <span class="eyebrow" data-en="Careers">Carrières</span>
       <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5">
-        Rejoignez l'équipe <span style="color:#c70039">Move2Cloud</span>
+        <span data-en="Join the">Rejoignez l'équipe</span> <span style="color:#c70039">Move2Cloud</span>
       </h1>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto text-base leading-relaxed">
-        Des postes ouverts en Tunisie et en France. CDI, alternance — trouvez l'offre qui vous correspond.
+        <span data-en="Positions available in Tunisia and France. Permanent contracts, apprenticeships — find the offer that suits you.">Des postes ouverts en Tunisie et en France. CDI, alternance — trouvez l'offre qui vous correspond.</span>
       </p>
       <div class="flex flex-wrap justify-center gap-4 mt-8">
         <div class="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-100 text-sm text-gray-600">
           <span class="w-2 h-2 rounded-full bg-green-500 inline-block"></span>
-          <span id="job-count">51</span> offres ouvertes
+          <span id="job-count">51</span> <span data-en="open positions">offres ouvertes</span>
         </div>
-        <div class="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-100 text-sm text-gray-600">📍 Tunisie &amp; France</div>
+        <div class="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-100 text-sm text-gray-600">📍 <span data-en="Tunisia &amp; France">Tunisie &amp; France</span></div>
         <div class="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-100 text-sm text-gray-600">🌍 Remote possible</div>
       </div>
     </div>
@@ -180,8 +180,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-3">
       <!-- Ligne 1 : Lieu -->
       <div class="flex flex-wrap justify-center items-center gap-2">
-        <span class="filter-group-label w-14 shrink-0">Lieu</span>
-        <button class="filter-btn active" data-filter="all"             onclick="setFilter(this,'all')">Toutes</button>
+        <span class="filter-group-label w-14 shrink-0" data-en="Location">Lieu</span>
+        <button class="filter-btn active" data-filter="all"             onclick="setFilter(this,'all')"><span data-en="All">Toutes</span></button>
         <button class="filter-btn"        data-filter="tunis"           onclick="setFilter(this,'tunis')">🇹🇳 Tunis</button>
         <button class="filter-btn"        data-filter="avignon"         onclick="setFilter(this,'avignon')">🇫🇷 Avignon</button>
         <button class="filter-btn"        data-filter="montpellier"     onclick="setFilter(this,'montpellier')">🇫🇷 Montpellier</button>
@@ -199,16 +199,16 @@
       <div class="border-t border-gray-100"></div>
       <!-- Ligne 2 : Domaine -->
       <div class="flex flex-wrap justify-center items-center gap-2">
-        <span class="filter-group-label w-14 shrink-0">Domaine</span>
-        <button class="filter-btn" data-filter="developpement"  onclick="setFilter(this,'developpement')">Développement</button>
+        <span class="filter-group-label w-14 shrink-0" data-en="Domain">Domaine</span>
+        <button class="filter-btn" data-filter="developpement"  onclick="setFilter(this,'developpement')"><span data-en="Development">Développement</span></button>
         <button class="filter-btn" data-filter="data-bi"        onclick="setFilter(this,'data-bi')">Data &amp; BI</button>
-        <button class="filter-btn" data-filter="infrastructure" onclick="setFilter(this,'infrastructure')">Infrastructure</button>
-        <button class="filter-btn" data-filter="cybersecurite"  onclick="setFilter(this,'cybersecurite')">Cybersécurité</button>
-        <button class="filter-btn" data-filter="management"     onclick="setFilter(this,'management')">Management</button>
-        <button class="filter-btn" data-filter="commercial-rh"  onclick="setFilter(this,'commercial-rh')">Commercial &amp; RH</button>
-        <button class="filter-btn" data-filter="production"     onclick="setFilter(this,'production')">Production IT</button>
+        <button class="filter-btn" data-filter="infrastructure" onclick="setFilter(this,'infrastructure')"><span data-en="Infrastructure">Infrastructure</span></button>
+        <button class="filter-btn" data-filter="cybersecurite"  onclick="setFilter(this,'cybersecurite')"><span data-en="Cybersecurity">Cybersécurité</span></button>
+        <button class="filter-btn" data-filter="management"     onclick="setFilter(this,'management')"><span data-en="Management">Management</span></button>
+        <button class="filter-btn" data-filter="commercial-rh"  onclick="setFilter(this,'commercial-rh')"><span data-en="Sales &amp; HR">Commercial &amp; RH</span></button>
+        <button class="filter-btn" data-filter="production"     onclick="setFilter(this,'production')"><span data-en="IT Operations">Production IT</span></button>
         <button class="filter-btn" data-filter="erp-sap"        onclick="setFilter(this,'erp-sap')">ERP / SAP</button>
-        <button class="filter-btn" data-filter="qualite"        onclick="setFilter(this,'qualite')">Qualité &amp; Tests</button>
+        <button class="filter-btn" data-filter="qualite"        onclick="setFilter(this,'qualite')"><span data-en="Quality &amp; Testing">Qualité &amp; Tests</span></button>
       </div>
     </div>
   </div>
@@ -225,11 +225,11 @@
             <span class="badge badge-location">🇹🇳 Tunis</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Administratif</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Administrative">Administratif</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Assistante de Direction</h2>
           </div>
           <p class="text-xs text-gray-500">Tunis, Montplaisir · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/assistante-de-direction" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/assistante-de-direction" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="tn" data-sector="commercial-rh" data-city="tunis">
@@ -238,11 +238,11 @@
             <span class="badge badge-location">🇹🇳 Tunis</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Commercial</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Sales">Commercial</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Commerciale IT — Ingénieur d'affaire</h2>
           </div>
           <p class="text-xs text-gray-500">Tunis · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/commerciale-it-ingenieur-d-affaire-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/commerciale-it-ingenieur-d-affaire-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="tn" data-sector="commercial-rh" data-city="tunis">
@@ -251,11 +251,11 @@
             <span class="badge badge-location">🇹🇳 Tunis</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Ressources Humaines</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Human Resources">Ressources Humaines</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Responsable Recrutement RH</h2>
           </div>
           <p class="text-xs text-gray-500">Tunis · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/responsable-recrutement-rh-h-f-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/responsable-recrutement-rh-h-f-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="tn" data-sector="management" data-city="tunis">
@@ -264,11 +264,11 @@
             <span class="badge badge-location">🇹🇳 Tunis</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet Informatique</h2>
           </div>
           <p class="text-xs text-gray-500">Tunis · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-informatique-h-f-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-informatique-h-f-tunis" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <!-- FRANCE -->
@@ -278,11 +278,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet IT</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-it-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-it-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="aix-en-provence">
@@ -291,11 +291,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet IT</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-it-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-it-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="cybersecurite" data-city="avignon">
@@ -304,11 +304,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Cybersécurité</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Cybersecurity">Cybersécurité</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur Sécurité Opérationnelle SECOPS</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/ingenieur-securite-operationnelle-secops-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-securite-operationnelle-secops-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="montpellier">
@@ -317,11 +317,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Infrastructure</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Infrastructure">Infrastructure</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant Infrastructure Systèmes As Code</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/consultant-infrastructure-systemes-as-code-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-infrastructure-systemes-as-code-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="lyon">
@@ -330,11 +330,11 @@
             <span class="badge badge-location">🇫🇷 Lyon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet IT</h2>
           </div>
           <p class="text-xs text-gray-500">Lyon · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-it-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-it-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="aix-en-provence">
@@ -343,11 +343,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur .Net / Angular</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/developpeur-net-angular-h-f-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-net-angular-h-f-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="aix-en-provence">
@@ -356,11 +356,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur VBA</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 2 à 4 ans</p>
-          <a href="/nous-rejoindre/developpeur-vba-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-vba-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="gradignan">
@@ -369,11 +369,11 @@
             <span class="badge badge-location">🇫🇷 Gradignan</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Infrastructure</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Infrastructure">Infrastructure</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Expert Système Linux / Openshift</h2>
           </div>
           <p class="text-xs text-gray-500">Gradignan · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/expert-systeme-linux-openshift-gradignan" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/expert-systeme-linux-openshift-gradignan" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="marseille">
@@ -382,11 +382,11 @@
             <span class="badge badge-location">🇫🇷 Marseille</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur .Net / Angular</h2>
           </div>
           <p class="text-xs text-gray-500">Marseille · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/developpeur-net-angular-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-net-angular-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="data-bi" data-city="marseille">
@@ -395,11 +395,11 @@
             <span class="badge badge-location">🇫🇷 Marseille</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Data &amp; BI</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Data &amp; BI">Data &amp; BI</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant BI Talend / PowerBI</h2>
           </div>
           <p class="text-xs text-gray-500">Marseille · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/consultant-bi-talend-powerbi-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-bi-talend-powerbi-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="data-bi" data-city="marseille">
@@ -408,11 +408,11 @@
             <span class="badge badge-location">🇫🇷 Marseille</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Data &amp; BI</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Data &amp; BI">Data &amp; BI</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Expert Talend</h2>
           </div>
           <p class="text-xs text-gray-500">Marseille · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/expert-talend-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/expert-talend-h-f-marseille" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="data-bi" data-city="montpellier">
@@ -421,11 +421,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Data &amp; BI</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Data &amp; BI">Data &amp; BI</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Data Analyst Tracking Sénior</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 4 à 7 ans</p>
-          <a href="/nous-rejoindre/data-analyst-tracking-senior-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/data-analyst-tracking-senior-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="lyon">
@@ -434,11 +434,11 @@
             <span class="badge badge-location">🇫🇷 Lyon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Mainframe Cobol</h2>
           </div>
           <p class="text-xs text-gray-500">Lyon · 2 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-mainframe-cobol-h-f-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-mainframe-cobol-h-f-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="montpellier">
@@ -447,11 +447,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur C# / Angular confirmé F/H</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-c-angular-confirme-f-h-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-c-angular-confirme-f-h-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="montpellier">
@@ -460,11 +460,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Conseil</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Consulting">Conseil</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Business Analyst</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/business-analyst-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/business-analyst-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="montpellier">
@@ -473,11 +473,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Java</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/developpeur-java-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-java-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="lyon">
@@ -486,11 +486,11 @@
             <span class="badge badge-location">🇫🇷 Lyon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Java</h2>
           </div>
           <p class="text-xs text-gray-500">Lyon · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/developpeur-java-h-f-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-java-h-f-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="cavaillon">
@@ -499,11 +499,11 @@
             <span class="badge badge-location">🇫🇷 Cavaillon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Réseau &amp; Télécoms</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Network &amp; Telecoms">Réseau &amp; Télécoms</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Administrateur Réseau L2</h2>
           </div>
           <p class="text-xs text-gray-500">Cavaillon · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/administrateur-reseau-l2-cavaillon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/administrateur-reseau-l2-cavaillon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="production" data-city="avignon">
@@ -512,11 +512,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Production IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Operations">Production IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur de Production — Intégrateur d'exploitation</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/ingenieur-de-production-integrateur-d-exploitation-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-de-production-integrateur-d-exploitation-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="avignon">
@@ -525,11 +525,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Infrastructure</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Infrastructure">Infrastructure</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant technique AXWAY Secure Transport</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/consultant-technique-axway-secure-transport-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-technique-axway-secure-transport-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="avignon">
@@ -538,11 +538,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Senior Java / Spring</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 5 à 9 ans</p>
-          <a href="/nous-rejoindre/developpeur-senior-java-spring-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-senior-java-spring-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="avignon">
@@ -551,11 +551,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur C# / Angular confirmé F/H</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-c-angular-confirme-f-h-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-c-angular-confirme-f-h-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="data-bi" data-city="aix-en-provence">
@@ -564,11 +564,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Data &amp; BI</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Data &amp; BI">Data &amp; BI</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant ELK confirmé F/H</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/consultant-elk-confirme-f-h-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-elk-confirme-f-h-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="avignon">
@@ -577,11 +577,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Angular confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-angular-confirme-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-angular-confirme-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="montpellier">
@@ -590,11 +590,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Conseil</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Consulting">Conseil</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Business Analyst</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/business-analyst-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/business-analyst-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="production" data-city="toulouse">
@@ -603,11 +603,11 @@
             <span class="badge badge-location">🇫🇷 Toulouse</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Production IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Operations">Production IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur de Production</h2>
           </div>
           <p class="text-xs text-gray-500">Toulouse · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/ingenieur-de-production-toulouse" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-de-production-toulouse" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="commercial-rh" data-city="montpellier">
@@ -616,11 +616,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Ressources Humaines</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Human Resources">Ressources Humaines</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chargé de Recrutement IT</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 1 à 4 ans</p>
-          <a href="/nous-rejoindre/charge-de-recrutement-it-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/charge-de-recrutement-it-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="montpellier">
@@ -629,11 +629,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur COBOL</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 2 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-cobol-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-cobol-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="annecy">
@@ -642,11 +642,11 @@
             <span class="badge badge-location">🇫🇷 Annecy</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Front Web Angular</h2>
           </div>
           <p class="text-xs text-gray-500">Annecy · 2 à 5 ans</p>
-          <a href="/nous-rejoindre/developpeur-front-web-angular-annecy" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-front-web-angular-annecy" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="avignon">
@@ -655,11 +655,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet Systèmes &amp; Réseaux</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-systemes-et-reseaux-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-systemes-et-reseaux-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="avignon">
@@ -668,11 +668,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management de projet</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Project Management">Management de projet</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chef de Projet Infrastructure</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/chef-de-projet-infrastructure-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/chef-de-projet-infrastructure-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="avignon">
@@ -681,11 +681,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Infrastructure</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Infrastructure">Infrastructure</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur Systèmes N3</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/ingenieur-systemes-n3-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-systemes-n3-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="qualite" data-city="avignon">
@@ -694,11 +694,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Qualité &amp; Tests</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Quality &amp; Testing">Qualité &amp; Tests</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Testeur QA confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/testeur-qa-confirme-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/testeur-qa-confirme-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="erp-sap" data-city="avignon">
@@ -707,11 +707,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">ERP / SAP</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="ERP / SAP">ERP / SAP</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant SAP FICO</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/consultant-sap-fico-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-sap-fico-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="commercial-rh" data-city="lyon">
@@ -720,11 +720,11 @@
             <span class="badge badge-location">🇫🇷 Lyon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Ressources Humaines</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Human Resources">Ressources Humaines</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Chargé de Recrutement IT &amp; développement commercial</h2>
           </div>
           <p class="text-xs text-gray-500">Lyon · Alternance</p>
-          <a href="/nous-rejoindre/charge-de-recrutement-it-et-developpement-commercial-en-alternance-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/charge-de-recrutement-it-et-developpement-commercial-en-alternance-lyon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="avignon">
@@ -733,11 +733,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Management IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Management">Management IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Infrastructure Manager</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 6 à 12 ans</p>
-          <a href="/nous-rejoindre/infrastructure-manager-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/infrastructure-manager-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="infrastructure" data-city="cavaillon">
@@ -746,11 +746,11 @@
             <span class="badge badge-location">🇫🇷 Cavaillon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Architecture IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Architecture">Architecture IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Architecte Systèmes &amp; Réseaux</h2>
           </div>
           <p class="text-xs text-gray-500">Cavaillon · 6 à 12 ans</p>
-          <a href="/nous-rejoindre/architecte-systemes-et-reseaux-h-f-cavaillon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/architecte-systemes-et-reseaux-h-f-cavaillon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="aix-en-provence">
@@ -759,11 +759,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Senior Java / Spring</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 5 à 9 ans</p>
-          <a href="/nous-rejoindre/developpeur-senior-java-spring-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-senior-java-spring-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="erp-sap" data-city="avignon">
@@ -772,11 +772,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">ERP / SAP</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="ERP / SAP">ERP / SAP</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur ABAP Senior</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 5 à 9 ans</p>
-          <a href="/nous-rejoindre/developpeur-abap-senior-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-abap-senior-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="montpellier">
@@ -785,11 +785,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur Backend Java / Springboot</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-backend-java-springboot-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-backend-java-springboot-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="production" data-city="toulon">
@@ -798,11 +798,11 @@
             <span class="badge badge-location">🇫🇷 Toulon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Production IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Operations">Production IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur de Production Confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">Toulon · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/ingenieur-de-production-confirme-h-f-toulon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-de-production-confirme-h-f-toulon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="production" data-city="aix-en-provence">
@@ -811,11 +811,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Production IT</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="IT Operations">Production IT</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur de Production Confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/ingenieur-de-production-confirme-h-f-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-de-production-confirme-h-f-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="data-bi" data-city="chambery">
@@ -824,11 +824,11 @@
             <span class="badge badge-location">🇫🇷 Chambéry</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Data &amp; BI</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Data &amp; BI">Data &amp; BI</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Consultant / Analyste Data &amp; BI F/H</h2>
           </div>
           <p class="text-xs text-gray-500">Chambéry · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/consultant-analyste-data-bi-f-h-chambery" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/consultant-analyste-data-bi-f-h-chambery" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="management" data-city="montpellier">
@@ -837,11 +837,11 @@
             <span class="badge badge-location">🇫🇷 Montpellier</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Produit &amp; Agile</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Product &amp; Agile">Produit &amp; Agile</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Product Owner</h2>
           </div>
           <p class="text-xs text-gray-500">Montpellier · 3 à 7 ans</p>
-          <a href="/nous-rejoindre/product-owner-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/product-owner-h-f-montpellier" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="cybersecurite" data-city="avignon">
@@ -850,11 +850,11 @@
             <span class="badge badge-location">🇫🇷 Avignon</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Cybersécurité</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Cybersecurity">Cybersécurité</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Ingénieur Systèmes PCI / DSS</h2>
           </div>
           <p class="text-xs text-gray-500">Avignon · 4 à 8 ans</p>
-          <a href="/nous-rejoindre/ingenieur-systemes-pci-dss-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/ingenieur-systemes-pci-dss-h-f-avignon" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="qualite" data-city="aix-en-provence">
@@ -863,11 +863,11 @@
             <span class="badge badge-location">🇫🇷 Aix-en-Provence</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Qualité &amp; Tests</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Quality &amp; Testing">Qualité &amp; Tests</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Testeur QA confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">Aix-en-Provence · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/testeur-qa-confirme-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/testeur-qa-confirme-aix-en-provence" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
         <article class="job-card" data-location="fr" data-sector="developpement" data-city="france">
@@ -876,11 +876,11 @@
             <span class="badge badge-location">🇫🇷 France</span>
           </div>
           <div>
-            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Développement</p>
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1"><span data-en="Development">Développement</span></p>
             <h2 class="text-base font-bold text-gray-900 leading-snug">Développeur C# confirmé</h2>
           </div>
           <p class="text-xs text-gray-500">France · 3 à 6 ans</p>
-          <a href="/nous-rejoindre/developpeur-c-confirme-france" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039">Voir l'offre →</a>
+          <a href="/nous-rejoindre/developpeur-c-confirme-france" class="mt-auto inline-flex items-center gap-1 text-sm font-semibold hover:underline" style="color:#c70039"><span data-en="View position →">Voir l'offre →</span></a>
         </article>
 
       </div>
@@ -898,10 +898,10 @@
   <!-- ── CANDIDATURE SPONTANÉE ── -->
   <section class="py-16 bg-white border-t border-gray-100">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <span class="eyebrow">Candidature spontanée</span>
-      <h2 class="text-3xl font-bold text-gray-900 mt-5">Votre profil ne correspond pas<br/>à une offre en cours ?</h2>
-      <p class="text-gray-500 mt-4 leading-relaxed">Envoyez-nous votre CV et dites-nous ce que vous souhaitez apporter à l'équipe.</p>
-      <a href="mailto:recrutement@move2cloud.tn?subject=Candidature spontanée" class="btn-primary mt-8 inline-block">Envoyer ma candidature</a>
+      <span class="eyebrow" data-en="Spontaneous Application">Candidature spontanée</span>
+      <h2 class="text-3xl font-bold text-gray-900 mt-5"><span data-en="Your profile doesn't match a current opening?">Votre profil ne correspond pas<br/>à une offre en cours ?</span></h2>
+      <p class="text-gray-500 mt-4 leading-relaxed"><span data-en="Send us your CV and tell us what you want to bring to the team.">Envoyez-nous votre CV et dites-nous ce que vous souhaitez apporter à l'équipe.</span></p>
+      <a href="mailto:recrutement@move2cloud.tn?subject=Candidature spontanée" class="btn-primary mt-8 inline-block"><span data-en="Send my application">Envoyer ma candidature</span></a>
     </div>
   </section>
 
