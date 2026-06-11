@@ -11,5 +11,17 @@
     "Python",
     "Data Integration",
     "Cloud"
-  ]
+  ],
+  "mission.1": "Concevoir des architectures ETL/ELT avec Talend",
+  "mission.2": "Développer et optimiser les jobs Talend complexes",
+  "mission.3": "Définir les standards et les bonnes pratiques",
+  "mission.4": "Encadrer techniquement les développeurs BI",
+  "mission.5": "Participer aux phases d'architecture et d'avant-vente",
+  "mission.6": "Assurer la migration et la modernisation des pipelines de données",
+  "mission.7": "Veille technologique sur l'écosystème Data",
+  "profile.1": "Bac+4/5 en informatique",
+  "profile.2": "4 à 8 years of experience avec Talend",
+  "profile.3": "Expert ETL/ELT, maîtrise avancée de Talend Data Integration",
+  "profile.4": "Knowledge of architectures Big Data (Spark, Hadoop) is a plus",
+  "profile.5": "Ability to encadrer et à partager les connaissances"
 }

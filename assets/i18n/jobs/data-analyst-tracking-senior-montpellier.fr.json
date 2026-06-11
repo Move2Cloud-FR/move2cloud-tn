@@ -11,5 +11,17 @@
     "Python",
     "A/B Testing",
     "Data Studio"
-  ]
+  ],
+  "mission.1": "Mettre en place et maintenir le plan de taggage (GTM, GA4)",
+  "mission.2": "Analyser les données de comportement utilisateur",
+  "mission.3": "Créer des dashboards de suivi de performance",
+  "mission.4": "Définir les KPIs et les métriques de suivi",
+  "mission.5": "Collaborer avec les équipes produit et marketing",
+  "mission.6": "Assurer la qualité et la fiabilité des données collectées",
+  "mission.7": "Réaliser des études et des analyses ad hoc",
+  "profile.1": "Bac+4/5 en Data, statistiques ou marketing digital",
+  "profile.2": "4 à 7 ans d'expérience en data analytics et tracking",
+  "profile.3": "Maîtrise de Google Analytics 4, Google Tag Manager",
+  "profile.4": "Bonne pratique SQL et outils de dataviz (Looker, Power BI)",
+  "profile.5": "Esprit analytique et pédagogie"
 }

@@ -3,7 +3,6 @@
   "sector": "Management de projet",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Pilotez des projets d'infrastructure systèmes et réseaux à Avignon. Vous coordonnez les équipes techniques et garantissez la livraison des projets dans les délais et la qualité attendue.",
-  "profile.1": "Certification PMP ou PRINCE2 appréciée",
   "skills": [
     "Gestion de projet",
     "Réseaux",
@@ -11,5 +10,17 @@
     "Agile",
     "ITIL",
     "MS Project"
-  ]
+  ],
+  "mission.1": "Cadrer et piloter les projets infrastructure S&R",
+  "mission.2": "Coordonner les équipes réseau, système et sécurité",
+  "mission.3": "Gérer les prestataires et les sous-traitants",
+  "mission.4": "Animer les comités de pilotage",
+  "mission.5": "Gérer les risques et les évolutions de périmètre",
+  "mission.6": "Assurer le reporting à la direction",
+  "mission.7": "Accompagner la mise en production",
+  "profile.1": "Bac+4/5 en informatique, réseaux ou management",
+  "profile.2": "4 à 8 ans d'expérience en gestion de projets infra",
+  "profile.3": "Bonne connaissance des environnements S&R",
+  "profile.4": "Certification PMP ou PRINCE2 appréciée",
+  "profile.5": "Leadership et sens de la communication"
 }

@@ -11,5 +11,16 @@
     "SQL",
     "Azure",
     "Docker"
-  ]
+  ],
+  "mission.1": "Développer des applications C# / ASP.NET Core",
+  "mission.2": "Concevoir des API REST et des architectures microservices",
+  "mission.3": "Réaliser les revues de code et mentorer les équipes",
+  "mission.4": "Écrire des tests unitaires et d'intégration",
+  "mission.5": "Participer aux choix technologiques",
+  "mission.6": "Contribuer à l'amélioration des pratiques de développement",
+  "profile.1": "Bac+3/5 en développement informatique",
+  "profile.2": "3 à 6 ans d'expérience C#",
+  "profile.3": "Maîtrise de .NET Core, ASP.NET, Entity Framework",
+  "profile.4": "Connaissance Azure ou AWS appréciée",
+  "profile.5": "Rigueur, curiosité et goût du travail bien fait"
 }

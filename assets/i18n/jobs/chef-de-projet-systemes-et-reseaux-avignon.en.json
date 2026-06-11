@@ -3,7 +3,6 @@
   "sector": "Project Management",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "Lead systems and network infrastructure projects in Avignon. You coordinate the technical teams and ensure project delivery within deadlines and the expected quality.",
-  "profile.1": "PMP or PRINCE2 certification is a plus",
   "skills": [
     "Gestion de projet",
     "Réseaux",
@@ -11,5 +10,17 @@
     "Agile",
     "ITIL",
     "MS Project"
-  ]
+  ],
+  "mission.1": "Cadrer et piloter les projets infrastructure S&R",
+  "mission.2": "Coordonner les équipes réseau, système et sécurité",
+  "mission.3": "Gérer les prestataires et les sous-traitants",
+  "mission.4": "Animer les comités de pilotage",
+  "mission.5": "Gérer les risques et les évolutions de périmètre",
+  "mission.6": "Assurer le reporting à la direction",
+  "mission.7": "Accompagner la mise en production",
+  "profile.1": "Bac+4/5 en informatique, réseaux ou management",
+  "profile.2": "4 à 8 years of experience in gestion de projets infra",
+  "profile.3": "Bonne connaissance des environnements S&R",
+  "profile.4": "Certification PMP ou PRINCE2 is a plus",
+  "profile.5": "Leadership et sens de la communication"
 }

@@ -11,5 +11,17 @@
     "MPLS",
     "Cloud hybride",
     "VMware NSX"
-  ]
+  ],
+  "mission.1": "Concevoir des architectures systèmes et réseaux de référence",
+  "mission.2": "Définir les standards et les bonnes pratiques techniques",
+  "mission.3": "Accompagner les équipes dans la mise en œuvre des architectures",
+  "mission.4": "Participer aux choix technologiques et aux appels d'offres",
+  "mission.5": "Assurer la veille technologique S&R",
+  "mission.6": "Rédiger les dossiers d'architecture et les schémas directeurs",
+  "mission.7": "Participer aux revues d'architecture",
+  "profile.1": "Bac+5 en informatique ou réseaux",
+  "profile.2": "6 à 12 ans d'expérience dont une forte expertise en architecture infra",
+  "profile.3": "Maîtrise des technologies réseau (Cisco, SD-WAN, BGP, MPLS)",
+  "profile.4": "Connaissance des architectures cloud hybride",
+  "profile.5": "Certifications Cisco, CCIE ou AWS appréciées"
 }

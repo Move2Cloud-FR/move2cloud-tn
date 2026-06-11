@@ -3,12 +3,23 @@
   "sector": "Ressources Humaines",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Move2Cloud Tunisie cherche un(e) Responsable Recrutement pour accompagner la croissance de nos équipes. Vous piloterez l'ensemble du processus de recrutement, du sourcing à l'intégration, pour des profils techniques Cloud, DevOps et IT.",
-  "mission.1": "Rédiger et diffuser les offres d'emploi sur les jobboards et réseaux sociaux",
   "skills": [
     "Recrutement",
     "LinkedIn Recruiter",
     "RH",
     "Onboarding",
     "Sourcing"
-  ]
+  ],
+  "mission.1": "Définir et mettre en œuvre la stratégie de recrutement",
+  "mission.2": "Rédiger et diffuser les offres d'emploi sur les jobboards et réseaux sociaux",
+  "mission.3": "Sourcer activement les candidats (LinkedIn, CVthèques, cooptation)",
+  "mission.4": "Conduire les entretiens de préqualification et de sélection",
+  "mission.5": "Coordonner les entretiens techniques avec les managers",
+  "mission.6": "Gérer l'onboarding des nouvelles recrues",
+  "mission.7": "Suivre les indicateurs RH (time-to-hire, coût par recrutement)",
+  "profile.1": "Formation Bac+4/5 en RH, psychologie ou sciences humaines",
+  "profile.2": "3 à 6 ans d'expérience en recrutement IT",
+  "profile.3": "Maîtrise des outils de sourcing (LinkedIn Recruiter, Welcome to the Jungle…)",
+  "profile.4": "Connaissance des métiers IT Cloud / DevOps appréciée",
+  "profile.5": "Excellent relationnel, rigueur et capacité d'organisation"
 }

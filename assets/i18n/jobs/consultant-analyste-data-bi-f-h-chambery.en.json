@@ -11,5 +11,17 @@
     "Tableau",
     "Datawarehouse",
     "DAX"
-  ]
+  ],
+  "mission.1": "Analyser les besoins en reporting et en tableaux de bord",
+  "mission.2": "Concevoir et développer des solutions BI (Power BI, Tableau, Qlik)",
+  "mission.3": "Modéliser les données (datawarehouse, star schema)",
+  "mission.4": "Développer des pipelines ETL",
+  "mission.5": "Accompagner les utilisateurs dans la prise en main des outils",
+  "mission.6": "Assurer la qualité et la gouvernance des données",
+  "mission.7": "Réaliser des analyses statistiques et des études",
+  "profile.1": "Bac+4/5 en informatique, statistiques ou data science",
+  "profile.2": "3 à 6 years of experience in BI / data analytics",
+  "profile.3": "Proficiency in Power BI, SQL, ETL",
+  "profile.4": "Connaissance Python ou R is a plus",
+  "profile.5": "Pédagogie et orientation métier"
 }

@@ -3,8 +3,6 @@
   "sector": "Development",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "Join our development team in Aix-en-Provence to design and maintain modern web applications using .NET and Angular. You work on varied projects for public and private sector clients.",
-  "mission.1": "Optimize application performance",
-  "mission.2": "Ensure evolutive and corrective maintenance",
   "skills": [
     ".NET",
     "C#",
@@ -13,5 +11,16 @@
     "SQL Server",
     "REST API",
     "Git"
-  ]
+  ],
+  "mission.1": "Développer des applications web avec .NET (Core/6/7/8) et Angular",
+  "mission.2": "Concevoir et implémenter des API REST",
+  "mission.3": "Écrire des tests unitaires et d'intégration",
+  "mission.4": "Participer aux revues de code et aux rituels Agile",
+  "mission.5": "Optimise application performance",
+  "mission.6": "Assurer la maintenance évolutive et corrective",
+  "profile.1": "Bac+3/5 en informatique ou équivalent",
+  "profile.2": "2 à 5 years of experience in développement .NET et Angular",
+  "profile.3": "Proficiency in C#, TypeScript, HTML/CSS",
+  "profile.4": "Knowledge of bases SQL (SQL Server, PostgreSQL)",
+  "profile.5": "Team spirit et rigueur dans le code"
 }

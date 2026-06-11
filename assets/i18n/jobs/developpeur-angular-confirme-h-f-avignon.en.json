@@ -11,5 +11,16 @@
     "SCSS",
     "REST",
     "Git"
-  ]
+  ],
+  "mission.1": "Développer des applications SPA Angular",
+  "mission.2": "Concevoir des composants réutilisables et des librairies UI",
+  "mission.3": "Intégrer les API REST et GraphQL",
+  "mission.4": "Optimiser les performances et l'accessibilité",
+  "mission.5": "Réaliser les tests unitaires et e2e (Jasmine, Cypress)",
+  "mission.6": "Participer aux revues de code et aux cérémonies Agile",
+  "profile.1": "Bac+3/5 en développement informatique",
+  "profile.2": "3 à 6 years of experience Angular",
+  "profile.3": "Maîtrise d'Angular (v12+), TypeScript, RxJS",
+  "profile.4": "Knowledge of NgRx ou Akita is a plus",
+  "profile.5": "Sensibilité UI/UX et souci de la qualité"
 }

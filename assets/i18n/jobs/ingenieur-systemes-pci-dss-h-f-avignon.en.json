@@ -11,5 +11,17 @@
     "SIEM",
     "Firewalls",
     "Linux"
-  ]
+  ],
+  "mission.1": "Mettre en œuvre et maintenir la conformité PCI DSS",
+  "mission.2": "Réaliser des audits de sécurité et des analyses de risques",
+  "mission.3": "Configurer et sécuriser les environnements de données de paiement",
+  "mission.4": "Rédiger les politiques et procédures de sécurité",
+  "mission.5": "Accompagner les équipes dans la mise en conformité",
+  "mission.6": "Préparer les certifications QSA",
+  "mission.7": "Assurer la veille réglementaire PCI DSS",
+  "profile.1": "Bac+4/5 en informatique ou sécurité SI",
+  "profile.2": "4 à 8 years of experience in sécurité systèmes",
+  "profile.3": "Expertise PCI DSS (certification QSA ou ISA is a plus)",
+  "profile.4": "Knowledge of environnements de paiement",
+  "profile.5": "Certifications CISM, CISSP ou ISO 27001 Lead Auditor is a pluss"
 }

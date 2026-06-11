@@ -11,5 +11,17 @@
     "IDoc",
     "BAPI",
     "Smartforms"
-  ]
+  ],
+  "mission.1": "Développer des programmes et rapports ABAP",
+  "mission.2": "Concevoir des interfaces SAP (RFC, IDoc, BAPI)",
+  "mission.3": "Optimiser les performances des développements SAP",
+  "mission.4": "Réaliser les études d'impact et les spécifications techniques",
+  "mission.5": "Assurer le support applicatif SAP N2/N3",
+  "mission.6": "Participer aux projets de migration S/4HANA",
+  "mission.7": "Former les développeurs ABAP juniors",
+  "profile.1": "Bac+4/5 en informatique",
+  "profile.2": "5 à 9 years of experience ABAP",
+  "profile.3": "Maîtrise d'ABAP OO, BAPI, IDoc, Smartforms, ABAP Workbench",
+  "profile.4": "Knowledge of SAP Basis is a plus",
+  "profile.5": "Certification SAP ABAP is a plus"
 }

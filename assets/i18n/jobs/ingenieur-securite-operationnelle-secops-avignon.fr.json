@@ -10,5 +10,17 @@
     "MITRE ATT&CK",
     "Incident Response",
     "Forensics"
-  ]
+  ],
+  "mission.1": "Assurer la surveillance des systèmes d'information (SOC/SIEM)",
+  "mission.2": "Analyser les alertes de sécurité et qualifier les incidents",
+  "mission.3": "Mener les investigations et réponses aux incidents",
+  "mission.4": "Contribuer à l'amélioration des règles de détection",
+  "mission.5": "Participer aux audits de sécurité et aux tests d'intrusion",
+  "mission.6": "Rédiger les rapports d'incidents et les procédures",
+  "mission.7": "Veille technologique sur les nouvelles menaces",
+  "profile.1": "Bac+5 en informatique, spécialisation cybersécurité",
+  "profile.2": "3 à 6 ans d'expérience en sécurité opérationnelle",
+  "profile.3": "Maîtrise d'un SIEM (Splunk, QRadar, Elastic)",
+  "profile.4": "Connaissance des frameworks MITRE ATT&CK, NIST",
+  "profile.5": "Certifications CISSP, CEH ou GCIH appréciées"
 }

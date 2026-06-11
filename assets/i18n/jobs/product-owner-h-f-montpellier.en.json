@@ -11,5 +11,17 @@
     "User Stories",
     "Backlog",
     "KPIs"
-  ]
+  ],
+  "mission.1": "Définir et porter la vision produit",
+  "mission.2": "Rédiger et prioriser les user stories et le backlog",
+  "mission.3": "Facilitate Agile ceremonies (sprint planning, review, retrospective)",
+  "mission.4": "Être l'interface entre les équipes métier et techniques",
+  "mission.5": "Valider les livrables et assurer la recette",
+  "mission.6": "Mesurer la valeur délivrée et les KPIs produit",
+  "mission.7": "Conduire le changement auprès des parties prenantes",
+  "profile.1": "Bac+4/5 en informatique, gestion ou école de commerce",
+  "profile.2": "3 à 7 years of experience in tant que PO ou Business Analyst",
+  "profile.3": "Certification Scrum Product Owner (CSPO) is a plus",
+  "profile.4": "Proficiency in JIRA, Confluence et des outils Agile",
+  "profile.5": "Empathie, leadership et orientation valeur"
 }

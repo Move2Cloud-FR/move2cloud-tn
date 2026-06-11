@@ -11,5 +11,17 @@
     "JMeter",
     "BDD",
     "ISTQB"
-  ]
+  ],
+  "mission.1": "Définir la stratégie de tests (fonctionnels, non-fonctionnels, sécurité)",
+  "mission.2": "Rédiger les plans de tests et les cas de tests",
+  "mission.3": "Exécuter les tests manuels et automatisés",
+  "mission.4": "Développer et maintenir les scripts d'automatisation",
+  "mission.5": "Analyser les résultats et rédiger les rapports de tests",
+  "mission.6": "Collaborer avec les équipes dev et métier",
+  "mission.7": "Participer aux cérémonies Agile",
+  "profile.1": "Bac+3/5 en informatique ou qualité logicielle",
+  "profile.2": "3 à 6 ans d'expérience en tests logiciels",
+  "profile.3": "Maîtrise des outils de test (Selenium, Cypress, JMeter)",
+  "profile.4": "Connaissance des méthodes Agile et TDD/BDD",
+  "profile.5": "Certification ISTQB appréciée"
 }

@@ -10,5 +10,16 @@
     "Confluence",
     "UML",
     "BPMN"
-  ]
+  ],
+  "mission.1": "Recueillir et formaliser les besoins des parties prenantes",
+  "mission.2": "Rédiger les user stories et les spécifications fonctionnelles",
+  "mission.3": "Animer les ateliers de travail et les workshops",
+  "mission.4": "Accompagner la recette fonctionnelle",
+  "mission.5": "Participer à la gestion du changement",
+  "mission.6": "Assurer le suivi du backlog produit en lien avec le PO",
+  "profile.1": "Bac+4/5 en informatique ou gestion",
+  "profile.2": "3 à 6 ans d'expérience en analyse fonctionnelle",
+  "profile.3": "Maîtrise des méthodes Agile et des outils associés (JIRA, Confluence)",
+  "profile.4": "Excellentes capacités d'écoute et de synthèse",
+  "profile.5": "Connaissance d'un secteur métier (banque, assurance, santé) appréciée"
 }

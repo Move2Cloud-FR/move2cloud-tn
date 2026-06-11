@@ -11,5 +11,16 @@
     "SQL Server",
     "Azure",
     "Git"
-  ]
+  ],
+  "mission.1": "Développer des applications C# / ASP.NET Core et Angular",
+  "mission.2": "Concevoir des API REST et des microservices",
+  "mission.3": "Réaliser les revues de code et mentorer les développeurs juniors",
+  "mission.4": "Participer à la conception technique des solutions",
+  "mission.5": "Écrire des tests automatisés (unitaires, intégration)",
+  "mission.6": "Contribuer à l'amélioration continue des pratiques",
+  "profile.1": "Bac+3/5 en développement informatique",
+  "profile.2": "3 à 6 ans d'expérience C# et Angular",
+  "profile.3": "Maîtrise de .NET Core, TypeScript, SQL Server",
+  "profile.4": "Connaissance des architectures microservices",
+  "profile.5": "Esprit d'équipe et aptitude au mentoring"
 }

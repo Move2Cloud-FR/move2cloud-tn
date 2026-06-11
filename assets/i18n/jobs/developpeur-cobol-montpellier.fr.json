@@ -3,8 +3,6 @@
   "sector": "Développement",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Intervenir sur des systèmes mainframe critiques à Montpellier. Vous développez et maintenez des applications COBOL pour des clients grands comptes dans les secteurs banque, assurance et administration.",
-  "mission.1": "Développer et maintenir des applications COBOL / z/OS",
-  "mission.2": "Rédiger la documentation technique",
   "skills": [
     "COBOL",
     "JCL",
@@ -13,5 +11,16 @@
     "z/OS",
     "IMS",
     "VSAM"
-  ]
+  ],
+  "mission.1": "Développer et maintenir des applications COBOL / z/OS",
+  "mission.2": "Analyser et corriger les anomalies",
+  "mission.3": "Participer aux projets de migration vers des architectures modernes",
+  "mission.4": "Rédiger la documentation technique",
+  "mission.5": "Réaliser les tests et les recettes",
+  "mission.6": "Assurer le support applicatif N2/N3",
+  "profile.1": "Bac+2/5 en informatique",
+  "profile.2": "2 à 6 ans d'expérience COBOL mainframe",
+  "profile.3": "Maîtrise de COBOL, JCL, CICS, DB2 / IMS",
+  "profile.4": "Connaissance z/OS",
+  "profile.5": "Fiabilité, rigueur et sens du service"
 }

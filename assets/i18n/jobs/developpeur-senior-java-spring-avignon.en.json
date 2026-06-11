@@ -3,7 +3,6 @@
   "sector": "Development",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "As a Senior Java / Spring Developer in Avignon, you provide technical leadership on development projects and support the teams in upskilling. You design high-performance and scalable back-end solutions.",
-  "mission.1": "Optimize application performance",
   "skills": [
     "Java",
     "Spring Boot",
@@ -12,5 +11,17 @@
     "Kubernetes",
     "CI/CD",
     "SQL"
-  ]
+  ],
+  "mission.1": "Concevoir et développer des applications Java Spring Boot",
+  "mission.2": "Définir les standards techniques et les bonnes pratiques",
+  "mission.3": "Réaliser les revues de code et accompagner les développeurs",
+  "mission.4": "Piloter les choix d'architecture backend",
+  "mission.5": "Mettre en place les tests automatisés et l'intégration continue",
+  "mission.6": "Optimise application performance",
+  "mission.7": "Monitor technological developments Java/Cloud",
+  "profile.1": "Bac+4/5 en développement informatique",
+  "profile.2": "5 à 9 years of experience Java Spring",
+  "profile.3": "Expert Spring Boot, Microservices, JPA",
+  "profile.4": "Knowledge of conteneurs (Docker, Kubernetes)",
+  "profile.5": "Leadership technique et pédagogie"
 }

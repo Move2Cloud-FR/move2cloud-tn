@@ -11,5 +11,17 @@
     "Shell",
     "ITIL",
     "Docker"
-  ]
+  ],
+  "mission.1": "Assurer l'exploitation et la supervision des SI en production",
+  "mission.2": "Traiter et résoudre les incidents de niveau 2 et 3",
+  "mission.3": "Mettre en œuvre les déploiements et les changements",
+  "mission.4": "Automatiser les processus d'exploitation",
+  "mission.5": "Rédiger et maintenir les procédures techniques",
+  "mission.6": "Contribuer à l'amélioration de la disponibilité des services",
+  "mission.7": "Participer aux astreintes N3",
+  "profile.1": "Bac+3/5 en informatique",
+  "profile.2": "4 à 8 years of experience in production IT",
+  "profile.3": "Expertise Linux, Windows Server et middleware",
+  "profile.4": "Maîtrise des outils de supervision (Zabbix, Nagios, Datadog)",
+  "profile.5": "Certification ITIL Foundation is a plus"
 }

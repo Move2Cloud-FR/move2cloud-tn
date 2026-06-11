@@ -11,5 +11,17 @@
     "Ansible",
     "Shell",
     "Docker"
-  ]
+  ],
+  "mission.1": "Administrer des clusters OpenShift / OKD en production",
+  "mission.2": "Gérer et optimiser des systèmes Linux (RHEL, CentOS)",
+  "mission.3": "Déployer et opérer des applications conteneurisées",
+  "mission.4": "Mettre en place des mécanismes de haute disponibilité",
+  "mission.5": "Automatiser les opérations avec Ansible et scripts Shell",
+  "mission.6": "Assurer le monitoring et la résolution d'incidents",
+  "mission.7": "Documenter les architectures et les procédures",
+  "profile.1": "Bac+4/5 en informatique, spécialisation systèmes",
+  "profile.2": "4 à 8 years of experience in administration Linux",
+  "profile.3": "Expertise avérée sur OpenShift ou Kubernetes",
+  "profile.4": "Certification Red Hat (RHCSA/RHCE) is a plus",
+  "profile.5": "Rigueur, autonomie et sens des priorités"
 }

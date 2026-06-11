@@ -3,7 +3,6 @@
   "sector": "Ressources Humaines",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Move2Cloud recrute un(e) alternant(e) à Lyon pour rejoindre notre équipe RH & commercial. Vous participez activement au recrutement de profils IT et au développement commercial de l'agence.",
-  "mission.1": "Rédiger et diffuser les offres d'emploi",
   "skills": [
     "Recrutement IT",
     "LinkedIn",
@@ -11,5 +10,16 @@
     "CRM",
     "Communication",
     "Alternance"
-  ]
+  ],
+  "mission.1": "Sourcer et présélectionner des profils IT sur LinkedIn et les jobboards",
+  "mission.2": "Rédiger et diffuser les offres d'emploi",
+  "mission.3": "Conduire les entretiens de préqualification",
+  "mission.4": "Assister au développement commercial : prospection, relance, suivi client",
+  "mission.5": "Contribuer à la mise à jour du CRM",
+  "mission.6": "Participer aux événements de recrutement et forums écoles",
+  "profile.1": "En formation Bac+3/5 en RH, école de commerce ou équivalent",
+  "profile.2": "Première expérience ou stage en recrutement ou commercial apprécié",
+  "profile.3": "Aisance relationnelle et goût du contact",
+  "profile.4": "Dynamisme, curiosité et envie d'apprendre",
+  "profile.5": "Maîtrise des outils bureautiques et LinkedIn"
 }

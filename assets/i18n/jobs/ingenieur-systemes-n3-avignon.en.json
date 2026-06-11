@@ -11,5 +11,17 @@
     "PowerShell",
     "Active Directory",
     "N3"
-  ]
+  ],
+  "mission.1": "Traiter les incidents et problèmes de niveau 3",
+  "mission.2": "Analyser les causes racines et mettre en œuvre les corrections",
+  "mission.3": "Faire évoluer les architectures systèmes",
+  "mission.4": "Automatiser les tâches d'administration (Ansible, PowerShell)",
+  "mission.5": "Rédiger les procédures et la documentation",
+  "mission.6": "Participer aux astreintes et aux migrations",
+  "mission.7": "Assurer le transfert de compétences N2",
+  "profile.1": "Bac+4/5 en informatique",
+  "profile.2": "4 à 8 years of experience in administration systèmes",
+  "profile.3": "Expertise Linux (RHEL, Ubuntu) et Windows Server",
+  "profile.4": "Proficiency in la virtualisation (VMware, Hyper-V)",
+  "profile.5": "Certifications RedHat ou Microsoft is a pluss"
 }

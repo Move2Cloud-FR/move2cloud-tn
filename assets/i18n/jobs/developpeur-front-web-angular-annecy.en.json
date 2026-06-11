@@ -11,5 +11,16 @@
     "RxJS",
     "REST",
     "Cypress"
-  ]
+  ],
+  "mission.1": "Développer des applications web SPA avec Angular",
+  "mission.2": "Créer des interfaces réactives et accessibles",
+  "mission.3": "Intégrer les services backend via API REST",
+  "mission.4": "Optimiser les performances front-end",
+  "mission.5": "Écrire des tests unitaires et end-to-end",
+  "mission.6": "Collaborer étroitement avec les équipes UX et backend",
+  "profile.1": "Bac+3/5 en développement web",
+  "profile.2": "2 à 5 years of experience Angular",
+  "profile.3": "Maîtrise d'Angular, TypeScript, HTML5/SCSS",
+  "profile.4": "Knowledge of REST API et GraphQL",
+  "profile.5": "Sensibilité UX et goût pour les interfaces soignées"
 }

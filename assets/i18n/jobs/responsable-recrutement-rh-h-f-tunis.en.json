@@ -3,12 +3,23 @@
   "sector": "Ressources Humaines",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "Move2Cloud Tunisia is looking for an HR Recruitment Manager to support the growth of our teams. You will oversee the entire recruitment process, from defining job profiles to onboarding new employees.",
-  "mission.1": "Write and publish job postings sur les jobboards et réseaux sociaux",
   "skills": [
     "Recrutement",
     "LinkedIn Recruiter",
     "RH",
     "Onboarding",
     "Sourcing"
-  ]
+  ],
+  "mission.1": "Define and implement the recruitment strategy",
+  "mission.2": "Write and publish job postings on job boards and social media",
+  "mission.3": "Actively source candidates (LinkedIn, CV databases, referrals)",
+  "mission.4": "Conduct pre-qualification and selection interviews",
+  "mission.5": "Coordinate technical interviews with managers",
+  "mission.6": "Manage the onboarding of new hires",
+  "mission.7": "Track HR metrics (time-to-hire, cost per hire)",
+  "profile.1": "Bachelor's to Master's degree in HR, psychology, or social sciences",
+  "profile.2": "3 to 6 years of experience in IT recruitment",
+  "profile.3": "Proficiency in sourcing tools (LinkedIn Recruiter, Welcome to the Jungle…)",
+  "profile.4": "Knowledge of IT Cloud / DevOps roles is a plus",
+  "profile.5": "Excellent interpersonal skills, rigour, and organisational ability"
 }

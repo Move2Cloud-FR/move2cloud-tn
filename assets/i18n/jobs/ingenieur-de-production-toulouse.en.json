@@ -3,7 +3,6 @@
   "sector": "Production IT",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "Join our operations team in Toulouse. You ensure the smooth running of production information systems, supervise infrastructure, and handle incidents to guarantee service continuity.",
-  "mission.1": "Automate operational tasks",
   "skills": [
     "Linux",
     "Windows Server",
@@ -12,5 +11,17 @@
     "Python",
     "Ansible",
     "ITIL"
-  ]
+  ],
+  "mission.1": "Assurer l'exploitation quotidienne des systèmes et applications",
+  "mission.2": "Superviser les infrastructures et traiter les alertes",
+  "mission.3": "Gérer les incidents et les problèmes N2/N3",
+  "mission.4": "Mettre en œuvre les changements et les déploiements",
+  "mission.5": "Automatiser les tâches d'exploitation",
+  "mission.6": "Rédiger les procédures et les runbooks",
+  "mission.7": "Participer aux astreintes",
+  "profile.1": "Bac+2/5 en informatique",
+  "profile.2": "3 à 6 years of experience in production informatique",
+  "profile.3": "Proficiency in Linux/Windows Server et de la supervision",
+  "profile.4": "Knowledge of outils de ticketing (ServiceNow, JIRA)",
+  "profile.5": "Réactivité et sens des priorités"
 }

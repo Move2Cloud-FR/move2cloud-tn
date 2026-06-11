@@ -3,12 +3,22 @@
   "sector": "Project Management",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "Lead large-scale IT projects in Lyon in a multi-client context. You ensure deliverable quality and customer satisfaction.",
-  "profile.1": "Master's degree (Bac+5) in Computer Science or Project Management",
   "skills": [
     "Gestion de projet",
     "Agile",
     "Scrum",
     "JIRA",
     "MS Project"
-  ]
+  ],
+  "mission.1": "Cadrer les projets IT et définir les jalons",
+  "mission.2": "Piloter les équipes projet et les sous-traitants",
+  "mission.3": "Gérer les risques et les évolutions de périmètre",
+  "mission.4": "Animer les comités de pilotage",
+  "mission.5": "Assurer le reporting auprès de la direction",
+  "mission.6": "Accompagner le changement auprès des utilisateurs",
+  "profile.1": "Bac+5 en informatique ou management de projet",
+  "profile.2": "3 à 7 years of experience in pilotage de projets SI",
+  "profile.3": "Maîtrise des méthodes Agile et cycle en V",
+  "profile.4": "Certification PMP ou Scrum Master is a plus",
+  "profile.5": "Mobilité et sens du service client"
 }

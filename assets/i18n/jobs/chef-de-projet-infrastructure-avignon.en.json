@@ -11,5 +11,16 @@
     "Réseaux",
     "ITIL",
     "Gestion de projet"
-  ]
+  ],
+  "mission.1": "Piloter les projets infrastructure (virtualisation, cloud, stockage, réseau)",
+  "mission.2": "Définir les architectures cibles avec les équipes techniques",
+  "mission.3": "Coordonner les intervenants internes et prestataires",
+  "mission.4": "Gérer le budget et le planning des projets",
+  "mission.5": "Animer les instances de gouvernance",
+  "mission.6": "Assurer la transition vers l'exploitation",
+  "profile.1": "Bac+4/5 en informatique ou management de projet",
+  "profile.2": "4 à 8 years of experience in projets infrastructure",
+  "profile.3": "Connaissance VMware, Azure/AWS, stockage SAN/NAS",
+  "profile.4": "Certification PMP ou ITIL is a plus",
+  "profile.5": "Rigueur, leadership et orientation client"
 }

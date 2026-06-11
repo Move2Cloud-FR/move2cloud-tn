@@ -11,5 +11,17 @@
     "BGP",
     "Firewalls",
     "SNMP"
-  ]
+  ],
+  "mission.1": "Administrer les équipements réseau (switches, routeurs, firewalls)",
+  "mission.2": "Configurer et maintenir les VLANs, le spanning-tree, les protocoles L2",
+  "mission.3": "Diagnostiquer et résoudre les incidents réseau",
+  "mission.4": "Mettre en place des solutions de supervision (SNMP, Nagios)",
+  "mission.5": "Documenter les architectures et les procédures",
+  "mission.6": "Participer aux projets d'évolution de l'infrastructure",
+  "mission.7": "Assurer le support technique N2/N3",
+  "profile.1": "Bac+2/4 en réseaux et télécommunications",
+  "profile.2": "2 à 5 ans d'expérience en administration réseau",
+  "profile.3": "Maîtrise des équipements Cisco (CCNA apprécié)",
+  "profile.4": "Connaissance des protocoles L2 (STP, LACP, VTP)",
+  "profile.5": "Rigueur, réactivité et sens du service"
 }

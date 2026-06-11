@@ -3,7 +3,6 @@
   "sector": "Production IT",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Rejoignez notre équipe d'exploitation à Toulouse. Vous assurez le bon fonctionnement des systèmes d'information en production, supervisez les infrastructures et traitez les incidents avec réactivité.",
-  "mission.1": "Automatiser les tâches d'exploitation",
   "skills": [
     "Linux",
     "Windows Server",
@@ -12,5 +11,17 @@
     "Python",
     "Ansible",
     "ITIL"
-  ]
+  ],
+  "mission.1": "Assurer l'exploitation quotidienne des systèmes et applications",
+  "mission.2": "Superviser les infrastructures et traiter les alertes",
+  "mission.3": "Gérer les incidents et les problèmes N2/N3",
+  "mission.4": "Mettre en œuvre les changements et les déploiements",
+  "mission.5": "Automatiser les tâches d'exploitation",
+  "mission.6": "Rédiger les procédures et les runbooks",
+  "mission.7": "Participer aux astreintes",
+  "profile.1": "Bac+2/5 en informatique",
+  "profile.2": "3 à 6 ans d'expérience en production informatique",
+  "profile.3": "Maîtrise de Linux/Windows Server et de la supervision",
+  "profile.4": "Connaissance des outils de ticketing (ServiceNow, JIRA)",
+  "profile.5": "Réactivité et sens des priorités"
 }

@@ -11,5 +11,16 @@
     "Entity Framework",
     "SQL",
     "Azure DevOps"
-  ]
+  ],
+  "mission.1": "Développer des applications full-stack .NET / Angular",
+  "mission.2": "Concevoir des API RESTful et des microservices",
+  "mission.3": "Participer à la conception technique des solutions",
+  "mission.4": "Écrire et maintenir les tests automatisés",
+  "mission.5": "Contribuer aux revues de code et à la documentation",
+  "mission.6": "Collaborer en méthode Agile Scrum",
+  "profile.1": "Bac+3/5 en développement informatique",
+  "profile.2": "2 à 5 years of experience .NET et Angular",
+  "profile.3": "Good command of de C#, TypeScript, Entity Framework",
+  "profile.4": "Knowledge of bases de données relationnelles",
+  "profile.5": "Autonomie et goût du travail en équipe"
 }

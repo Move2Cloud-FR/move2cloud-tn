@@ -3,8 +3,6 @@
   "sector": "Développement",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Rejoignez notre équipe de développement Java à Montpellier. Vous concevez et développez des applications backend performantes pour des clients variés, dans un environnement Agile.",
-  "mission.1": "Optimiser les performances des applications",
-  "mission.2": "Assurer la maintenance évolutive et corrective",
   "skills": [
     "Java",
     "Spring Boot",
@@ -13,5 +11,16 @@
     "SQL",
     "Docker",
     "Git"
-  ]
+  ],
+  "mission.1": "Développer des applications Java / Spring Boot",
+  "mission.2": "Concevoir des API REST et des microservices",
+  "mission.3": "Optimiser les performances des applications",
+  "mission.4": "Écrire des tests unitaires et d'intégration (JUnit, Mockito)",
+  "mission.5": "Participer aux revues de code et aux rituels Scrum",
+  "mission.6": "Assurer la maintenance évolutive et corrective",
+  "profile.1": "Bac+3/5 en développement informatique",
+  "profile.2": "2 à 5 ans d'expérience Java",
+  "profile.3": "Maîtrise de Spring Boot, Hibernate, Maven",
+  "profile.4": "Connaissance des bases SQL (PostgreSQL, MySQL)",
+  "profile.5": "Curiosité technique et esprit d'équipe"
 }

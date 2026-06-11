@@ -11,5 +11,17 @@
     "ITIL",
     "Gouvernance",
     "Roadmap"
-  ]
+  ],
+  "mission.1": "Manager et développer les équipes infrastructure",
+  "mission.2": "Définir la roadmap infrastructure et les priorités",
+  "mission.3": "Piloter les projets de transformation et de modernisation",
+  "mission.4": "Assurer la disponibilité et la sécurité des SI",
+  "mission.5": "Gérer les budgets et les contrats fournisseurs",
+  "mission.6": "Assurer le reporting à la direction",
+  "mission.7": "Représenter l'IT dans les instances de gouvernance",
+  "profile.1": "Bac+5 en informatique ou management",
+  "profile.2": "6 à 12 years of experience in infrastructure IT, dont 3 ans en management",
+  "profile.3": "Bonne vision des technologies cloud, réseau, sécurité",
+  "profile.4": "Ability to gérer des équipes pluridisciplinaires",
+  "profile.5": "Leadership, rigueur et sens stratégique"
 }

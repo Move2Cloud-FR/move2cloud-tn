@@ -11,5 +11,17 @@
     "Kubernetes",
     "CI/CD",
     "PostgreSQL"
-  ]
+  ],
+  "mission.1": "Concevoir et développer des applications Java Spring Boot",
+  "mission.2": "Définir et faire respecter les standards techniques",
+  "mission.3": "Réaliser les revues de code",
+  "mission.4": "Mettre en place les pipelines CI/CD",
+  "mission.5": "Optimiser les performances backend",
+  "mission.6": "Accompagner et mentorer les développeurs juniors",
+  "mission.7": "Assurer la veille technologique",
+  "profile.1": "Bac+4/5 en développement informatique",
+  "profile.2": "5 à 9 ans d'expérience Java / Spring",
+  "profile.3": "Expert Spring Boot, Microservices, JPA, Kafka",
+  "profile.4": "Bonne connaissance de Docker, Kubernetes",
+  "profile.5": "Pédagogie et leadership technique"
 }

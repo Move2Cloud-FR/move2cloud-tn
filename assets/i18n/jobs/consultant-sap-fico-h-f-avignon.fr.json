@@ -11,5 +11,17 @@
     "Finance",
     "Comptabilité",
     "Excel"
-  ]
+  ],
+  "mission.1": "Analyser les besoins fonctionnels Finance / Contrôle de gestion",
+  "mission.2": "Paramétrer et configurer les modules SAP FI/CO",
+  "mission.3": "Rédiger les spécifications fonctionnelles et techniques",
+  "mission.4": "Réaliser les tests et la recette fonctionnelle",
+  "mission.5": "Former et accompagner les utilisateurs",
+  "mission.6": "Assurer le support post-démarrage",
+  "mission.7": "Participer aux projets S/4HANA",
+  "profile.1": "Bac+4/5 en informatique, finance ou gestion",
+  "profile.2": "3 à 7 ans d'expérience SAP FI/CO",
+  "profile.3": "Maîtrise des processus comptables et de contrôle de gestion",
+  "profile.4": "Certification SAP FI ou CO appréciée",
+  "profile.5": "Rigeur, sens du client et aptitude à travailler en équipe"
 }

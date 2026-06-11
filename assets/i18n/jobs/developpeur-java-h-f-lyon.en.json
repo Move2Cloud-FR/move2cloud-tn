@@ -11,5 +11,16 @@
     "PostgreSQL",
     "Jenkins",
     "Git"
-  ]
+  ],
+  "mission.1": "Développer des applications Java / Spring Boot",
+  "mission.2": "Mettre en place des architectures microservices",
+  "mission.3": "Écrire des tests automatisés",
+  "mission.4": "Participer aux code reviews",
+  "mission.5": "Travailler en collaboration avec les équipes frontend",
+  "mission.6": "Contribuer à l'amélioration des pratiques de développement",
+  "profile.1": "Bac+3/5 en informatique",
+  "profile.2": "2 à 5 years of experience Java / Spring",
+  "profile.3": "Proficiency in Spring Boot, JPA/Hibernate",
+  "profile.4": "Knowledge of Docker et CI/CD",
+  "profile.5": "Rigueur et goût du travail bien fait"
 }

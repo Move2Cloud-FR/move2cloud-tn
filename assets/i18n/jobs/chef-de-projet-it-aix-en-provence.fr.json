@@ -9,5 +9,16 @@
     "JIRA",
     "MS Project",
     "Gestion budgétaire"
-  ]
+  ],
+  "mission.1": "Cadrer et planifier les projets IT",
+  "mission.2": "Animer les instances de gouvernance",
+  "mission.3": "Coordonner les équipes internes et prestataires",
+  "mission.4": "Suivre les livrables et gérer les risques",
+  "mission.5": "Assurer la relation client au quotidien",
+  "mission.6": "Rédiger les bilans et retours d'expérience",
+  "profile.1": "Bac+5 en informatique ou management",
+  "profile.2": "3 à 7 ans d'expérience en pilotage de projets IT",
+  "profile.3": "Connaissance des SI d'entreprise",
+  "profile.4": "Maîtrise de la gestion budgétaire",
+  "profile.5": "Autonomie et sens des responsabilités"
 }

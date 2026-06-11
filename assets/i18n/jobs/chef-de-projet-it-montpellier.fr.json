@@ -3,6 +3,13 @@
   "sector": "Management de projet",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Pilotez des projets informatiques complexes dans un environnement multi-clients à Montpellier. Vous coordonnez les équipes techniques et assurez la livraison dans les délais et les budgets définis.",
+  "skills": [
+    "Gestion de projet",
+    "Agile",
+    "Scrum",
+    "JIRA",
+    "Confluence"
+  ],
   "mission.1": "Cadrer les projets : périmètre, planning, budget, risques",
   "mission.2": "Animer les comités de pilotage et rédiger les comptes-rendus",
   "mission.3": "Coordonner les équipes techniques pluridisciplinaires",
@@ -13,12 +20,5 @@
   "profile.2": "3 à 7 ans d'expérience en gestion de projets IT",
   "profile.3": "Maîtrise des méthodes Agile (Scrum, Kanban)",
   "profile.4": "Certification PMP ou PRINCE2 appréciée",
-  "profile.5": "Excellent relationnel et sens de la communication",
-  "skills": [
-    "Gestion de projet",
-    "Agile",
-    "Scrum",
-    "JIRA",
-    "Confluence"
-  ]
+  "profile.5": "Excellent relationnel et sens de la communication"
 }

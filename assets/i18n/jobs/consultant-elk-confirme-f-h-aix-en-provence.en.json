@@ -3,7 +3,6 @@
   "sector": "Data & BI",
   "published": "Published on 11 June 2026 · Position available immediately",
   "desc.1": "As an experienced ELK Consultant in Aix-en-Provence, you deploy and manage Elasticsearch / Logstash / Kibana platforms for our clients. You are the team's observability expert.",
-  "mission.1": "Write technical documentation",
   "skills": [
     "Elasticsearch",
     "Logstash",
@@ -12,5 +11,17 @@
     "AWS",
     "Docker",
     "Python"
-  ]
+  ],
+  "mission.1": "Déployer et administrer des clusters Elasticsearch",
+  "mission.2": "Concevoir des pipelines d'ingestion avec Logstash et Filebeat",
+  "mission.3": "Créer des dashboards Kibana pour le monitoring et la sécurité",
+  "mission.4": "Optimiser les performances et la scalabilité des clusters",
+  "mission.5": "Intégrer la stack ELK dans les environnements clients",
+  "mission.6": "Write technical documentation",
+  "mission.7": "Former et accompagner les équipes",
+  "profile.1": "Bac+4/5 en informatique",
+  "profile.2": "3 à 6 years of experience sur la stack Elastic",
+  "profile.3": "Maîtrise d'Elasticsearch, Logstash, Kibana, Beats",
+  "profile.4": "Knowledge of architectures cloud (AWS, Azure)",
+  "profile.5": "Knowledge of la sécurité SI is a plus"
 }

@@ -11,5 +11,17 @@
     "Shell",
     "Windows Server",
     "ITIL"
-  ]
+  ],
+  "mission.1": "Superviser et exploiter les systèmes en production",
+  "mission.2": "Traiter les incidents critiques N2/N3",
+  "mission.3": "Automatiser les opérations avec Ansible et scripts",
+  "mission.4": "Gérer les déploiements et les mises en production",
+  "mission.5": "Maintenir à jour les procédures d'exploitation",
+  "mission.6": "Participer aux projets d'évolution de l'infrastructure",
+  "mission.7": "Assurer les astreintes",
+  "profile.1": "Bac+3/5 en informatique",
+  "profile.2": "4 à 8 ans d'expérience en production IT",
+  "profile.3": "Expertise Linux et supervision",
+  "profile.4": "Maîtrise des environnements virtualisés",
+  "profile.5": "ITIL Foundation apprécié"
 }

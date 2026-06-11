@@ -3,7 +3,6 @@
   "sector": "Développement",
   "published": "Publié le 11 juin 2026 · Poste à pourvoir immédiatement",
   "desc.1": "Move2Cloud recrute un Développeur Mainframe COBOL à Lyon pour intervenir sur les systèmes legacy de nos clients grands comptes. Vous participez à la maintenance et à la modernisation des applications critiques.",
-  "mission.1": "Rédiger la documentation technique",
   "skills": [
     "COBOL",
     "JCL",
@@ -12,5 +11,16 @@
     "z/OS",
     "Mainframe",
     "IMS"
-  ]
+  ],
+  "mission.1": "Développer et maintenir des programmes COBOL sur environnement z/OS",
+  "mission.2": "Analyser et corriger les anomalies sur les applicatifs mainframe",
+  "mission.3": "Participer aux projets de migration et de modernisation",
+  "mission.4": "Rédiger la documentation technique",
+  "mission.5": "Réaliser les tests unitaires et d'intégration",
+  "mission.6": "Assurer le support de niveau 2 et 3",
+  "profile.1": "Bac+2/5 en informatique",
+  "profile.2": "2 à 6 ans d'expérience COBOL / mainframe",
+  "profile.3": "Maîtrise de COBOL, JCL, CICS, DB2",
+  "profile.4": "Connaissance de l'environnement z/OS",
+  "profile.5": "Rigueur, fiabilité et sens du service"
 }

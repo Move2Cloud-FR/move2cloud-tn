@@ -10,5 +10,17 @@
     "Sourcing",
     "Entretien",
     "Marque employeur"
-  ]
+  ],
+  "mission.1": "Rédiger et diffuser les annonces de recrutement",
+  "mission.2": "Sourcer activement les candidats sur LinkedIn et les jobboards",
+  "mission.3": "Conduire les entretiens de préqualification téléphonique",
+  "mission.4": "Coordonner les entretiens avec les managers techniques",
+  "mission.5": "Gérer le suivi des candidatures dans l'ATS",
+  "mission.6": "Contribuer à la marque employeur",
+  "mission.7": "Assurer le reporting recrutement",
+  "profile.1": "Bac+3/5 en RH ou école de commerce",
+  "profile.2": "1 à 4 ans d'expérience en recrutement IT",
+  "profile.3": "Maîtrise de LinkedIn Recruiter",
+  "profile.4": "Connaissance des profils IT (développeurs, infra, DevOps)",
+  "profile.5": "Enthousiasme, rigueur et sens du relationnel"
 }
