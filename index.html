@@ -1343,7 +1343,9 @@
     // On page load: scroll to section matching the URL path
     (() => {
       const id = routes[location.pathname];
-      if (id && id !== 'hero') setTimeout(() => scrollToSection(id, false), 80);
+      if (id && id !== 'hero') {
+        window.addEventListener('load', () => setTimeout(() => scrollToSection(id, false), 50));
+      }
     })();
 
     // ── Mobile menu
