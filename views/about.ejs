@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos — Move2Cloud Tunisie</title>
+  <meta name="description" content="Move2Cloud Tunisie — Société d'experts en Cloud et DevOps basée à Tunis. Découvrez notre équipe et notre expertise." />
+  <link rel="canonical" href="https://move2cloud.tn/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://move2cloud.tn/about" />
+  <meta property="og:title" content="À Propos — Move2Cloud Tunisie" />
+  <meta property="og:image" content="https://move2cloud.tn/assets/preview.png" />
+  <meta property="og:site_name" content="Move2Cloud Tunisie" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://move2cloud.tn/assets/preview.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c70039',
+            'primary-dark': '#9e002e',
+            'primary-light': '#e8003a',
+          },
+          fontFamily: { poppins: ['Poppins', 'sans-serif'] },
+        },
+      },
+    }
+  </script>
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    html { scroll-behavior: smooth; }
+    ::selection { background: #c70039; color: white; }
+
+    .logo-icon { width: 40px; height: 40px; }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px; background: #c70039; transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: #c70039;
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: ''; display: block; width: 32px; height: 2px;
+      background: #c70039; border-radius: 2px;
+    }
+
+    /* Language switcher */
+    .lang-dropdown { display: none; }
+    .lang-dropdown.open { display: block; }
+    .lang-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 8px;
+      border: 1px solid #e5e7eb; font-size: 0.8125rem;
+      font-weight: 500; color: #374151; cursor: pointer;
+      background: white; transition: background 0.2s; white-space: nowrap;
+    }
+    .lang-btn:hover { background: #f9fafb; }
+    .lang-chevron { transition: transform 0.2s; }
+    .lang-chevron.rotated { transform: rotate(180deg); }
+    .lang-option {
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; padding: 8px 14px; font-size: 0.8125rem;
+      background: none; border: none; cursor: pointer;
+      text-align: left; transition: background 0.15s; white-space: nowrap;
+    }
+    .lang-option:hover { background: #f3f4f6; }
+    .lang-option.active { font-weight: 600; color: #c70039; }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    .btn-primary {
+      background: #c70039; color: white; padding: 0.75rem 2rem;
+      border-radius: 6px; font-weight: 600; transition: background 0.2s ease, transform 0.2s ease;
+      display: inline-block; text-decoration: none;
+    }
+    .btn-primary:hover { background: #9e002e; transform: translateY(-1px); }
+
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<%- include('partials/header', {currentPage: 'about'}) %>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="py-24 bg-white pt-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <!-- Text -->
+        <div class="fade-in">
+          <span class="eyebrow" data-i18n="about.eyebrow">Qui sommes-nous</span>
+          <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-6" data-i18n-html="about.title">Bienvenue chez<br/>Move2Cloud Tunisie</h1>
+          <div class="space-y-4 text-gray-600 leading-relaxed">
+            <p data-i18n="about.p1">Move2Cloud Tunisie est une société fondée par des experts passionnés et spécialisés dans le Cloud et le DevOps. Nous accompagnons nos clients dans la migration de leurs projets vers le cloud, en leur proposant des services sur mesure de conseil et de gestion.</p>
+            <p data-i18n="about.p2">Basés à Tunis et connectés à un réseau d'experts international, nous offrons des solutions de nearshoring de haute qualité pour les entreprises tunisiennes et européennes souhaitant accélérer leur transformation digitale.</p>
+            <p data-i18n="about.p3">Notre équipe allie expertise technique et engagement vers l'excellence, garantissant des solutions fiables et efficaces adaptées aux besoins uniques de chaque client.</p>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="/contact" class="btn-primary" data-i18n="about.btn1">Nous contacter</a>
+            <a href="/approach" class="inline-flex items-center gap-2 text-primary font-semibold hover:gap-4 transition-all">
+              <span data-i18n="about.btn2">Notre approche</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Expertise cards -->
+        <div class="flex flex-col gap-4 fade-in">
+
+          <!-- DevOps -->
+          <div class="bg-primary rounded-2xl p-6 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                </svg>
+              </div>
+              <div class="font-bold text-lg" data-i18n="exp1.title">DevOps & Cloud Native</div>
+            </div>
+            <p class="text-white/75 text-sm leading-relaxed mb-3" data-i18n="exp1.desc">CI/CD, IaC, conteneurs, orchestration et automatisation de bout en bout.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Kubernetes</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Terraform</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">GitLab CI</span>
+              <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-medium">Ansible</span>
+            </div>
+          </div>
+
+          <!-- IA -->
+          <div class="bg-gray-900 rounded-2xl p-6 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="white" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+              <div class="font-bold text-lg" data-i18n="exp2.title">Intelligence Artificielle & Data</div>
+            </div>
+            <p class="text-white/75 text-sm leading-relaxed mb-3" data-i18n="exp2.desc">Déploiement de pipelines ML, architectures data et intégration de modèles IA en production.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">MLOps</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">Big Data</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">LLM</span>
+              <span class="bg-white/10 text-white text-xs px-2.5 py-1 rounded-full font-medium">Data Lake</span>
+            </div>
+          </div>
+
+          <!-- Normes Cloud -->
+          <div class="bg-primary/8 rounded-2xl p-6 border border-primary/20">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+                <svg class="w-5 h-5" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              </div>
+              <div class="font-bold text-gray-900 text-lg" data-i18n="exp3.title">Conformité &amp; Normes Cloud</div>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-3" data-i18n="exp3.desc">Accompagnement à la mise en conformité et aux certifications cloud pour les secteurs réglementés.</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">SecNumCloud</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">ISO 27001</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">DORA</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">RGPD</span>
+              <span class="bg-primary/10 text-primary text-xs px-2.5 py-1 rounded-full font-medium border border-primary/20">HDS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<%- include('partials/footer') %>
+
+<script>
+  // Burger menu
+  document.getElementById('burger').addEventListener('click', () =>
+    document.getElementById('mobile-menu').classList.toggle('open'));
+
+  // Lang switcher
+  function toggleLangMenu() {
+    document.getElementById('lang-dropdown').classList.toggle('open');
+    document.getElementById('lang-chevron').classList.toggle('rotated');
+  }
+  document.addEventListener('click', e => {
+    if (!document.getElementById('lang-switcher').contains(e.target)) {
+      document.getElementById('lang-dropdown').classList.remove('open');
+      document.getElementById('lang-chevron').classList.remove('rotated');
+    }
+  });
+
+  let currentLang = localStorage.getItem('lang') || 'fr';
+  const TRANSLATIONS = {};
+
+  async function loadLang(lang) {
+    if (!TRANSLATIONS[lang]) {
+      try {
+        const res = await fetch(`/assets/i18n/${lang}.json`);
+        TRANSLATIONS[lang] = await res.json();
+      } catch(e) { TRANSLATIONS[lang] = {}; }
+    }
+    currentLang = lang; localStorage.setItem('lang', lang);
+    const dict = TRANSLATIONS[lang] || {};
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      if (dict[el.dataset.i18n] !== undefined) el.textContent = dict[el.dataset.i18n];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      if (dict[el.dataset.i18nHtml] !== undefined) el.innerHTML = dict[el.dataset.i18nHtml];
+    });
+    const isEN = lang === 'en';
+    document.getElementById('lang-flag').textContent = isEN ? '🇬🇧' : '🇫🇷';
+    document.getElementById('lang-label').textContent = isEN ? 'English' : 'Français';
+    document.getElementById('opt-fr').classList.toggle('active', !isEN);
+    document.getElementById('opt-en').classList.toggle('active', isEN);
+    document.documentElement.lang = lang;
+  }
+  function setLang(lang) {
+    loadLang(lang);
+    document.getElementById('lang-dropdown').classList.remove('open');
+    document.getElementById('lang-chevron').classList.remove('rotated');
+  }
+  loadLang(currentLang);
+
+  // Scroll-based fade-in
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

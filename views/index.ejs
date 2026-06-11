@@ -1129,66 +1129,9 @@
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 
-    // ── History API router ──────────────────────────────────────────────
-    const routes = {
-      '/':         'hero',
-      '/services': 'services',
-      '/about':    'about',
-      '/values':   'values',
-      '/approach': 'process',
-      '/contact':  'contact',
-    };
-
-    function scrollToSection(id, smooth = true) {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: smooth ? 'smooth' : 'instant' });
-    }
-
-    // Intercept all internal path clicks
-    document.addEventListener('click', e => {
-      const a = e.target.closest('a[href^="/"]');
-      if (!a) return;
-      const path = new URL(a.href, location.origin).pathname;
-      if (!(path in routes)) return;
-      // Let /actualites navigate to the actual HTML page
-      if (path === '/actualites') return;
-      e.preventDefault();
-      history.pushState({}, '', path);
-      scrollToSection(routes[path]);
-      // close mobile menu if open
-      document.getElementById('mobile-menu')?.classList.remove('open');
-    });
-
-    // On back/forward navigation
-    window.addEventListener('popstate', () => {
-      const id = routes[location.pathname] || 'hero';
-      scrollToSection(id, false);
-    });
-
-    // Update URL as user scrolls past sections
-    const urlObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        const path = Object.entries(routes).find(([,id]) => id === entry.target.id)?.[0];
-        if (path) history.replaceState({}, '', path);
-      });
-    }, { threshold: 0.45 });
-
-    Object.values(routes).forEach(id => {
-      const el = document.getElementById(id);
-      if (el) urlObserver.observe(el);
-    });
-
-    // On page load: scroll to section matching the URL path
-    (() => {
-      const id = routes[location.pathname];
-      if (!id || id === 'hero') return;
-      if (document.readyState === 'complete') {
-        scrollToSection(id, false);
-      } else {
-        window.addEventListener('load', () => scrollToSection(id, false), { once: true });
-      }
-    })();
+    // ── Router (home only — other pages are now dedicated routes) ──────
+    // The sections /services, /about, /values, /approach, /contact each
+    // have their own EJS page. Index only manages the hero section.
 
     // ── Mobile menu
     const burger = document.getElementById('burger');

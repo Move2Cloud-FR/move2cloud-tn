@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Move2Cloud Tunisie</title>
+  <meta name="description" content="Découvrez tous nos services Cloud & DevOps : Consultation Cloud, Kubernetes, DevOps, Migration Cloud, Optimisation des Coûts, Big Data & IA." />
+  <link rel="canonical" href="https://move2cloud.tn/services" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://move2cloud.tn/services" />
+  <meta property="og:title" content="Services — Move2Cloud Tunisie" />
+  <meta property="og:image" content="https://move2cloud.tn/assets/preview.png" />
+  <meta property="og:site_name" content="Move2Cloud Tunisie" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://move2cloud.tn/assets/preview.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c70039',
+            'primary-dark': '#9e002e',
+            'primary-light': '#e8003a',
+          },
+          fontFamily: { poppins: ['Poppins', 'sans-serif'] },
+        },
+      },
+    }
+  </script>
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    html { scroll-behavior: smooth; }
+    ::selection { background: #c70039; color: white; }
+
+    .logo-icon { width: 40px; height: 40px; }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px; background: #c70039; transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: #c70039;
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: ''; display: block; width: 32px; height: 2px;
+      background: #c70039; border-radius: 2px;
+    }
+
+    .title-highlight { position: relative; display: inline-block; }
+    .title-highlight::after {
+      content: ''; position: absolute; bottom: 4px; left: 0; right: 0;
+      height: 6px; background: rgba(199, 0, 57, 0.15); border-radius: 4px; z-index: -1;
+    }
+
+    .service-card {
+      position: relative; overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #c70039, #ff4d6d);
+      transform: scaleX(0); transform-origin: left; transition: transform 0.3s ease;
+    }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 48px rgba(199, 0, 57, 0.12);
+    }
+
+    .services-bg {
+      background-color: #f8f9fc;
+      background-image: radial-gradient(circle, #c7003915 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    /* Language switcher */
+    .lang-dropdown { display: none; }
+    .lang-dropdown.open { display: block; }
+    .lang-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 8px;
+      border: 1px solid #e5e7eb; font-size: 0.8125rem;
+      font-weight: 500; color: #374151; cursor: pointer;
+      background: white; transition: background 0.2s; white-space: nowrap;
+    }
+    .lang-btn:hover { background: #f9fafb; }
+    .lang-chevron { transition: transform 0.2s; }
+    .lang-chevron.rotated { transform: rotate(180deg); }
+    .lang-option {
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; padding: 8px 14px; font-size: 0.8125rem;
+      background: none; border: none; cursor: pointer;
+      text-align: left; transition: background 0.15s; white-space: nowrap;
+    }
+    .lang-option:hover { background: #f3f4f6; }
+    .lang-option.active { font-weight: 600; color: #c70039; }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    .btn-primary {
+      background: #c70039; color: white; padding: 0.75rem 2rem;
+      border-radius: 6px; font-weight: 600; transition: background 0.2s ease, transform 0.2s ease;
+      display: inline-block; text-decoration: none;
+    }
+    .btn-primary:hover { background: #9e002e; transform: translateY(-1px); }
+
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<%- include('partials/header', {currentPage: 'services'}) %>
+
+  <!-- ===================== PAGE HERO ===================== -->
+  <div class="services-bg pt-28 pb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
+      <span class="eyebrow" data-i18n="svc.eyebrow">Ce que nous faisons</span>
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5 leading-tight" data-i18n-html="svc.title">
+        Nos <span class="title-highlight text-primary">Services</span>
+      </h1>
+      <p class="text-gray-500 mt-5 max-w-2xl mx-auto text-base leading-relaxed" data-i18n="svc.desc">
+        Des solutions cloud sur mesure pour accélérer votre transformation numérique et optimiser vos infrastructures.
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================== SERVICES GRID ===================== -->
+  <section class="services-bg pt-8 pb-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+
+        <!-- Service 1 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s1.title">Consultation Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s1.desc">Définissez des stratégies cloud infaillibles et sur mesure avec l'aide de nos professionnels certifiés.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s2.title">Kubernetes Administration</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s2.desc">Gestion et maintenance des clusters Kubernetes, garantissant performance, sécurité et haute disponibilité.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s3.title">DevOps</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s3.desc">Accélérez et automatisez vos processus organisationnels avec la mise en œuvre de l'approche DevOps.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s4.title">Migration Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s4.desc">Migrez vos applications vers des services cloud publics avec un service de migration cloud fluide.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s5.title">Optimisation des Coûts</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s5.desc">Nous veillons à ce que les solutions cloud implémentées ne dépassent pas votre budget tout en maximisant la valeur.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s6.title">Gestion de Projet</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s6.desc">Nos professionnels garantissent une transition fluide et vous aident à maximiser les avantages du cloud.</p>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s7.title">Administration Réseau &amp; Systèmes</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s7.desc">Support complet pour vos besoins en administration réseau et systèmes avec une haute disponibilité.</p>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s8.title">Déploiement Cloud</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s8.desc">Avec plusieurs années d'expérience dans le déploiement d'applications cloud, nous résolvons les problèmes complexes.</p>
+        </div>
+
+        <!-- Service 9 -->
+        <div class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100/80 flex flex-col gap-3">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center" style="background:linear-gradient(135deg,#fff0f3,#ffd6df)">
+            <svg class="w-6 h-6" fill="none" stroke="#c70039" viewBox="0 0 24 24" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base" data-i18n="s9.title">Big Data &amp; IA</h3>
+          <p class="text-gray-500 text-sm leading-relaxed" data-i18n="s9.desc">Support intégré pour construire, sécuriser et déployer vos applications de big data et d'intelligence artificielle.</p>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 text-center fade-in">
+        <a href="/contact" class="btn-primary text-base">Démarrer votre projet</a>
+      </div>
+    </div>
+  </section>
+
+<%- include('partials/footer') %>
+
+<script>
+  // Burger menu
+  document.getElementById('burger').addEventListener('click', () =>
+    document.getElementById('mobile-menu').classList.toggle('open'));
+
+  // Lang switcher
+  function toggleLangMenu() {
+    document.getElementById('lang-dropdown').classList.toggle('open');
+    document.getElementById('lang-chevron').classList.toggle('rotated');
+  }
+  document.addEventListener('click', e => {
+    if (!document.getElementById('lang-switcher').contains(e.target)) {
+      document.getElementById('lang-dropdown').classList.remove('open');
+      document.getElementById('lang-chevron').classList.remove('rotated');
+    }
+  });
+
+  let currentLang = localStorage.getItem('lang') || 'fr';
+  const TRANSLATIONS = {};
+
+  async function loadLang(lang) {
+    if (!TRANSLATIONS[lang]) {
+      try {
+        const res = await fetch(`/assets/i18n/${lang}.json`);
+        TRANSLATIONS[lang] = await res.json();
+      } catch(e) { TRANSLATIONS[lang] = {}; }
+    }
+    currentLang = lang; localStorage.setItem('lang', lang);
+    const dict = TRANSLATIONS[lang] || {};
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      if (dict[el.dataset.i18n] !== undefined) el.textContent = dict[el.dataset.i18n];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      if (dict[el.dataset.i18nHtml] !== undefined) el.innerHTML = dict[el.dataset.i18nHtml];
+    });
+    const isEN = lang === 'en';
+    document.getElementById('lang-flag').textContent = isEN ? '🇬🇧' : '🇫🇷';
+    document.getElementById('lang-label').textContent = isEN ? 'English' : 'Français';
+    document.getElementById('opt-fr').classList.toggle('active', !isEN);
+    document.getElementById('opt-en').classList.toggle('active', isEN);
+    document.documentElement.lang = lang;
+  }
+  function setLang(lang) {
+    loadLang(lang);
+    document.getElementById('lang-dropdown').classList.remove('open');
+    document.getElementById('lang-chevron').classList.remove('rotated');
+  }
+  loadLang(currentLang);
+
+  // Scroll-based fade-in
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

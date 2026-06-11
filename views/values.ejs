@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Valeurs — Move2Cloud Tunisie</title>
+  <meta name="description" content="Découvrez les valeurs qui animent Move2Cloud Tunisie : Proximité, Transparence, Excellence, Diversité, Plaisir et Optimisme." />
+  <link rel="canonical" href="https://move2cloud.tn/values" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://move2cloud.tn/values" />
+  <meta property="og:title" content="Nos Valeurs — Move2Cloud Tunisie" />
+  <meta property="og:image" content="https://move2cloud.tn/assets/preview.png" />
+  <meta property="og:site_name" content="Move2Cloud Tunisie" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://move2cloud.tn/assets/preview.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c70039',
+            'primary-dark': '#9e002e',
+            'primary-light': '#e8003a',
+          },
+          fontFamily: { poppins: ['Poppins', 'sans-serif'] },
+        },
+      },
+    }
+  </script>
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    html { scroll-behavior: smooth; }
+    ::selection { background: #c70039; color: white; }
+
+    .logo-icon { width: 40px; height: 40px; }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ''; position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px; background: #c70039; transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em;
+      text-transform: uppercase; color: #c70039;
+    }
+    .eyebrow::before, .eyebrow::after {
+      content: ''; display: block; width: 32px; height: 2px;
+      background: #c70039; border-radius: 2px;
+    }
+
+    .title-highlight { position: relative; display: inline-block; }
+    .title-highlight::after {
+      content: ''; position: absolute; bottom: 4px; left: 0; right: 0;
+      height: 6px; background: rgba(199, 0, 57, 0.15); border-radius: 4px; z-index: -1;
+    }
+
+    .value-card:hover { transform: scale(1.05); }
+    .value-card { transition: transform 0.3s ease; }
+
+    /* Language switcher */
+    .lang-dropdown { display: none; }
+    .lang-dropdown.open { display: block; }
+    .lang-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 8px;
+      border: 1px solid #e5e7eb; font-size: 0.8125rem;
+      font-weight: 500; color: #374151; cursor: pointer;
+      background: white; transition: background 0.2s; white-space: nowrap;
+    }
+    .lang-btn:hover { background: #f9fafb; }
+    .lang-chevron { transition: transform 0.2s; }
+    .lang-chevron.rotated { transform: rotate(180deg); }
+    .lang-option {
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; padding: 8px 14px; font-size: 0.8125rem;
+      background: none; border: none; cursor: pointer;
+      text-align: left; transition: background 0.15s; white-space: nowrap;
+    }
+    .lang-option:hover { background: #f3f4f6; }
+    .lang-option.active { font-weight: 600; color: #c70039; }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<%- include('partials/header', {currentPage: 'values'}) %>
+
+  <!-- ===================== VALUES ===================== -->
+  <section class="py-24 bg-gray-50 pt-32">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 fade-in">
+        <span class="eyebrow" data-i18n="val.eyebrow">Ce qui nous anime</span>
+        <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mt-5" data-i18n-html="val.title">Notre <span class="title-highlight text-primary">culture</span></h1>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🤝</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v1">Proximité</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🔍</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v2">Transparence</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">⭐</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v3">Excellence</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🌍</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v4">Diversité</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">😊</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v5">Plaisir</div>
+        </div>
+        <div class="value-card bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm cursor-default">
+          <div class="text-3xl mb-3">🌟</div>
+          <div class="font-semibold text-gray-800 text-sm" data-i18n="v6">Optimisme</div>
+        </div>
+      </div>
+
+      <!-- Commitments -->
+      <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c1.title">Innovation &amp; Agilité</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c1.desc">Nous nous adaptons rapidement aux évolutions du marché en proposant des solutions à la pointe de la technologie.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c2.title">Sécurité des données</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c2.desc">Nous garantissons la sécurité des données de nos clients avec les meilleures pratiques de l'industrie.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c3.title">Green IT</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c3.desc">Nous préservons l'environnement grâce à des pratiques durables et responsables dans toutes nos opérations.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c4.title">Formation continue</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c4.desc">Nous investissons dans le développement des compétences de nos collaborateurs pour rester à l'avant-garde.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c5.title">Partenariats solides</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c5.desc">Nous cultivons des relations durables basées sur la confiance, la transparence et la responsabilité.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border-l-4 border-primary shadow-sm fade-in">
+          <h3 class="font-semibold text-gray-900 mb-2" data-i18n="c6.title">Satisfaction client</h3>
+          <p class="text-gray-500 text-sm" data-i18n="c6.desc">La satisfaction client est notre principale mesure de succès. Nous maintenons des relations durables avec nos clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<%- include('partials/footer') %>
+
+<script>
+  // Burger menu
+  document.getElementById('burger').addEventListener('click', () =>
+    document.getElementById('mobile-menu').classList.toggle('open'));
+
+  // Lang switcher
+  function toggleLangMenu() {
+    document.getElementById('lang-dropdown').classList.toggle('open');
+    document.getElementById('lang-chevron').classList.toggle('rotated');
+  }
+  document.addEventListener('click', e => {
+    if (!document.getElementById('lang-switcher').contains(e.target)) {
+      document.getElementById('lang-dropdown').classList.remove('open');
+      document.getElementById('lang-chevron').classList.remove('rotated');
+    }
+  });
+
+  let currentLang = localStorage.getItem('lang') || 'fr';
+  const TRANSLATIONS = {};
+
+  async function loadLang(lang) {
+    if (!TRANSLATIONS[lang]) {
+      try {
+        const res = await fetch(`/assets/i18n/${lang}.json`);
+        TRANSLATIONS[lang] = await res.json();
+      } catch(e) { TRANSLATIONS[lang] = {}; }
+    }
+    currentLang = lang; localStorage.setItem('lang', lang);
+    const dict = TRANSLATIONS[lang] || {};
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      if (dict[el.dataset.i18n] !== undefined) el.textContent = dict[el.dataset.i18n];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      if (dict[el.dataset.i18nHtml] !== undefined) el.innerHTML = dict[el.dataset.i18nHtml];
+    });
+    const isEN = lang === 'en';
+    document.getElementById('lang-flag').textContent = isEN ? '🇬🇧' : '🇫🇷';
+    document.getElementById('lang-label').textContent = isEN ? 'English' : 'Français';
+    document.getElementById('opt-fr').classList.toggle('active', !isEN);
+    document.getElementById('opt-en').classList.toggle('active', isEN);
+    document.documentElement.lang = lang;
+  }
+  function setLang(lang) {
+    loadLang(lang);
+    document.getElementById('lang-dropdown').classList.remove('open');
+    document.getElementById('lang-chevron').classList.remove('rotated');
+  }
+  loadLang(currentLang);
+
+  // Scroll-based fade-in
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
