@@ -1,0 +1,33 @@
+name: CloudFront Invalidation
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+env:
+  AWS_REGION: us-east-1
+  CLOUDFRONT_DISTRIBUTION_ID: E2FGN0UDFMBEAK
+  CLOUDFRONT_INVALIDATION_PATHS: /*
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  invalidate:
+    name: Invalidate CloudFront Cache
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          role-to-assume: arn:aws:iam::${{ vars.AWS_ACCOUNT_ID }}:role/GithubRunnerRole
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Create CloudFront invalidation
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "${{ env.CLOUDFRONT_INVALIDATION_PATHS }}"
