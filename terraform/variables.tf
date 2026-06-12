@@ -22,8 +22,8 @@ variable "S3_BUCKET" {
   description = "S3 bucket name for the static website"
 }
 
-variable "CLOUDFRONT_DISTRIBUTION_ARN" {
+variable "CLOUDFRONT_DISTRIBUTION_ID" {
   type        = string
-  default     = ""
-  description = "CloudFront distribution ARN for cache invalidation (leave empty if not used)"
+  default     = "E2FGN0UDFMBEAK"
+  description = "CloudFront distribution ID for cache invalidation"
 }

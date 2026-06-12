@@ -78,14 +78,11 @@ data "aws_iam_policy_document" "s3_deploy" {
     resources = ["arn:aws:s3:::${var.S3_BUCKET}/*"]
   }
 
-  dynamic "statement" {
-    for_each = var.CLOUDFRONT_DISTRIBUTION_ARN != "" ? [1] : []
-    content {
-      sid     = "CloudFrontInvalidation"
-      effect  = "Allow"
-      actions = ["cloudfront:CreateInvalidation"]
-      resources = [var.CLOUDFRONT_DISTRIBUTION_ARN]
-    }
+  statement {
+    sid     = "CloudFrontInvalidation"
+    effect  = "Allow"
+    actions = ["cloudfront:CreateInvalidation"]
+    resources = ["arn:aws:cloudfront::${data.aws_caller_identity.current.account_id}:distribution/${var.CLOUDFRONT_DISTRIBUTION_ID}"]
   }
 }
 
