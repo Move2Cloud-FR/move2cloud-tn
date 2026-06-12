@@ -2,7 +2,7 @@
   "job.title": "Infrastructure as Code Consultant",
   "job.sector": "Infrastructure",
   "job.published": "Published on 11 June 2026 · Position available immediately",
-  "job.desc.1": "En tant que Consultant Infrastructure As Code, vous accompagnez nos clients dans l'automatisation et la codification de leurs infrastructures. Vous êtes un expert de l'IaC et des pratiques DevOps.",
+  "job.desc.1": "As an Infrastructure as Code Consultant, you help our clients automate and codify their infrastructures. You are an expert in IaC and DevOps practices.",
   "skills": [
     "Terraform",
     "Ansible",
@@ -12,15 +12,16 @@
     "Python",
     "GitOps"
   ],
-  "mission.1": "Concevoir et déployer des infrastructures as code (Terraform, Ansible)",
+  "mission.1": "Design and deploy infrastructure as code (Terraform, Ansible)",
   "mission.2": "Automate infrastructure and configuration processes",
-  "mission.3": "Mettre en place des pipelines CI/CD pour l'infra",
+  "mission.3": "Set up CI/CD pipelines for infrastructure",
   "mission.4": "Support clients in adopting IaC",
   "mission.5": "Documenter les architectures et les pratiques",
-  "mission.6": "Monitor technological developments sur l'écosystème IaC",
-  "profile.1": "Bachelor's to Master's degree in informatique",
-  "profile.2": "3 to 6 years of experience in administration systèmes et IaC",
+  "mission.6": "Monitor technological developments in the IaC ecosystem",
+  "profile.1": "Bachelor's to Master's degree in computer science",
+  "profile.2": "3 to 6 years of experience in systems administration and IaC",
   "profile.3": "Proficiency in Terraform, Ansible, Packer",
-  "profile.4": "Expérience sur AWS, Azure ou GCP",
-  "profile.5": "Good DevOps culture and automation mindset"
+  "profile.4": "Experience with AWS, Azure, or GCP",
+  "profile.5": "Good DevOps culture and automation mindset",
+  "job.card.exp.val": "3 to 6 years"
 }

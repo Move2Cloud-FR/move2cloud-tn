@@ -22,5 +22,6 @@
   "profile.2": "4 à 8 ans d'expérience en projets infrastructure",
   "profile.3": "Connaissance VMware, Azure/AWS, stockage SAN/NAS",
   "profile.4": "Certification PMP ou ITIL appréciée",
-  "profile.5": "Rigueur, leadership et orientation client"
+  "profile.5": "Rigueur, leadership et orientation client",
+  "job.card.exp.val": "4 à 8 ans"
 }

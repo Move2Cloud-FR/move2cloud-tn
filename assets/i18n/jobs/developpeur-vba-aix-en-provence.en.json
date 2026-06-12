@@ -11,15 +11,16 @@
     "Automatisation",
     "Office 365"
   ],
-  "mission.1": "Développer et maintenir des macros et applications VBA (Excel, Access, Word)",
+  "mission.1": "Develop and maintain VBA macros and applications (Excel, Access, Word)",
   "mission.2": "Analyse business needs and propose automation solutions",
-  "mission.3": "Créer des tableaux de bord et des rapports dynamiques",
-  "mission.4": "Former les utilisateurs aux outils développés",
-  "mission.5": "Documenter les développements réalisés",
+  "mission.3": "Create dashboards and dynamic reports",
+  "mission.4": "Train users on the developed tools",
+  "mission.5": "Document completed developments",
   "mission.6": "Ensure application maintenance and evolution",
-  "profile.1": "Bac+2/+5 degree in informatique ou bureautique",
-  "profile.2": "2 to 4 years of experience in développement VBA",
-  "profile.3": "Excellent command of d'Excel et du modèle objet Office",
-  "profile.4": "Connaissance SQL et bases de données Access",
-  "profile.5": "Sens de l'analyse et orientation service"
+  "profile.1": "Bac+2/+5 degree in computer science or office automation",
+  "profile.2": "2 to 4 years of experience in VBA development",
+  "profile.3": "Excellent command of Excel and the Office object model",
+  "profile.4": "Knowledge of SQL and Access databases",
+  "profile.5": "Sens de l'analyse et orientation service",
+  "job.card.exp.val": "2 to 4 years"
 }

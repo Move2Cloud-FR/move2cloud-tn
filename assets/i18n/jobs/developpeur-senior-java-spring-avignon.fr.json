@@ -23,5 +23,6 @@
   "profile.2": "5 à 9 ans d'expérience Java Spring",
   "profile.3": "Expert Spring Boot, Microservices, JPA",
   "profile.4": "Connaissance des conteneurs (Docker, Kubernetes)",
-  "profile.5": "Leadership technique et pédagogie"
+  "profile.5": "Leadership technique et pédagogie",
+  "job.card.exp.val": "5 à 9 ans"
 }

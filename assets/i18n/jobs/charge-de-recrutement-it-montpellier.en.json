@@ -1,10 +1,10 @@
 {
   "job.title": "IT Recruitment Specialist",
-  "job.sector": "Ressources Humaines",
+  "job.sector": "Human Resources",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Join our HR team in Montpellier. As an IT Recruitment Specialist, you source and select the best technical profiles to support Move2Cloud's growth.",
   "skills": [
-    "Recrutement",
+    "Recruitment",
     "LinkedIn Recruiter",
     "ATS",
     "Sourcing",
@@ -13,14 +13,15 @@
   ],
   "mission.1": "Write and publish recruitment announcements",
   "mission.2": "Sourcer activement les candidats sur LinkedIn et les jobboards",
-  "mission.3": "Conduire les entretiens de préqualification téléphonique",
-  "mission.4": "Coordonner les entretiens avec les managers techniques",
-  "mission.5": "Gérer le suivi des candidatures dans l'ATS",
-  "mission.6": "Contribuer à la marque employeur",
+  "mission.3": "Conduct phone pre-qualification interviews",
+  "mission.4": "Coordinate interviews with technical managers",
+  "mission.5": "Manage candidate tracking in the ATS",
+  "mission.6": "Contribute to employer branding",
   "mission.7": "Manage recruitment reporting",
-  "profile.1": "Bachelor's to Master's degree in RH ou école de commerce",
+  "profile.1": "Bachelor's to Master's degree in HR or from a business school",
   "profile.2": "1 to 4 years of experience in recrutement IT",
   "profile.3": "Proficiency in LinkedIn Recruiter",
-  "profile.4": "Knowledge of profils IT (développeurs, infra, DevOps)",
-  "profile.5": "Enthousiasme, rigueur et sens du relationnel"
+  "profile.4": "Knowledge of IT profiles (developers, infrastructure, DevOps)",
+  "profile.5": "Enthusiasm, rigour, and strong interpersonal skills",
+  "job.card.exp.val": "1 to 4 years"
 }

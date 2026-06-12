@@ -23,5 +23,6 @@
   "profile.2": "4 à 8 ans d'expérience en production IT",
   "profile.3": "Expertise Linux, Windows Server et middleware",
   "profile.4": "Maîtrise des outils de supervision (Zabbix, Nagios, Datadog)",
-  "profile.5": "Certification ITIL Foundation appréciée"
+  "profile.5": "Certification ITIL Foundation appréciée",
+  "job.card.exp.val": "4 à 8 ans"
 }

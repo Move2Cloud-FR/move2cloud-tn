@@ -12,15 +12,16 @@
     "Jenkins",
     "Swagger"
   ],
-  "mission.1": "Développer des microservices Java Spring Boot",
-  "mission.2": "Concevoir et documenter des API REST (OpenAPI/Swagger)",
-  "mission.3": "Gérer la persistance avec JPA/Hibernate",
-  "mission.4": "Mettre en place des pipelines CI/CD (Jenkins, GitLab CI)",
-  "mission.5": "Écrire des tests unitaires et d'intégration",
-  "mission.6": "Contribuer aux revues de code et aux décisions d'architecture",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "mission.1": "Develop Java Spring Boot microservices",
+  "mission.2": "Design and document REST APIs (OpenAPI/Swagger)",
+  "mission.3": "Manage persistence with JPA/Hibernate",
+  "mission.4": "Set up CI/CD pipelines (Jenkins, GitLab CI)",
+  "mission.5": "Write unit and integration tests",
+  "mission.6": "Contribute to code reviews and architecture decisions",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "3 to 6 years of experience Java Spring Boot",
   "profile.3": "Proficiency in Spring Boot, JPA, REST",
   "profile.4": "Knowledge of Docker et des pratiques CI/CD",
-  "profile.5": "Rigueur et culture du code propre"
+  "profile.5": "Rigour and clean code culture",
+  "job.card.exp.val": "3 to 6 years"
 }

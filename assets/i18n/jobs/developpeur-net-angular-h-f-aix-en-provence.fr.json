@@ -22,5 +22,6 @@
   "profile.2": "2 à 5 ans d'expérience en développement .NET et Angular",
   "profile.3": "Maîtrise de C#, TypeScript, HTML/CSS",
   "profile.4": "Connaissance des bases SQL (SQL Server, PostgreSQL)",
-  "profile.5": "Esprit d'équipe et rigueur dans le code"
+  "profile.5": "Esprit d'équipe et rigueur dans le code",
+  "job.card.exp.val": "2 à 5 ans"
 }

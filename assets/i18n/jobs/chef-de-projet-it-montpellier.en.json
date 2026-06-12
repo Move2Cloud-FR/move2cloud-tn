@@ -4,7 +4,7 @@
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Lead complex IT projects in a multi-client environment in Montpellier. You coordinate the technical teams and ensure delivery within the defined timelines and budgets.",
   "skills": [
-    "Gestion de projet",
+    "Project management",
     "Agile",
     "Scrum",
     "JIRA",
@@ -20,5 +20,6 @@
   "profile.2": "3 to 7 years of experience in IT project management",
   "profile.3": "Proficiency in Agile methodologies (Scrum, Kanban)",
   "profile.4": "PMP or PRINCE2 certification is a plus",
-  "profile.5": "Strong interpersonal skills and communication"
+  "profile.5": "Strong interpersonal skills and communication",
+  "job.card.exp.val": "3 to 7 years"
 }

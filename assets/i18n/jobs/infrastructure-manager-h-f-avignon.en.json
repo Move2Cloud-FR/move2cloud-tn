@@ -12,16 +12,17 @@
     "Gouvernance",
     "Roadmap"
   ],
-  "mission.1": "Manager et développer les équipes infrastructure",
-  "mission.2": "Définir la roadmap infrastructure et les priorités",
-  "mission.3": "Piloter les projets de transformation et de modernisation",
+  "mission.1": "Manage and develop infrastructure teams",
+  "mission.2": "Define the infrastructure roadmap and priorities",
+  "mission.3": "Lead transformation and modernisation projects",
   "mission.4": "Ensure information systems availability and security",
-  "mission.5": "Gérer les budgets et les contrats fournisseurs",
+  "mission.5": "Manage budgets and supplier contracts",
   "mission.6": "Report to management",
-  "mission.7": "Représenter l'IT dans les instances de gouvernance",
-  "profile.1": "Master's degree in informatique ou management",
-  "profile.2": "6 to 12 years of experience in infrastructure IT, dont 3 ans en management",
-  "profile.3": "Bonne vision des technologies cloud, réseau, sécurité",
-  "profile.4": "Ability to gérer des équipes pluridisciplinaires",
-  "profile.5": "Leadership, rigueur et sens stratégique"
+  "mission.7": "Represent IT in governance bodies",
+  "profile.1": "Master's degree in computer science or management",
+  "profile.2": "6 to 12 years of experience in IT infrastructure, including 3 years in management",
+  "profile.3": "Good understanding of cloud, network, and security technologies",
+  "profile.4": "Ability to manage multidisciplinary teams",
+  "profile.5": "Leadership, rigour, and strategic mindset",
+  "job.card.exp.val": "6 to 12 years"
 }

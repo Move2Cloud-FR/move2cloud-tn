@@ -23,5 +23,6 @@
   "profile.2": "3 à 6 ans d'expérience sur AXWAY Secure Transport ou équivalent (IBM MQ FT, GoAnywhere)",
   "profile.3": "Connaissance des protocoles SFTP, FTPS, AS2, HTTP/S",
   "profile.4": "Compétences Linux / Windows Server",
-  "profile.5": "Rigueur et sens du service client"
+  "profile.5": "Rigueur et sens du service client",
+  "job.card.exp.val": "3 à 6 ans"
 }

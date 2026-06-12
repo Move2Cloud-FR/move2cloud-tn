@@ -12,15 +12,16 @@
     "Azure DevOps",
     "Git"
   ],
-  "mission.1": "Développer des applications .NET Core et Angular",
-  "mission.2": "Concevoir et implémenter des API REST",
-  "mission.3": "Rédiger les tests unitaires et fonctionnels",
-  "mission.4": "Participer aux cérémonies Agile (sprint planning, daily, rétrospective)",
-  "mission.5": "Réaliser les revues de code",
+  "mission.1": "Develop .NET Core and Angular applications",
+  "mission.2": "Design and implement REST APIs",
+  "mission.3": "Write unit and functional tests",
+  "mission.4": "Participate in Agile ceremonies (sprint planning, daily, retrospective)",
+  "mission.5": "Perform code reviews",
   "mission.6": "Ensure application maintenance and support",
-  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.1": "Bachelor's to Master's degree in computer science",
   "profile.2": "3 to 6 years of experience C# et Angular",
   "profile.3": "Proficiency in .NET Core, TypeScript, SQL Server",
   "profile.4": "Knowledge of pratiques DevOps (CI/CD)",
-  "profile.5": "Team spirit et rigueur"
+  "profile.5": "Team spirit and rigour",
+  "job.card.exp.val": "3 to 6 years"
 }

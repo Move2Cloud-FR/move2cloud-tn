@@ -5,21 +5,22 @@
   "job.desc.1": "Move2Cloud Tunisia is looking for an IT Sales Executive to develop its client portfolio in Tunisia and France. You will be the ambassador of our Cloud & DevOps offerings to CIOs and business directors.",
   "skills": [
     "Cloud",
-    "Conseil IT",
-    "Prospection",
-    "CRM",
-    "Négociation"
+    "IT consulting",
+    "Prospecting",
+    "Negotiation",
+    "Negotiation"
   ],
-  "mission.1": "Prospecter de nouveaux clients (PME, ETI, grands comptes) en Tunisie et en France",
-  "mission.2": "Identifier les besoins clients et construire des propositions commerciales adaptées",
-  "mission.3": "Piloter le cycle de vente de bout en bout : qualification, démo, négociation, closing",
+  "mission.1": "Prospect new clients (SMBs, mid-market companies, and large accounts) in Tunisia and France",
+  "mission.2": "Identify client needs and build tailored commercial proposals",
+  "mission.3": "Lead the full sales cycle: qualification, demo, negotiation, closing",
   "mission.4": "Manage and retain the existing client portfolio",
-  "mission.5": "Collaborer avec les équipes techniques pour la rédaction des offres",
-  "mission.6": "Participer aux événements sectoriels et salons IT",
+  "mission.5": "Collaborate with technical teams to write proposals",
+  "mission.6": "Participate in industry events and IT trade shows",
   "mission.7": "Achieve and exceed quarterly revenue targets",
-  "profile.1": "Bachelor's to Master's degree in commerce, management ou informatique",
-  "profile.2": "Experience with 2 à 5 ans en vente de services IT ou conseil",
-  "profile.3": "Maîtrise du français courant, bonne présentation orale",
-  "profile.4": "Connaissance du secteur cloud / ESN est un plus",
-  "profile.5": "Autonomy, tenacity, and strong results orientation"
+  "profile.1": "Bachelor's to Master's degree in sales, management, or computer science",
+  "profile.2": "2 to 5 years of experience in IT services or consulting sales",
+  "profile.3": "Fluent French and strong oral presentation skills",
+  "profile.4": "Knowledge of the cloud / IT services sector is a plus",
+  "profile.5": "Autonomy, tenacity, and strong results orientation",
+  "job.card.exp.val": "2 to 5 years"
 }

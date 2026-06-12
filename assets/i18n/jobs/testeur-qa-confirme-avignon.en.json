@@ -1,6 +1,6 @@
 {
   "job.title": "Experienced QA Tester",
-  "job.sector": "Qualité & Tests",
+  "job.sector": "Quality & Testing",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Join our QA team in Avignon to ensure the quality of our clients' applications. You define and execute test strategies, automate test scenarios, and contribute to continuous improvement.",
   "skills": [
@@ -12,16 +12,17 @@
     "BDD",
     "ISTQB"
   ],
-  "mission.1": "Définir la stratégie de tests (fonctionnels, non-fonctionnels, sécurité)",
-  "mission.2": "Rédiger les plans de tests et les cas de tests",
-  "mission.3": "Exécuter les tests manuels et automatisés",
-  "mission.4": "Développer et maintenir les scripts d'automatisation",
+  "mission.1": "Define the test strategy (functional, non-functional, security)",
+  "mission.2": "Write test plans and test cases",
+  "mission.3": "Execute manual and automated tests",
+  "mission.4": "Develop and maintain automation scripts",
   "mission.5": "Analyse results and write test reports",
-  "mission.6": "Collaborer avec les équipes dev et métier",
-  "mission.7": "Participer aux cérémonies Agile",
-  "profile.1": "Bachelor's to Master's degree in informatique ou qualité logicielle",
+  "mission.6": "Collaborate with development and business teams",
+  "mission.7": "Participate in Agile ceremonies",
+  "profile.1": "Bachelor's to Master's degree in computer science or software quality",
   "profile.2": "3 to 6 years of experience in tests logiciels",
-  "profile.3": "Maîtrise des outils de test (Selenium, Cypress, JMeter)",
-  "profile.4": "Knowledge of méthodes Agile et TDD/BDD",
-  "profile.5": "Certification ISTQB is a plus"
+  "profile.3": "Proficiency in testing tools (Selenium, Cypress, JMeter)",
+  "profile.4": "Knowledge of Agile methods and TDD/BDD",
+  "profile.5": "Certification ISTQB is a plus",
+  "job.card.exp.val": "3 to 6 years"
 }

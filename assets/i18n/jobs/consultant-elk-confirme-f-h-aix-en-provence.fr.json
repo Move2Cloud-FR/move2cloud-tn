@@ -23,5 +23,6 @@
   "profile.2": "3 à 6 ans d'expérience sur la stack Elastic",
   "profile.3": "Maîtrise d'Elasticsearch, Logstash, Kibana, Beats",
   "profile.4": "Connaissance des architectures cloud (AWS, Azure)",
-  "profile.5": "Connaissance de la sécurité SI appréciée"
+  "profile.5": "Connaissance de la sécurité SI appréciée",
+  "job.card.exp.val": "3 à 6 ans"
 }

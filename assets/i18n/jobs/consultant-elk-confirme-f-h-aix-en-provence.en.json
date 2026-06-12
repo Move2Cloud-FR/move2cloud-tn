@@ -12,16 +12,17 @@
     "Docker",
     "Python"
   ],
-  "mission.1": "Déployer et administrer des clusters Elasticsearch",
-  "mission.2": "Concevoir des pipelines d'ingestion avec Logstash et Filebeat",
-  "mission.3": "Créer des dashboards Kibana pour le monitoring et la sécurité",
-  "mission.4": "Optimiser les performances et la scalabilité des clusters",
-  "mission.5": "Intégrer la stack ELK dans les environnements clients",
+  "mission.1": "Deploy and administer Elasticsearch clusters",
+  "mission.2": "Design ingestion pipelines with Logstash and Filebeat",
+  "mission.3": "Create Kibana dashboards for monitoring and security",
+  "mission.4": "Optimise cluster performance and scalability",
+  "mission.5": "Integrate the ELK stack into client environments",
   "mission.6": "Write technical documentation",
-  "mission.7": "Former et accompagner les équipes",
-  "profile.1": "Bachelor's to Master's degree in informatique",
+  "mission.7": "Train and support teams",
+  "profile.1": "Bachelor's to Master's degree in computer science",
   "profile.2": "3 to 6 years of experience with la stack Elastic",
-  "profile.3": "Maîtrise d'Elasticsearch, Logstash, Kibana, Beats",
+  "profile.3": "Proficiency in Elasticsearch, Logstash, Kibana, and Beats",
   "profile.4": "Knowledge of architectures cloud (AWS, Azure)",
-  "profile.5": "Knowledge of la sécurité SI is a plus"
+  "profile.5": "Knowledge of information systems security is a plus",
+  "job.card.exp.val": "3 to 6 years"
 }

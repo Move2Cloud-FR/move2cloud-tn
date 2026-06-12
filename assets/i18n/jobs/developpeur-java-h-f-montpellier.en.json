@@ -12,15 +12,16 @@
     "Docker",
     "Git"
   ],
-  "mission.1": "Développer des applications Java / Spring Boot",
-  "mission.2": "Concevoir des API REST et des microservices",
+  "mission.1": "Develop Java / Spring Boot applications",
+  "mission.2": "Design REST APIs and microservices",
   "mission.3": "Optimise application performance",
-  "mission.4": "Écrire des tests unitaires et d'intégration (JUnit, Mockito)",
-  "mission.5": "Participer aux revues de code et aux rituels Scrum",
+  "mission.4": "Write unit and integration tests (JUnit, Mockito)",
+  "mission.5": "Participate in code reviews and Scrum rituals",
   "mission.6": "Ensure corrective and evolutionary maintenance",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "2 to 5 years of experience Java",
   "profile.3": "Proficiency in Spring Boot, Hibernate, Maven",
   "profile.4": "Knowledge of bases SQL (PostgreSQL, MySQL)",
-  "profile.5": "Curiosité technique et esprit d'équipe"
+  "profile.5": "Technical curiosity and team spirit",
+  "job.card.exp.val": "2 to 5 years"
 }

@@ -12,15 +12,16 @@
     "SQL",
     "Azure DevOps"
   ],
-  "mission.1": "Développer des applications full-stack .NET / Angular",
-  "mission.2": "Concevoir des API RESTful et des microservices",
-  "mission.3": "Participer à la conception technique des solutions",
-  "mission.4": "Écrire et maintenir les tests automatisés",
-  "mission.5": "Contribuer aux revues de code et à la documentation",
-  "mission.6": "Collaborer en méthode Agile Scrum",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "mission.1": "Develop full-stack .NET / Angular applications",
+  "mission.2": "Design RESTful APIs and microservices",
+  "mission.3": "Participate in the technical design of solutions",
+  "mission.4": "Write and maintain automated tests",
+  "mission.5": "Contribute to code reviews and documentation",
+  "mission.6": "Collaborate using the Agile Scrum method",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "2 to 5 years of experience .NET et Angular",
   "profile.3": "Good command of de C#, TypeScript, Entity Framework",
-  "profile.4": "Knowledge of bases de données relationnelles",
-  "profile.5": "Autonomy and enjoyment of teamwork"
+  "profile.4": "Knowledge of relational databases",
+  "profile.5": "Autonomy and enjoyment of teamwork",
+  "job.card.exp.val": "2 to 5 years"
 }

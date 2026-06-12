@@ -12,16 +12,17 @@
     "DAX",
     "MDM"
   ],
-  "mission.1": "Concevoir et développer des pipelines ETL avec Talend",
-  "mission.2": "Créer des rapports et tableaux de bord Power BI",
-  "mission.3": "Modéliser les données (datawarehouse, datamarts)",
+  "mission.1": "Design and develop ETL pipelines with Talend",
+  "mission.2": "Create Power BI reports and dashboards",
+  "mission.3": "Model data (data warehouse, data marts)",
   "mission.4": "Analyse business needs and write specifications",
   "mission.5": "Ensure data quality and governance",
-  "mission.6": "Former et accompagner les utilisateurs",
-  "mission.7": "Participer aux phases d'avant-vente",
-  "profile.1": "Bachelor's to Master's degree in informatique ou statistiques",
+  "mission.6": "Train and support users",
+  "mission.7": "Participate in pre-sales phases",
+  "profile.1": "Bachelor's to Master's degree in computer science or statistics",
   "profile.2": "3 to 6 years of experience in BI et ETL",
   "profile.3": "Proficiency in Talend (Open Studio ou Enterprise)",
   "profile.4": "Bonne pratique de Power BI / DAX",
-  "profile.5": "Knowledge of bases SQL et modélisation dimensionnelle"
+  "profile.5": "Knowledge of SQL databases and dimensional modelling",
+  "job.card.exp.val": "3 to 6 years"
 }

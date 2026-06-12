@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience Java Spring Boot",
   "profile.3": "Maîtrise de Spring Boot, JPA, REST",
   "profile.4": "Connaissance de Docker et des pratiques CI/CD",
-  "profile.5": "Rigueur et culture du code propre"
+  "profile.5": "Rigueur et culture du code propre",
+  "job.card.exp.val": "3 à 6 ans"
 }

@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience C#",
   "profile.3": "Maîtrise de .NET Core, ASP.NET, Entity Framework",
   "profile.4": "Connaissance Azure ou AWS appréciée",
-  "profile.5": "Rigueur, curiosité et goût du travail bien fait"
+  "profile.5": "Rigueur, curiosité et goût du travail bien fait",
+  "job.card.exp.val": "3 à 6 ans"
 }

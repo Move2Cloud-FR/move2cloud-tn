@@ -1,15 +1,15 @@
 {
   "job.title": "IT Recruitment & Business Development Apprentice",
-  "job.sector": "Ressources Humaines",
+  "job.sector": "Human Resources",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Move2Cloud is recruiting an apprentice in Lyon to join our HR & sales team. You actively participate in recruiting IT profiles and in the commercial development of the agency.",
   "skills": [
-    "Recrutement IT",
-    "LinkedIn",
-    "Prospection",
+    "IT recruitment",
+    "Prospecting",
+    "Business development",
     "CRM",
     "Communication",
-    "Alternance"
+    "Apprenticeship"
   ],
   "mission.1": "Source and pre-screen IT profiles on LinkedIn and job boards",
   "mission.2": "Write and publish job postings",
@@ -18,8 +18,9 @@
   "mission.5": "Contribute to CRM updates",
   "mission.6": "Participate in recruitment events and campus forums",
   "profile.1": "Currently enrolled in a Bac+3/5 programme in HR, business school, or equivalent",
-  "profile.2": "Première expérience ou stage en recrutement ou commercial is a plus",
+  "profile.2": "First experience or internship in recruitment or sales is a plus",
   "profile.3": "Strong interpersonal skills and enjoyment of client interactions",
   "profile.4": "Energy, curiosity, and eagerness to learn",
-  "profile.5": "Proficiency in office tools and LinkedIn"
+  "profile.5": "Proficiency in office tools and LinkedIn",
+  "job.card.exp.val": "Bac+3/5 degree in progress"
 }

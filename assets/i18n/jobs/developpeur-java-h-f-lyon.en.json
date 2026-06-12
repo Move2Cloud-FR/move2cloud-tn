@@ -2,7 +2,7 @@
   "job.title": "Java Developer",
   "job.sector": "Development",
   "job.published": "Published on 11 June 2026 · Position available immediately",
-  "job.desc.1": "Join our Java team in Lyon to work on varied projects et stimulants. You develop back-end solutionsend robustes for major enterprise clients in an Agile environment.",
+  "job.desc.1": "Join our Java team in Lyon to work on varied and stimulating projects. You develop robust back-end solutions for major enterprise clients in an Agile environment.",
   "skills": [
     "Java",
     "Spring Boot",
@@ -12,15 +12,16 @@
     "Jenkins",
     "Git"
   ],
-  "mission.1": "Développer des applications Java / Spring Boot",
-  "mission.2": "Mettre en place des architectures microservices",
-  "mission.3": "Écrire des tests automatisés",
-  "mission.4": "Participer aux code reviews",
-  "mission.5": "Travailler en collaboration avec les équipes frontend",
-  "mission.6": "Contribuer à l'amélioration des pratiques de développement",
-  "profile.1": "Bachelor's to Master's degree in informatique",
+  "mission.1": "Develop Java / Spring Boot applications",
+  "mission.2": "Set up microservice architectures",
+  "mission.3": "Write automated tests",
+  "mission.4": "Participate in code reviews",
+  "mission.5": "Work in collaboration with frontend teams",
+  "mission.6": "Contribute to improving development practices",
+  "profile.1": "Bachelor's to Master's degree in computer science",
   "profile.2": "2 to 5 years of experience Java / Spring",
   "profile.3": "Proficiency in Spring Boot, JPA/Hibernate",
   "profile.4": "Knowledge of Docker et CI/CD",
-  "profile.5": "Rigueur et goût du travail bien fait"
+  "profile.5": "Rigour and pride in quality work",
+  "job.card.exp.val": "2 to 5 years"
 }

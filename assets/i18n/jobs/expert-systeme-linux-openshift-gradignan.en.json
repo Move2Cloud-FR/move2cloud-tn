@@ -2,7 +2,7 @@
   "job.title": "Linux / OpenShift Systems Expert",
   "job.sector": "Infrastructure",
   "job.published": "Published on 11 June 2026 · Position available immediately",
-  "job.desc.1": "En tant qu'Expert Système Linux et OpenShift, vous garantissez la disponibilité et la performance des plateformes de nos clients. Vous intervenez sur des environnements critiques en production.",
+  "job.desc.1": "As a Linux and OpenShift System Expert, you ensure the availability and performance of our clients' platforms. You work on critical production environments.",
   "skills": [
     "Linux",
     "OpenShift",
@@ -13,15 +13,16 @@
     "Docker"
   ],
   "mission.1": "Administer OpenShift / OKD clusters in production",
-  "mission.2": "Gérer et optimiser des systèmes Linux (RHEL, CentOS)",
-  "mission.3": "Déployer et opérer des applications conteneurisées",
-  "mission.4": "Mettre en place des mécanismes de haute disponibilité",
+  "mission.2": "Manage and optimise Linux systems (RHEL, CentOS)",
+  "mission.3": "Deploy and operate containerised applications",
+  "mission.4": "Implement high-availability mechanisms",
   "mission.5": "Automate operations using Ansible and shell scripts",
   "mission.6": "Ensure monitoring and incident resolution",
   "mission.7": "Document architectures and procedures",
-  "profile.1": "Bachelor's to Master's degree in informatique, spécialisation systèmes",
+  "profile.1": "Bachelor's to Master's degree in computer science, systems specialisation",
   "profile.2": "4 to 8 years of experience in administration Linux",
-  "profile.3": "Expertise avérée sur OpenShift ou Kubernetes",
+  "profile.3": "Proven expertise in OpenShift or Kubernetes",
   "profile.4": "Certification Red Hat (RHCSA/RHCE) is a plus",
-  "profile.5": "Rigueur, autonomie et sens des priorités"
+  "profile.5": "Rigour, autonomy, and strong priority management",
+  "job.card.exp.val": "4 to 8 years"
 }

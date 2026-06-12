@@ -22,5 +22,6 @@
   "profile.2": "2 à 5 ans d'expérience Java",
   "profile.3": "Maîtrise de Spring Boot, Hibernate, Maven",
   "profile.4": "Connaissance des bases SQL (PostgreSQL, MySQL)",
-  "profile.5": "Curiosité technique et esprit d'équipe"
+  "profile.5": "Curiosité technique et esprit d'équipe",
+  "job.card.exp.val": "2 à 5 ans"
 }

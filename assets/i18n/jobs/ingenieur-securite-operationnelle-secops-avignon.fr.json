@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience en sécurité opérationnelle",
   "profile.3": "Maîtrise d'un SIEM (Splunk, QRadar, Elastic)",
   "profile.4": "Connaissance des frameworks MITRE ATT&CK, NIST",
-  "profile.5": "Certifications CISSP, CEH ou GCIH appréciées"
+  "profile.5": "Certifications CISSP, CEH ou GCIH appréciées",
+  "job.card.exp.val": "3 à 6 ans"
 }

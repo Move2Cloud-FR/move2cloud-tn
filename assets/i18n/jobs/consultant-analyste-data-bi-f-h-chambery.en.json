@@ -2,7 +2,7 @@
   "job.title": "Data & BI Consultant / Analyst M/F",
   "job.sector": "Data & BI",
   "job.published": "Published on 11 June 2026 · Position available immediately",
-  "job.desc.1": "En tant que Consultant Data & BI à Chambéry, vous accompagnez nos clients dans la valorisation de leurs données. Vous concevez des solutions de reporting et d'analyse pour faciliter la prise de décision.",
+  "job.desc.1": "As a Data & BI Consultant in Chambery, you help our clients unlock the value of their data. You design reporting and analytics solutions to support decision-making.",
   "skills": [
     "Power BI",
     "SQL",
@@ -13,15 +13,16 @@
     "DAX"
   ],
   "mission.1": "Analyse reporting and dashboard requirements",
-  "mission.2": "Concevoir et développer des solutions BI (Power BI, Tableau, Qlik)",
-  "mission.3": "Modéliser les données (datawarehouse, star schema)",
-  "mission.4": "Développer des pipelines ETL",
+  "mission.2": "Design and develop BI solutions (Power BI, Tableau, Qlik)",
+  "mission.3": "Model data (data warehouse, star schema)",
+  "mission.4": "Develop ETL pipelines",
   "mission.5": "Support users in adopting new tools",
   "mission.6": "Ensure data quality and governance",
-  "mission.7": "Réaliser des analyses statistiques et des études",
-  "profile.1": "Bachelor's to Master's degree in informatique, statistiques ou data science",
+  "mission.7": "Carry out statistical analyses and studies",
+  "profile.1": "Bachelor's to Master's degree in computer science, statistics, or data science",
   "profile.2": "3 to 6 years of experience in BI / data analytics",
   "profile.3": "Proficiency in Power BI, SQL, ETL",
-  "profile.4": "Connaissance Python ou R is a plus",
-  "profile.5": "Pédagogie et orientation métier"
+  "profile.4": "Knowledge of Python or R is a plus",
+  "profile.5": "Teaching mindset and business focus",
+  "job.card.exp.val": "3 to 6 years"
 }

@@ -12,16 +12,17 @@
     "CI/CD",
     "PostgreSQL"
   ],
-  "mission.1": "Concevoir et développer des applications Java Spring Boot",
-  "mission.2": "Définir et faire respecter les standards techniques",
-  "mission.3": "Réaliser les revues de code",
-  "mission.4": "Mettre en place les pipelines CI/CD",
+  "mission.1": "Design and develop Java Spring Boot applications",
+  "mission.2": "Define and enforce technical standards",
+  "mission.3": "Perform code reviews",
+  "mission.4": "Set up CI/CD pipelines",
   "mission.5": "Optimiser les performances backend",
   "mission.6": "Mentor and coach junior developers",
   "mission.7": "Monitor technological developments",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "5 to 9 years of experience Java / Spring",
   "profile.3": "Expert Spring Boot, Microservices, JPA, Kafka",
   "profile.4": "Good knowledge of Docker and Kubernetes",
-  "profile.5": "Pédagogie et leadership technique"
+  "profile.5": "Teaching mindset and technical leadership",
+  "job.card.exp.val": "5 to 9 years"
 }

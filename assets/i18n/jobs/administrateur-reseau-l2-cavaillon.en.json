@@ -1,6 +1,6 @@
 {
   "job.title": "L2 Network Administrator",
-  "job.sector": "Réseau & Télécoms",
+  "job.sector": "Network & Telecoms",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "As an L2 Network Administrator in Cavaillon, you administer and maintain the network infrastructure of our clients. You work on Cisco equipment and ensure service availability.",
   "skills": [
@@ -20,8 +20,9 @@
   "mission.6": "Participate in infrastructure evolution projects",
   "mission.7": "Provide N2/N3 technical support",
   "profile.1": "Associate's to Bachelor's degree in networks and telecommunications",
-  "profile.2": "2 to 5 years of experience in administration réseau",
+  "profile.2": "2 to 5 years of experience in network administration",
   "profile.3": "Proficiency with Cisco equipment (CCNA is a plus)",
-  "profile.4": "Knowledge of protocoles L2 (STP, LACP, VTP)",
-  "profile.5": "Rigour, responsiveness, and service mindset"
+  "profile.4": "Knowledge of protocols L2 (STP, LACP, VTP)",
+  "profile.5": "Rigour, responsiveness, and service mindset",
+  "job.card.exp.val": "2 to 5 years"
 }

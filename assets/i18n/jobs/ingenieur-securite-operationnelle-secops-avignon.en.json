@@ -1,6 +1,6 @@
 {
   "job.title": "Security Operations Engineer (SecOps)",
-  "job.sector": "Cybersécurité",
+  "job.sector": "Cybersecurity",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Join the SecOps team in Avignon to ensure the monitoring, detection, and response to security incidents. You work on SIEM, vulnerability management, and hardening of information systems.",
   "skills": [
@@ -13,14 +13,15 @@
   ],
   "mission.1": "Monitor information systems (SOC/SIEM)",
   "mission.2": "Analyse security alerts and qualify incidents",
-  "mission.3": "Mener les investigations et réponses aux incidents",
-  "mission.4": "Contribuer à l'amélioration des règles de détection",
-  "mission.5": "Participer aux audits de sécurité et aux tests d'intrusion",
-  "mission.6": "Rédiger les rapports d'incidents et les procédures",
+  "mission.3": "Conduct investigations and incident responses",
+  "mission.4": "Contribute to improving detection rules",
+  "mission.5": "Participate in security audits and penetration tests",
+  "mission.6": "Write incident reports and procedures",
   "mission.7": "Veille technologique sur les nouvelles menaces",
-  "profile.1": "Master's degree (Bac+5) in Computer Science, spécialisation cybersécurité",
-  "profile.2": "3 to 6 years of experience in sécurité opérationnelle",
-  "profile.3": "Maîtrise d'un SIEM (Splunk, QRadar, Elastic)",
+  "profile.1": "Master's degree (Bac+5) in Computer Science, cybersecurity specialisation",
+  "profile.2": "3 to 6 years of experience in operational security",
+  "profile.3": "Proficiency in a SIEM (Splunk, QRadar, Elastic)",
   "profile.4": "Knowledge of frameworks MITRE ATT&CK, NIST",
-  "profile.5": "Certifications CISSP, CEH ou GCIH is a pluss"
+  "profile.5": "Certifications CISSP, CEH ou GCIH is a pluss",
+  "job.card.exp.val": "3 to 6 years"
 }

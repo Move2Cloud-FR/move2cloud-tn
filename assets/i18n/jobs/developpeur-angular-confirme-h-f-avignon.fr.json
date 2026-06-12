@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience Angular",
   "profile.3": "Maîtrise d'Angular (v12+), TypeScript, RxJS",
   "profile.4": "Connaissance de NgRx ou Akita appréciée",
-  "profile.5": "Sensibilité UI/UX et souci de la qualité"
+  "profile.5": "Sensibilité UI/UX et souci de la qualité",
+  "job.card.exp.val": "3 à 6 ans"
 }

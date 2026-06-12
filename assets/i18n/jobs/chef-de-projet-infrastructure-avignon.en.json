@@ -8,19 +8,20 @@
     "Azure",
     "AWS",
     "Stockage",
-    "Réseaux",
+    "Networks",
     "ITIL",
-    "Gestion de projet"
+    "Project management"
   ],
-  "mission.1": "Piloter les projets infrastructure (virtualisation, cloud, stockage, réseau)",
-  "mission.2": "Définir les architectures cibles avec les équipes techniques",
-  "mission.3": "Coordonner les intervenants internes et prestataires",
-  "mission.4": "Gérer le budget et le planning des projets",
+  "mission.1": "Lead infrastructure projects (virtualisation, cloud, storage, network)",
+  "mission.2": "Define target architectures with technical teams",
+  "mission.3": "Coordinate internal contributors and service providers",
+  "mission.4": "Manage project budgets and schedules",
   "mission.5": "Lead governance meetings",
   "mission.6": "Ensure transition to operations",
   "profile.1": "Bachelor's to Master's degree in Computer Science or project management",
-  "profile.2": "4 to 8 years of experience in projets infrastructure",
-  "profile.3": "Connaissance VMware, Azure/AWS, stockage SAN/NAS",
+  "profile.2": "4 to 8 years of experience in infrastructure projects",
+  "profile.3": "Knowledge of VMware, Azure/AWS, and SAN/NAS storage",
   "profile.4": "Certification PMP ou ITIL is a plus",
-  "profile.5": "Rigueur, leadership et orientation client"
+  "profile.5": "Rigour, leadership, and client focus",
+  "job.card.exp.val": "4 to 8 years"
 }

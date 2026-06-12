@@ -12,15 +12,16 @@
     "REST API",
     "Git"
   ],
-  "mission.1": "Développer des applications web avec .NET (Core/6/7/8) et Angular",
-  "mission.2": "Concevoir et implémenter des API REST",
-  "mission.3": "Écrire des tests unitaires et d'intégration",
-  "mission.4": "Participer aux revues de code et aux rituels Agile",
+  "mission.1": "Develop web applications with .NET (Core/6/7/8) and Angular",
+  "mission.2": "Design and implement REST APIs",
+  "mission.3": "Write unit and integration tests",
+  "mission.4": "Participate in code reviews and Agile rituals",
   "mission.5": "Optimise application performance",
   "mission.6": "Ensure corrective and evolutionary maintenance",
-  "profile.1": "Bachelor's to Master's degree in informatique ou équivalent",
-  "profile.2": "2 to 5 years of experience in développement .NET et Angular",
+  "profile.1": "Bachelor's to Master's degree in computer science or equivalent",
+  "profile.2": "2 to 5 years of experience in .NET and Angular development",
   "profile.3": "Proficiency in C#, TypeScript, HTML/CSS",
   "profile.4": "Knowledge of bases SQL (SQL Server, PostgreSQL)",
-  "profile.5": "Team spirit et rigueur dans le code"
+  "profile.5": "Team spirit and rigour in code quality",
+  "job.card.exp.val": "2 to 5 years"
 }

@@ -12,15 +12,16 @@
     "Mainframe",
     "IMS"
   ],
-  "mission.1": "Développer et maintenir des programmes COBOL sur environnement z/OS",
+  "mission.1": "Develop and maintain COBOL programs on z/OS environments",
   "mission.2": "Analyse and fix anomalies on mainframe applications",
-  "mission.3": "Participer aux projets de migration et de modernisation",
+  "mission.3": "Participate in migration and modernisation projects",
   "mission.4": "Write technical documentation",
   "mission.5": "Perform unit and integration tests",
   "mission.6": "Provide level 2 and 3 support",
-  "profile.1": "Bac+2/+5 degree in informatique",
+  "profile.1": "Bac+2/+5 degree in computer science",
   "profile.2": "2 to 6 years of experience COBOL / mainframe",
   "profile.3": "Proficiency in COBOL, JCL, CICS, DB2",
-  "profile.4": "Knowledge of l'environnement z/OS",
-  "profile.5": "Rigueur, fiabilité et sens du service"
+  "profile.4": "Knowledge of the z/OS environment",
+  "profile.5": "Rigour, reliability, and strong service mindset",
+  "job.card.exp.val": "2 to 6 years"
 }

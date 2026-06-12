@@ -12,15 +12,16 @@
     "Azure",
     "Git"
   ],
-  "mission.1": "Développer des applications C# / ASP.NET Core et Angular",
-  "mission.2": "Concevoir des API REST et des microservices",
-  "mission.3": "Réaliser les revues de code et mentorer les développeurs juniors",
-  "mission.4": "Participer à la conception technique des solutions",
-  "mission.5": "Écrire des tests automatisés (unitaires, intégration)",
-  "mission.6": "Contribuer à l'amélioration continue des pratiques",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "mission.1": "Develop C# / ASP.NET Core and Angular applications",
+  "mission.2": "Design REST APIs and microservices",
+  "mission.3": "Perform code reviews and mentor junior developers",
+  "mission.4": "Participate in the technical design of solutions",
+  "mission.5": "Write automated tests (unit, integration)",
+  "mission.6": "Contribute to continuous improvement of practices",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "3 to 6 years of experience C# et Angular",
   "profile.3": "Proficiency in .NET Core, TypeScript, SQL Server",
   "profile.4": "Knowledge of architectures microservices",
-  "profile.5": "Team spirit et aptitude au mentoring"
+  "profile.5": "Team spirit et aptitude au mentoring",
+  "job.card.exp.val": "3 to 6 years"
 }

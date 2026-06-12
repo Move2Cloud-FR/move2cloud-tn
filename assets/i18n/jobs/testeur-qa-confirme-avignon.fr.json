@@ -23,5 +23,6 @@
   "profile.2": "3 à 6 ans d'expérience en tests logiciels",
   "profile.3": "Maîtrise des outils de test (Selenium, Cypress, JMeter)",
   "profile.4": "Connaissance des méthodes Agile et TDD/BDD",
-  "profile.5": "Certification ISTQB appréciée"
+  "profile.5": "Certification ISTQB appréciée",
+  "job.card.exp.val": "3 à 6 ans"
 }

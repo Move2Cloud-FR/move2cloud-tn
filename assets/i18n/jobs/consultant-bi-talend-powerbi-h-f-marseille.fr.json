@@ -23,5 +23,6 @@
   "profile.2": "3 à 6 ans d'expérience en BI et ETL",
   "profile.3": "Maîtrise de Talend (Open Studio ou Enterprise)",
   "profile.4": "Bonne pratique de Power BI / DAX",
-  "profile.5": "Connaissance des bases SQL et modélisation dimensionnelle"
+  "profile.5": "Connaissance des bases SQL et modélisation dimensionnelle",
+  "job.card.exp.val": "3 à 6 ans"
 }

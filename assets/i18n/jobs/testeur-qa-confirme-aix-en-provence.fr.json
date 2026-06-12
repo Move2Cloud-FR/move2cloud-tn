@@ -23,5 +23,6 @@
   "profile.2": "3 à 6 ans d'expérience en tests logiciels",
   "profile.3": "Maîtrise des frameworks d'automatisation (Selenium, Cypress)",
   "profile.4": "Connaissance de Jenkins, JIRA, Postman",
-  "profile.5": "Certification ISTQB Foundation ou Advanced appréciée"
+  "profile.5": "Certification ISTQB Foundation ou Advanced appréciée",
+  "job.card.exp.val": "3 à 6 ans"
 }

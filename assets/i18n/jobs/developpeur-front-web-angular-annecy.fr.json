@@ -22,5 +22,6 @@
   "profile.2": "2 à 5 ans d'expérience Angular",
   "profile.3": "Maîtrise d'Angular, TypeScript, HTML5/SCSS",
   "profile.4": "Connaissance de REST API et GraphQL",
-  "profile.5": "Sensibilité UX et goût pour les interfaces soignées"
+  "profile.5": "Sensibilité UX et goût pour les interfaces soignées",
+  "job.card.exp.val": "2 à 5 ans"
 }

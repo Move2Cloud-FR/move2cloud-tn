@@ -2,7 +2,7 @@
   "job.title": "N3 Systems Engineer",
   "job.sector": "Infrastructure",
   "job.published": "Published on 11 June 2026 · Position available immediately",
-  "job.desc.1": "En tant qu'Ingénieur Systèmes N3 à Avignon, vous intervenez sur des environnements complexes pour résoudre les incidents les plus difficiles et faire évoluer les infrastructures de nos clients.",
+  "job.desc.1": "As an N3 Systems Engineer in Avignon, you work on complex environments to resolve the most difficult incidents and evolve our clients' infrastructures.",
   "skills": [
     "Linux",
     "Windows Server",
@@ -12,16 +12,17 @@
     "Active Directory",
     "N3"
   ],
-  "mission.1": "Traiter les incidents et problèmes de niveau 3",
+  "mission.1": "Handle level 3 incidents and problems",
   "mission.2": "Analyse root causes and implement corrections",
-  "mission.3": "Faire évoluer les architectures systèmes",
+  "mission.3": "Evolve system architectures",
   "mission.4": "Automate administration tasks (Ansible, PowerShell)",
-  "mission.5": "Rédiger les procédures et la documentation",
-  "mission.6": "Participer aux astreintes et aux migrations",
+  "mission.5": "Write procedures and documentation",
+  "mission.6": "Participate in on-call rotations and migrations",
   "mission.7": "Ensure N2 skills transfer",
-  "profile.1": "Bachelor's to Master's degree in informatique",
-  "profile.2": "4 to 8 years of experience in administration systèmes",
+  "profile.1": "Bachelor's to Master's degree in computer science",
+  "profile.2": "4 to 8 years of experience in systems administration",
   "profile.3": "Expertise Linux (RHEL, Ubuntu) et Windows Server",
   "profile.4": "Proficiency in la virtualisation (VMware, Hyper-V)",
-  "profile.5": "Certifications RedHat ou Microsoft is a pluss"
+  "profile.5": "Certifications RedHat ou Microsoft is a pluss",
+  "job.card.exp.val": "4 to 8 years"
 }

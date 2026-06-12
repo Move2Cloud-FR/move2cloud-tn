@@ -12,15 +12,16 @@
     "Azure",
     "Docker"
   ],
-  "mission.1": "Développer des applications C# / ASP.NET Core",
-  "mission.2": "Concevoir des API REST et des architectures microservices",
-  "mission.3": "Réaliser les revues de code et mentorer les équipes",
-  "mission.4": "Écrire des tests unitaires et d'intégration",
-  "mission.5": "Participer aux choix technologiques",
-  "mission.6": "Contribuer à l'amélioration des pratiques de développement",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "mission.1": "Develop C# / ASP.NET Core applications",
+  "mission.2": "Design REST APIs and microservice architectures",
+  "mission.3": "Perform code reviews and mentor teams",
+  "mission.4": "Write unit and integration tests",
+  "mission.5": "Participate in technology choices",
+  "mission.6": "Contribute to improving development practices",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "3 to 6 years of experience C#",
   "profile.3": "Proficiency in .NET Core, ASP.NET, Entity Framework",
-  "profile.4": "Connaissance Azure ou AWS is a plus",
-  "profile.5": "Rigueur, curiosité et goût du travail bien fait"
+  "profile.4": "Knowledge of Azure or AWS is a plus",
+  "profile.5": "Rigour, curiosity, and pride in quality work",
+  "job.card.exp.val": "3 to 6 years"
 }

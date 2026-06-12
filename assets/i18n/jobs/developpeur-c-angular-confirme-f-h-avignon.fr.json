@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience C# et Angular",
   "profile.3": "Maîtrise de .NET Core, TypeScript, SQL Server",
   "profile.4": "Connaissance des pratiques DevOps (CI/CD)",
-  "profile.5": "Esprit d'équipe et rigueur"
+  "profile.5": "Esprit d'équipe et rigueur",
+  "job.card.exp.val": "3 à 6 ans"
 }

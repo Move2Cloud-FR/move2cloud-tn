@@ -1,6 +1,6 @@
 {
   "job.title": "Experienced QA Tester",
-  "job.sector": "Qualité & Tests",
+  "job.sector": "Quality & Testing",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Join our QA team in Aix-en-Provence to ensure the quality of software deliveries. You design and execute test strategies, automate test scenarios, and contribute to continuous improvement.",
   "skills": [
@@ -12,16 +12,17 @@
     "Postman",
     "ISTQB"
   ],
-  "mission.1": "Définir la stratégie et les plans de tests",
-  "mission.2": "Rédiger et exécuter les cas de tests fonctionnels et techniques",
+  "mission.1": "Define the test strategy and test plans",
+  "mission.2": "Write and execute functional and technical test cases",
   "mission.3": "Automate tests (Selenium, Cypress, Robot Framework)",
   "mission.4": "Analyse anomalies and monitor their resolution",
-  "mission.5": "Produire les rapports de tests et les métriques qualité",
-  "mission.6": "Participer aux cérémonies Agile",
-  "mission.7": "Contribuer aux bonnes pratiques QA de l'équipe",
-  "profile.1": "Bachelor's to Master's degree in informatique ou qualité",
+  "mission.5": "Produce test reports and quality metrics",
+  "mission.6": "Participate in Agile ceremonies",
+  "mission.7": "Contribute to the team's QA best practices",
+  "profile.1": "Bachelor's to Master's degree in computer science or quality",
   "profile.2": "3 to 6 years of experience in tests logiciels",
-  "profile.3": "Maîtrise des frameworks d'automatisation (Selenium, Cypress)",
+  "profile.3": "Proficiency in automation frameworks (Selenium, Cypress)",
   "profile.4": "Knowledge of Jenkins, JIRA, Postman",
-  "profile.5": "Certification ISTQB Foundation ou Advanced is a plus"
+  "profile.5": "Certification ISTQB Foundation ou Advanced is a plus",
+  "job.card.exp.val": "3 to 6 years"
 }

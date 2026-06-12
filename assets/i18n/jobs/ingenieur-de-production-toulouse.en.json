@@ -14,14 +14,15 @@
   ],
   "mission.1": "Ensure the daily operation of systems and applications",
   "mission.2": "Superviser les infrastructures et traiter les alertes",
-  "mission.3": "Gérer les incidents et les problèmes N2/N3",
-  "mission.4": "Mettre en œuvre les changements et les déploiements",
+  "mission.3": "Manage N2/N3 incidents and problems",
+  "mission.4": "Implement changes and deployments",
   "mission.5": "Automate operational tasks",
-  "mission.6": "Rédiger les procédures et les runbooks",
-  "mission.7": "Participer aux astreintes",
-  "profile.1": "Bac+2/+5 degree in informatique",
-  "profile.2": "3 to 6 years of experience in production informatique",
+  "mission.6": "Write procedures and runbooks",
+  "mission.7": "Participate in on-call rotations",
+  "profile.1": "Bac+2/+5 degree in computer science",
+  "profile.2": "3 to 6 years of experience in IT production",
   "profile.3": "Proficiency in Linux/Windows Server et de la supervision",
-  "profile.4": "Knowledge of outils de ticketing (ServiceNow, JIRA)",
-  "profile.5": "Réactivité et sens des priorités"
+  "profile.4": "Knowledge of ticketing tools (ServiceNow, JIRA)",
+  "profile.5": "Responsiveness and strong priority management",
+  "job.card.exp.val": "3 to 6 years"
 }

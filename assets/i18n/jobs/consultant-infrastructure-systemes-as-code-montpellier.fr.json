@@ -22,5 +22,6 @@
   "profile.2": "3 à 6 ans d'expérience en administration systèmes et IaC",
   "profile.3": "Maîtrise de Terraform, Ansible, Packer",
   "profile.4": "Expérience sur AWS, Azure ou GCP",
-  "profile.5": "Bonne culture DevOps et automatisation"
+  "profile.5": "Bonne culture DevOps et automatisation",
+  "job.card.exp.val": "3 à 6 ans"
 }

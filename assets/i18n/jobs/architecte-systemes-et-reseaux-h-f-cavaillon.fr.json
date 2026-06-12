@@ -23,5 +23,6 @@
   "profile.2": "6 à 12 ans d'expérience dont une forte expertise en architecture infra",
   "profile.3": "Maîtrise des technologies réseau (Cisco, SD-WAN, BGP, MPLS)",
   "profile.4": "Connaissance des architectures cloud hybride",
-  "profile.5": "Certifications Cisco, CCIE ou AWS appréciées"
+  "profile.5": "Certifications Cisco, CCIE ou AWS appréciées",
+  "job.card.exp.val": "6 à 12 ans"
 }

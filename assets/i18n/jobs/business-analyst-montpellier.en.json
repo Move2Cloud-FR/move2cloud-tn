@@ -1,6 +1,6 @@
 {
   "job.title": "Business Analyst",
-  "job.sector": "Conseil",
+  "job.sector": "Consulting",
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "As a Business Analyst in Montpellier, you analyse business processes and translate functional requirements into IT solutions. You are the key interface between business teams and technical teams.",
   "skills": [
@@ -21,5 +21,6 @@
   "profile.2": "3 to 6 years of experience in functional analysis",
   "profile.3": "Proficiency in Agile methodologies and associated tools (JIRA, Confluence)",
   "profile.4": "Excellent listening and synthesis skills",
-  "profile.5": "Connaissance d'un secteur métier (banque, assurance, santé) is a plus"
+  "profile.5": "Knowledge of a business sector (banking, insurance, healthcare) is a plus",
+  "job.card.exp.val": "3 to 6 years"
 }

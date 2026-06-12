@@ -4,21 +4,22 @@
   "job.published": "Published on 11 June 2026 · Position available immediately",
   "job.desc.1": "Join our team in Aix-en-Provence to lead projects IT strategic. You will ensure the success of the assigned projects in terms of timelines, costs and quality.",
   "skills": [
-    "Chef de projet",
+    "Project Manager",
     "Agile",
     "JIRA",
     "MS Project",
-    "Gestion budgétaire"
+    "Budget management"
   ],
-  "mission.1": "Cadrer et planifier les projets IT",
+  "mission.1": "Scope and plan IT projects",
   "mission.2": "Lead governance meetings",
-  "mission.3": "Coordonner les équipes internes et prestataires",
-  "mission.4": "Suivre les livrables et gérer les risques",
+  "mission.3": "Coordinate internal teams and service providers",
+  "mission.4": "Track deliverables and manage risks",
   "mission.5": "Manage day-to-day client relationships",
-  "mission.6": "Rédiger les bilans et retours d'expérience",
-  "profile.1": "Master's degree in informatique ou management",
-  "profile.2": "3 to 7 years of experience in pilotage de projets IT",
+  "mission.6": "Write project reviews and lessons learned",
+  "profile.1": "Master's degree in computer science or management",
+  "profile.2": "3 to 7 years of experience managing IT projects",
   "profile.3": "Knowledge of SI d'entreprise",
-  "profile.4": "Proficiency in la gestion budgétaire",
-  "profile.5": "Autonomy and sense of responsibility"
+  "profile.4": "Proficiency in budget management",
+  "profile.5": "Autonomy and sense of responsibility",
+  "job.card.exp.val": "3 to 7 years"
 }

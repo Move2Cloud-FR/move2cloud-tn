@@ -12,15 +12,16 @@
     "REST",
     "Git"
   ],
-  "mission.1": "Développer des applications SPA Angular",
-  "mission.2": "Concevoir des composants réutilisables et des librairies UI",
-  "mission.3": "Intégrer les API REST et GraphQL",
-  "mission.4": "Optimiser les performances et l'accessibilité",
-  "mission.5": "Réaliser les tests unitaires et e2e (Jasmine, Cypress)",
-  "mission.6": "Participer aux revues de code et aux cérémonies Agile",
-  "profile.1": "Bachelor's to Master's degree in développement informatique",
+  "mission.1": "Develop Angular SPA applications",
+  "mission.2": "Design reusable components and UI libraries",
+  "mission.3": "Integrate REST and GraphQL APIs",
+  "mission.4": "Optimise performance and accessibility",
+  "mission.5": "Perform unit and e2e testing (Jasmine, Cypress)",
+  "mission.6": "Participate in code reviews and Agile ceremonies",
+  "profile.1": "Bachelor's to Master's degree in software development",
   "profile.2": "3 to 6 years of experience Angular",
-  "profile.3": "Maîtrise d'Angular (v12+), TypeScript, RxJS",
+  "profile.3": "Proficiency in Angular (v12+), TypeScript, and RxJS",
   "profile.4": "Knowledge of NgRx ou Akita is a plus",
-  "profile.5": "Sensibilité UI/UX et souci de la qualité"
+  "profile.5": "UI/UX awareness and commitment to quality",
+  "job.card.exp.val": "3 to 6 years"
 }

@@ -23,5 +23,6 @@
   "profile.2": "4 à 8 ans d'expérience en administration Linux",
   "profile.3": "Expertise avérée sur OpenShift ou Kubernetes",
   "profile.4": "Certification Red Hat (RHCSA/RHCE) appréciée",
-  "profile.5": "Rigueur, autonomie et sens des priorités"
+  "profile.5": "Rigueur, autonomie et sens des priorités",
+  "job.card.exp.val": "4 à 8 ans"
 }

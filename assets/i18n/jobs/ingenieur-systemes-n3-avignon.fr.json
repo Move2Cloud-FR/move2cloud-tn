@@ -23,5 +23,6 @@
   "profile.2": "4 à 8 ans d'expérience en administration systèmes",
   "profile.3": "Expertise Linux (RHEL, Ubuntu) et Windows Server",
   "profile.4": "Maîtrise de la virtualisation (VMware, Hyper-V)",
-  "profile.5": "Certifications RedHat ou Microsoft appréciées"
+  "profile.5": "Certifications RedHat ou Microsoft appréciées",
+  "job.card.exp.val": "4 à 8 ans"
 }

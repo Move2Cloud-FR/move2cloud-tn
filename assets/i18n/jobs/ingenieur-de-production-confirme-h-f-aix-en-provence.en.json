@@ -12,16 +12,17 @@
     "Windows Server",
     "ITIL"
   ],
-  "mission.1": "Superviser et exploiter les systèmes en production",
-  "mission.2": "Traiter les incidents critiques N2/N3",
+  "mission.1": "Supervise and operate production systems",
+  "mission.2": "Handle critical N2/N3 incidents",
   "mission.3": "Automate operations using Ansible and scripts",
-  "mission.4": "Gérer les déploiements et les mises en production",
-  "mission.5": "Maintenir à jour les procédures d'exploitation",
+  "mission.4": "Manage deployments and production releases",
+  "mission.5": "Keep operations procedures up to date",
   "mission.6": "Participate in infrastructure evolution projects",
   "mission.7": "Manage on-call duties",
-  "profile.1": "Bachelor's to Master's degree in informatique",
+  "profile.1": "Bachelor's to Master's degree in computer science",
   "profile.2": "4 to 8 years of experience in production IT",
   "profile.3": "Expertise Linux et supervision",
-  "profile.4": "Maîtrise des environnements virtualisés",
-  "profile.5": "ITIL Foundation is a plus"
+  "profile.4": "Proficiency in virtualised environments",
+  "profile.5": "ITIL Foundation is a plus",
+  "job.card.exp.val": "4 to 8 years"
 }

@@ -19,9 +19,10 @@
   "mission.5": "Monitor technological developments S&R",
   "mission.6": "Write architecture documents and technical roadmaps",
   "mission.7": "Participate in architecture reviews",
-  "profile.1": "Master's degree in informatique ou réseaux",
+  "profile.1": "Master's degree in computer science or networks",
   "profile.2": "6 to 12 years of experience with strong infrastructure architecture expertise",
   "profile.3": "Proficiency in network technologies (Cisco, SD-WAN, BGP, MPLS)",
   "profile.4": "Knowledge of architectures cloud hybride",
-  "profile.5": "Cisco, CCIE, or AWS certifications are a plus"
+  "profile.5": "Cisco, CCIE, or AWS certifications are a plus",
+  "job.card.exp.val": "6 to 12 years"
 }

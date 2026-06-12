@@ -12,16 +12,17 @@
     "A/B Testing",
     "Data Studio"
   ],
-  "mission.1": "Mettre en place et maintenir le plan de taggage (GTM, GA4)",
+  "mission.1": "Set up and maintain the tagging plan (GTM, GA4)",
   "mission.2": "Analyse user behaviour data",
-  "mission.3": "Créer des dashboards de suivi de performance",
-  "mission.4": "Définir les KPIs et les métriques de suivi",
-  "mission.5": "Collaborer avec les équipes produit et marketing",
+  "mission.3": "Create performance monitoring dashboards",
+  "mission.4": "Define KPIs and tracking metrics",
+  "mission.5": "Collaborate with product and marketing teams",
   "mission.6": "Ensure quality and reliability of collected data",
-  "mission.7": "Réaliser des études et des analyses ad hoc",
+  "mission.7": "Carry out ad hoc studies and analyses",
   "profile.1": "Bachelor's to Master's degree in Data, statistiques ou marketing digital",
   "profile.2": "4 to 7 years of experience in data analytics et tracking",
   "profile.3": "Proficiency in Google Analytics 4, Google Tag Manager",
-  "profile.4": "Bonne pratique SQL et outils de dataviz (Looker, Power BI)",
-  "profile.5": "Esprit analytique et pédagogie"
+  "profile.4": "Good command of SQL and dataviz tools (Looker, Power BI)",
+  "profile.5": "Analytical mindset and teaching skills",
+  "job.card.exp.val": "4 to 7 years"
 }

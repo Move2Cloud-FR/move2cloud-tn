@@ -12,16 +12,17 @@
     "Backlog",
     "KPIs"
   ],
-  "mission.1": "Définir et porter la vision produit",
-  "mission.2": "Rédiger et prioriser les user stories et le backlog",
+  "mission.1": "Define and champion the product vision",
+  "mission.2": "Write and prioritise user stories and the backlog",
   "mission.3": "Facilitate Agile ceremonies (sprint planning, review, retrospective)",
-  "mission.4": "Être l'interface entre les équipes métier et techniques",
-  "mission.5": "Valider les livrables et assurer la recette",
-  "mission.6": "Mesurer la valeur délivrée et les KPIs produit",
-  "mission.7": "Conduire le changement auprès des parties prenantes",
-  "profile.1": "Bachelor's to Master's degree in informatique, gestion ou école de commerce",
+  "mission.4": "Act as the interface between business and technical teams",
+  "mission.5": "Validate deliverables and ensure acceptance",
+  "mission.6": "Measure delivered value and product KPIs",
+  "mission.7": "Drive change management with stakeholders",
+  "profile.1": "Bachelor's to Master's degree in computer science, management, or from a business school",
   "profile.2": "3 to 7 years of experience in tant que PO ou Business Analyst",
   "profile.3": "Certification Scrum Product Owner (CSPO) is a plus",
-  "profile.4": "Proficiency in JIRA, Confluence et des outils Agile",
-  "profile.5": "Empathie, leadership et orientation valeur"
+  "profile.4": "Proficiency in JIRA, Confluence, and Agile tools",
+  "profile.5": "Empathie, leadership et orientation valeur",
+  "job.card.exp.val": "3 to 7 years"
 }
